@@ -1,0 +1,604 @@
+/*
+  TimeCalc – visuellt uttryck lånat från en fysisk tidrapport/liggare: en smal "kolumnlinjal",
+  stämpel-liknande statusmärken, och en varm papper/bläck-palett i stället för generisk SaaS-blå.
+  Typsnitt: ett tidningsartat serif för siffror (tabellsiffror, "Iowan Old Style"-familjen) + ett
+  neutralt sans för gränssnittstext.
+*/
+:root {
+  --paper: #faf6ee;
+  --paper-raised: #ffffff;
+  --ink: #2a2420;
+  --ink-soft: #6b5f54;
+  --ink-faint: #a89c8d;
+  --line: #ded2c0;
+  --line-strong: #c9b99f;
+  --accent: #8a5a3b; /* bläckbrun */
+  --accent-ink: #ffffff;
+  --good: #3f6b4a;
+  --good-bg: #e7efe4;
+  --warn: #a6431f;
+  --warn-bg: #f7e6dc;
+  --warn-border: #e0b79a;
+  --stamp: #b5482f;
+  --focus: #3b6ea5;
+  --radius: 3px;
+  --shadow: 0 1px 2px rgba(42, 36, 32, 0.08), 0 4px 14px rgba(42, 36, 32, 0.06);
+  --font-ui: 'Charter', 'Iowan Old Style', ui-serif, Georgia, serif;
+  --font-num: 'Charter', 'Iowan Old Style', ui-serif, Georgia, serif;
+  --font-mono: ui-monospace, 'SF Mono', Menlo, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-ui);
+  font-size: 15px;
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* --- typografiskt rytmiskt: siffror i tabelläge, alltid samma bredd --- */
+.num {
+  font-family: var(--font-num);
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: 'tnum' 1;
+}
+
+button,
+input,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: var(--accent);
+}
+
+/* --- app-skal --- */
+.app {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 20px 22px 64px;
+}
+
+.app-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 18px;
+  padding-bottom: 14px;
+  border-bottom: 2px solid var(--ink);
+}
+
+.app-title {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.app-title h1 {
+  font-size: 22px;
+  margin: 0;
+  letter-spacing: 0.01em;
+}
+
+.app-title .year {
+  font-size: 15px;
+  color: var(--ink-soft);
+}
+
+.app-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.save-status {
+  font-size: 12px;
+  color: var(--ink-faint);
+  font-family: var(--font-mono);
+}
+
+.save-status.failed {
+  color: var(--warn);
+}
+
+/* --- knappar --- */
+.btn {
+  border: 1px solid var(--line-strong);
+  background: var(--paper-raised);
+  color: var(--ink);
+  border-radius: var(--radius);
+  padding: 6px 12px;
+  font-size: 13.5px;
+  transition: background 0.12s, border-color 0.12s;
+}
+
+.btn:hover {
+  border-color: var(--accent);
+}
+
+.btn:active {
+  background: var(--line);
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: var(--accent-ink);
+  border-color: var(--accent);
+}
+
+.btn-primary:hover {
+  background: #74492f;
+}
+
+.btn-ghost {
+  border-color: transparent;
+  background: transparent;
+}
+
+.btn-ghost:hover {
+  border-color: var(--line-strong);
+}
+
+.btn-small {
+  padding: 3px 8px;
+  font-size: 12px;
+}
+
+.btn-danger {
+  color: var(--warn);
+}
+
+/* --- nav --- */
+.tabs {
+  display: flex;
+  gap: 2px;
+  margin-bottom: 18px;
+  border-bottom: 1px solid var(--line);
+}
+
+.tab {
+  border: none;
+  background: none;
+  padding: 8px 14px;
+  font-size: 14px;
+  color: var(--ink-soft);
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+}
+
+.tab.active {
+  color: var(--ink);
+  border-bottom-color: var(--accent);
+  font-weight: 600;
+}
+
+.tab:hover:not(.active) {
+  color: var(--ink);
+}
+
+/* --- kort/panel --- */
+.panel {
+  background: var(--paper-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+/* --- veckonavigering --- */
+.week-nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.week-nav select {
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  padding: 5px 8px;
+  background: var(--paper-raised);
+}
+
+.week-nav .range {
+  color: var(--ink-soft);
+  font-size: 13.5px;
+}
+
+.week-nav .spacer {
+  flex: 1;
+}
+
+/* --- veckans summeringsrad (stämpelkort) --- */
+.week-summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.week-summary .cell {
+  background: var(--paper-raised);
+  padding: 10px 14px;
+}
+
+.week-summary .label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ink-faint);
+  margin-bottom: 3px;
+}
+
+.week-summary .value {
+  font-size: 17px;
+}
+
+.week-summary .value.pos {
+  color: var(--good);
+}
+
+.week-summary .value.neg {
+  color: var(--warn);
+}
+
+/* --- dagkort --- */
+.day-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 900px) {
+  .day-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.day-card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--paper-raised);
+  overflow: hidden;
+}
+
+.day-card.rest {
+  background: repeating-linear-gradient(135deg, var(--paper-raised), var(--paper-raised) 8px, #f4efe4 8px, #f4efe4 16px);
+}
+
+.day-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--line);
+}
+
+.day-head .name {
+  font-size: 13.5px;
+}
+
+.day-head .date {
+  font-size: 12px;
+  color: var(--ink-faint);
+}
+
+.day-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11.5px;
+  color: var(--ink-soft);
+}
+
+.day-body {
+  padding: 8px 10px 10px;
+}
+
+.start-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 6px;
+  font-size: 12.5px;
+  color: var(--ink-soft);
+}
+
+.time-input {
+  width: 56px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  padding: 3px 5px;
+  text-align: center;
+}
+
+.time-input.invalid {
+  border-color: var(--warn);
+  background: var(--warn-bg);
+}
+
+.log-row {
+  display: grid;
+  grid-template-columns: 1fr 56px 44px 16px;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 3px;
+}
+
+.log-row select {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 3px 4px;
+  font-size: 12.5px;
+  background: var(--paper-raised);
+}
+
+.log-row .dur {
+  font-size: 11.5px;
+  color: var(--ink-faint);
+  text-align: right;
+}
+
+.log-row .dur.neg {
+  color: var(--warn);
+}
+
+.row-remove {
+  border: none;
+  background: none;
+  color: var(--ink-faint);
+  font-size: 14px;
+  line-height: 1;
+  padding: 2px;
+}
+
+.row-remove:hover {
+  color: var(--warn);
+}
+
+.add-row {
+  border: 1px dashed var(--line-strong);
+  background: none;
+  color: var(--ink-soft);
+  border-radius: var(--radius);
+  padding: 3px 8px;
+  font-size: 12px;
+  width: 100%;
+  margin-top: 2px;
+}
+
+.add-row:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.day-foot {
+  border-top: 1px solid var(--line);
+  padding: 7px 10px;
+  font-size: 11.5px;
+  color: var(--ink-soft);
+  display: flex;
+  justify-content: space-between;
+}
+
+/* --- rapporterade timmar --- */
+.reported-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.reported-table th,
+.reported-table td {
+  padding: 5px 8px;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+}
+
+.reported-table th {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--ink-faint);
+  font-weight: 500;
+}
+
+.reported-table input.hours {
+  width: 60px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  padding: 3px 5px;
+  text-align: right;
+}
+
+.reported-table .diff {
+  font-size: 12px;
+}
+
+.flag-check {
+  display: inline-flex;
+  gap: 4px;
+  align-items: center;
+  margin-right: 10px;
+  font-size: 12px;
+  color: var(--ink-soft);
+}
+
+/* --- varningar (stämpelmärke) --- */
+.warnings {
+  margin-top: 14px;
+}
+
+.warning-item {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  padding: 8px 10px;
+  border: 1px solid var(--warn-border);
+  background: var(--warn-bg);
+  border-radius: var(--radius);
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.warning-item .mark {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--stamp);
+  border: 1px solid var(--stamp);
+  border-radius: 2px;
+  padding: 1px 4px;
+  transform: rotate(-2deg);
+  white-space: nowrap;
+}
+
+.all-clear {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border: 1px solid #bcd4c1;
+  background: var(--good-bg);
+  color: var(--good);
+  border-radius: var(--radius);
+  font-size: 13px;
+}
+
+/* --- översiktstabell (år) --- */
+.overview-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.overview-table th,
+.overview-table td {
+  padding: 5px 9px;
+  border-bottom: 1px solid var(--line);
+  text-align: right;
+}
+
+.overview-table th:first-child,
+.overview-table td:first-child {
+  text-align: left;
+}
+
+.overview-table thead th {
+  font-size: 11px;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  font-weight: 500;
+  border-bottom: 1px solid var(--line-strong);
+}
+
+.overview-table tbody tr:hover {
+  background: #f5efe2;
+  cursor: pointer;
+}
+
+.overview-table tr.current {
+  background: #f1e6d3;
+}
+
+.overview-table tfoot td {
+  border-top: 2px solid var(--ink);
+  border-bottom: none;
+  font-weight: 600;
+}
+
+.pos {
+  color: var(--good);
+}
+
+.neg {
+  color: var(--warn);
+}
+
+/* --- aktivitetseditor --- */
+.activity-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13.5px;
+}
+
+.activity-table th,
+.activity-table td {
+  padding: 6px 9px;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+}
+
+.activity-table th {
+  font-size: 11px;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  font-weight: 500;
+}
+
+.activity-table input[type='text'] {
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  padding: 4px 7px;
+  width: 100%;
+}
+
+.activity-table input[type='checkbox'] {
+  width: 15px;
+  height: 15px;
+}
+
+.section-title {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ink-soft);
+  margin: 22px 0 8px;
+}
+
+.hint {
+  font-size: 12.5px;
+  color: var(--ink-soft);
+  margin: 6px 0 14px;
+}
+
+.toolbar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+
+.pad {
+  padding: 16px 18px;
+}
+
+.empty-state {
+  padding: 40px 20px;
+  text-align: center;
+  color: var(--ink-soft);
+}

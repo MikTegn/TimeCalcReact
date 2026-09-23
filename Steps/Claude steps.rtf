@@ -1,0 +1,2690 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2870
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;\f2\fnil\fcharset0 .SFNSMono-Light_YAXS140B3B6_wght1C20000;
+\f3\fnil\fcharset0 HelveticaNeue;\f4\fnil\fcharset0 .AppleSystemUIFontMonospaced-Regular;\f5\fnil\fcharset0 Georgia;
+\f6\froman\fcharset0 Times-Roman;\f7\fnil\fcharset0 .SFNS-Regular_wdth_opsz110000_GRAD_wght1680000;\f8\fmodern\fcharset0 Courier;
+\f9\fnil\fcharset0 LucidaGrande;\f10\fnil\fcharset0 .SFNS-Regular_wdth_opsz110000_GRAD_wght1CC0000;\f11\fnil\fcharset0 Georgia-Bold;
+}
+{\colortbl;\red255\green255\blue255;\red129\green0\blue2;\red15\green57\blue175;\red26\green39\blue16;
+\red182\green181\blue168;\red17\green17\blue17;\red95\green167\blue255;\red229\green231\blue236;\red140\green233\blue81;
+\red201\green206\blue214;\red236\green235\blue231;\red236\green235\blue231;\red17\green17\blue17;\red15\green57\blue175;
+\red26\green39\blue16;\red109\green109\blue109;\red82\green235\blue232;\red0\green0\blue0;\red0\green0\blue0;
+\red191\green94\blue241;\red248\green157\blue78;\red201\green206\blue214;\red0\green0\blue0;\red110\green117\blue134;
+\red64\green118\blue25;\red64\green118\blue25;\red118\green116\blue110;\red255\green255\blue255;\red229\green103\blue107;
+\red91\green148\blue231;\red24\green24\blue24;\red255\green255\blue255;}
+{\*\expandedcolortbl;;\cssrgb\c58580\c2312\c0;\cssrgb\c6238\c31382\c74150;\cssrgb\c13502\c19977\c7551;
+\cssrgb\c76471\c76078\c71765;\cssrgb\c8235\c8235\c8235;\cssrgb\c43922\c72157\c100000;\cssrgb\c91765\c92549\c94118;\cssrgb\c60784\c91373\c38824;
+\cssrgb\c82745\c84314\c87059;\cssrgb\c94118\c93725\c92549;\cssrgb\c94118\c93725\c92549;\cssrgb\c8235\c8235\c8235;\cssrgb\c6238\c31382\c74150;
+\cssrgb\c13502\c19977\c7551;\cssrgb\c50196\c50196\c50196;\cssrgb\c36863\c92941\c92941;\cssrgb\c0\c1\c1;\cssrgb\c0\c0\c0;
+\cssrgb\c80000\c48235\c95686;\cssrgb\c98431\c67843\c37647;\cssrgb\c82745\c84314\c87059;\cssrgb\c0\c1\c1;\cssrgb\c50588\c53333\c59608;
+\cssrgb\c30912\c52771\c12623;\cssrgb\c30912\c52771\c12623;\cssrgb\c53725\c52941\c50588;\cssrgb\c100000\c100000\c100000\c5098;\cssrgb\c92549\c49412\c49412;
+\cssrgb\c42745\c65490\c92549;\cssrgb\c12549\c12549\c12157;\cssrgb\c100000\c100000\c100000\c10196;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww38200\viewh21600\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b\fs48 \cf2 Skapa ett react-project under ~/repos/TimeCalcReact utifr\'e5n ~/Documents/Arbete/TimeCalc-25.xlsm\
+
+\f1\b0\fs24 \cf3 \
+Ran a command
+\fs18 \cf4 \
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs16\fsmilli8250 \cf5 \cb6 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 bash
+\f3 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs24 \cf7 \cb6 \strokec7 cd\cf8 \strokec8  \cf9 \strokec9 /mnt/user-data/uploads\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 stat\cf8 \strokec8  \cf9 \strokec9 -c\cf8 \strokec8  \cf9 \strokec9 '%s bytes, %y'\cf8 \strokec8  \cf9 \strokec9 TimeCalc-25.xlsm\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 file\cf8 \strokec8  \cf9 \strokec9 TimeCalc-25.xlsm\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 echo\cf8 \strokec8  \cf9 \strokec9 "--- ZIP CONTENTS ---"\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 unzip\cf8 \strokec8  \cf9 \strokec9 -l\cf8 \strokec8  \cf9 \strokec9 TimeCalc-25.xlsm\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 echo\cf8 \strokec8  \cf9 \strokec9 "--- SHEETS ---"\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 python3\cf8 \strokec8  \cf9 \strokec9 -\cf8 \strokec8  <<\cf9 \strokec9 'EOF'\cf8 \strokec8 \
+\cf9 \strokec9 from openpyxl import load_workbook\cf8 \strokec8 \
+\cf9 \strokec9 wb = load_workbook("/mnt/user-data/uploads/TimeCalc-25.xlsm", keep_vba=True)\cf8 \strokec8 \
+\cf9 \strokec9 for ws in wb.worksheets:\cf8 \strokec8 \
+\cf9 \strokec9     print(f"\{ws.title!r\}: dims=\{ws.dimensions\}, state=\{ws.sheet_state\}, merged=\{len(ws.merged_cells.ranges)\}, dv=\{len(ws.data_validations.dataValidation) if ws.data_validations else 0\}, cf=\{len(ws.conditional_formatting)\}")\cf8 \strokec8 \
+\cf9 \strokec9 print("Defined names:")\cf8 \strokec8 \
+\cf9 \strokec9 for n, d in wb.defined_names.items():\cf8 \strokec8 \
+\cf9 \strokec9     print(" ", n, "->", d.attr_text)\cf8 \strokec8 \
+\cf9 \strokec9 EOF\cf8 \cb1 \strokec8 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f5\fs32 \cf11 \cb6 \strokec11 Arbetsboken har 54 blad: 52 veckoblad (V01\'96V52), \cf12 \cb13 \outl0\strokewidth0 ett\'a0Overview\'a0och ett\'a0V1-26, \cf11 \cb6 \outl0\strokewidth0 \strokec11 plus ett VBA-projekt. Jag tittar n\'e4rmare p\'e5 ett veckoblad, \'f6versiktsbladet och makrona.\cb1 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f1\fs24 \cf14 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+Ran a command
+\fs18 \cf15 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs16\fsmilli8250 \cf5 \cb6 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 bash\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs24 \cf7 \cb6 \strokec7 cd\cf8 \strokec8  \cf9 \strokec9 /tmp\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 python3\cf8 \strokec8  \cf9 \strokec9 -\cf8 \strokec8  <<\cf9 \strokec9 'EOF'\cf8 \strokec8 \
+\cf9 \strokec9 from openpyxl import load_workbook\cf8 \strokec8 \
+\cf9 \strokec9 p="/mnt/user-data/uploads/TimeCalc-25.xlsm"\cf8 \strokec8 \
+\cf9 \strokec9 wf = load_workbook(p, keep_vba=True)\cf8 \strokec8 \
+\cf9 \strokec9 wv = load_workbook(p, data_only=True)\cf8 \strokec8 \
+\
+\cf9 \strokec9 def dump(name, maxrow=48, maxcol=36):\cf8 \strokec8 \
+\cf9 \strokec9     f, v = wf[name], wv[name]\cf8 \strokec8 \
+\cf9 \strokec9     print(f"===== \{name\} =====  merged: \{[str(r) for r in f.merged_cells.ranges]\}")\cf8 \strokec8 \
+\cf9 \strokec9     for row in f.iter_rows(min_row=1, max_row=maxrow, max_col=maxcol):\cf8 \strokec8 \
+\cf9 \strokec9         for c in row:\cf8 \strokec8 \
+\cf9 \strokec9             if c.value is not None:\cf8 \strokec8 \
+\cf9 \strokec9                 val = v[c.coordinate].value\cf8 \strokec8 \
+\cf9 \strokec9                 if isinstance(c.value, str) and c.value.startswith("="):\cf8 \strokec8 \
+\cf9 \strokec9                     print(f"\{c.coordinate\}: \{c.value\}   => \{val!r\}")\cf8 \strokec8 \
+\cf9 \strokec9                 else:\cf8 \strokec8 \
+\cf9 \strokec9                     print(f"\{c.coordinate\}: \{c.value!r\}")\cf8 \strokec8 \
+\cf9 \strokec9 dump("V01")\cf8 \strokec8 \
+\cf9 \strokec9 EOF
+\f6 \cf16 \cb1 \strokec16 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f1\fs18 \cf4 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\pardeftab720\partightenfactor0
+
+\fs24 \cf14 Reviewing the spreadsheet structure and macros in detail.\
+
+\fs18 \cf4 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f5\fs32 \cf12 \cb13 \expnd0\expndtw0\kerning0
+Nu f\'f6rst\'e5r jag veckobladets struktur. Jag tittar p\'e5 Overview, V1-26, datavalidering, kommentarer och makrona, men h\'e5ller utskriften kompaktare den h\'e4r g\'e5ngen.\
+
+\f1\fs18 \cf4 \cb1 \kerning1\expnd0\expndtw0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\fs24 \cf14 Ran a command
+\fs18 \cf15 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs16\fsmilli8250 \cf5 \cb6 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 bash\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs24 \cf7 \cb6 \strokec7 cd\cf8 \strokec8  \cf9 \strokec9 /tmp\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 python3\cf8 \strokec8  \cf9 \strokec9 -\cf8 \strokec8  <<\cf9 \strokec9 'EOF'\cf8 \strokec8 \
+\cf9 \strokec9 from openpyxl import load_workbook\cf8 \strokec8 \
+\cf9 \strokec9 p="/mnt/user-data/uploads/TimeCalc-25.xlsm"\cf8 \strokec8 \
+\cf9 \strokec9 wf = load_workbook(p, keep_vba=True)\cf8 \strokec8 \
+\cf9 \strokec9 wv = load_workbook(p, data_only=True)\cf8 \strokec8 \
+\
+\cf9 \strokec9 print("===== Overview =====  merged:", [str(r) for r in wf["Overview"].merged_cells.ranges])\cf8 \strokec8 \
+\cf9 \strokec9 f, v = wf["Overview"], wv["Overview"]\cf8 \strokec8 \
+\cf9 \strokec9 for row in f.iter_rows():\cf8 \strokec8 \
+\cf9 \strokec9     for c in row:\cf8 \strokec8 \
+\cf9 \strokec9         if c.value is not None:\cf8 \strokec8 \
+\cf9 \strokec9             val = v[c.coordinate].value\cf8 \strokec8 \
+\cf9 \strokec9             s = f"\{c.coordinate\}: \{c.value!r\}"\cf8 \strokec8 \
+\cf9 \strokec9             if isinstance(c.value,str) and c.value.startswith("="): s += f"  => \{val!r\}"\cf8 \strokec8 \
+\cf9 \strokec9             print(s[:230])\cf8 \strokec8 \
+\cf9 \strokec9 EOF\cf8 \cb1 \strokec8 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f1\fs18 \cf4 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\pardeftab720\partightenfactor0
+
+\fs24 \cf14 Untangling a spreadsheet's macros, validation, and layout details.\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\fs18 \cf4 \
+
+\f5\fs32 \cf12 \cb13 \expnd0\expndtw0\kerning0
+Nu har jag hela ber\'e4kningsmodellen. Det som \'e5terst\'e5r \'e4r VBA-makrona (knapparna), datavalidering och hur indata ser ut i ett ifyllt vecko-blad. Jag h\'e5ller utskriften kort.
+\f1\fs18 \cf4 \cb1 \kerning1\expnd0\expndtw0 \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\fs24 \cf14 Ran a command
+\fs18 \cf15 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs16\fsmilli8250 \cf5 \cb6 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 bash\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs24 \cf7 \cb6 \strokec7 cd\cf8 \strokec8  \cf9 \strokec9 /tmp\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 python3\cf8 \strokec8  \cf9 \strokec9 -\cf8 \strokec8  <<\cf9 \strokec9 'EOF'\cf8 \strokec8 \
+\cf9 \strokec9 from openpyxl import load_workbook\cf8 \strokec8 \
+\cf9 \strokec9 import datetime\cf8 \strokec8 \
+\cf9 \strokec9 p="/mnt/user-data/uploads/TimeCalc-25.xlsm"\cf8 \strokec8 \
+\cf9 \strokec9 wf = load_workbook(p, keep_vba=True)\cf8 \strokec8 \
+\
+\cf9 \strokec9 # Data validation on V01 + V02\cf8 \strokec8 \
+\cf9 \strokec9 for n in ("V01","V02"):\cf8 \strokec8 \
+\cf9 \strokec9     ws = wf[n]\cf8 \strokec8 \
+\cf9 \strokec9     for dv in ws.data_validations.dataValidation:\cf8 \strokec8 \
+\cf9 \strokec9         print(n, "DV:", dv.type, dv.formula1, "on", str(dv.sqref)[:120])\cf8 \strokec8 \
+\
+\cf9 \strokec9 # Input (non-formula) cells in V02 rows 22-48\cf8 \strokec8 \
+\cf9 \strokec9 ws = wf["V02"]\cf8 \strokec8 \
+\cf9 \strokec9 print("\\n--- V02 constants (non-formula) rows 1-3, 22-48 ---")\cf8 \strokec8 \
+\cf9 \strokec9 for row in ws.iter_rows(min_row=1, max_row=48, max_col=36):\cf8 \strokec8 \
+\cf9 \strokec9     for c in row:\cf8 \strokec8 \
+\cf9 \strokec9         if c.value is not None and not (isinstance(c.value,str) and c.value.startswith("=")):\cf8 \strokec8 \
+\cf9 \strokec9             if c.row<=3 or c.row>=22:\cf8 \strokec8 \
+\cf9 \strokec9                 print(c.coordinate, repr(c.value), end=" | ")\cf8 \strokec8 \
+\cf9 \strokec9 print()\cf8 \strokec8 \
+\
+\cf9 \strokec9 # Compare V01 vs V02 vs V1-26 formulas: which cells differ structurally?\cf8 \strokec8 \
+\cf9 \strokec9 def formulas(ws):\cf8 \strokec8 \
+\cf9 \strokec9     return \{c.coordinate:c.value for r in ws.iter_rows(max_col=39) for c in r if isinstance(c.value,str) and c.value.startswith("=")\}\cf8 \strokec8 \
+\cf9 \strokec9 f01, f02, f126 = formulas(wf["V01"]), formulas(wf["V02"]), formulas(wf["V1-26"])\cf8 \strokec8 \
+\cf9 \strokec9 print("\\nformula count V01/V02/V1-26:", len(f01), len(f02), len(f126))\cf8 \strokec8 \
+\cf9 \strokec9 d = [k for k in set(f01)|set(f02) if f01.get(k)!=f02.get(k)]\cf8 \strokec8 \
+\cf9 \strokec9 print("V01 vs V02 differing formula cells:", sorted(d)[:20])\cf8 \strokec8 \
+\cf9 \strokec9 d = [k for k in set(f01)|set(f126) if f01.get(k)!=f126.get(k)]\cf8 \strokec8 \
+\cf9 \strokec9 print("V01 vs V1-26 differing formula cells:", sorted(d)[:40])\cf8 \strokec8 \
+\cf9 \strokec9 for k in sorted(d)[:8]: print("  ",k,"V01:",f01.get(k),"| V1-26:",f126.get(k))\cf8 \strokec8 \
+\
+\cf9 \strokec9 # Comments\cf8 \strokec8 \
+\cf9 \strokec9 print("\\n--- comments ---")\cf8 \strokec8 \
+\cf9 \strokec9 for ws in wf.worksheets:\cf8 \strokec8 \
+\cf9 \strokec9     for row in ws.iter_rows():\cf8 \strokec8 \
+\cf9 \strokec9         for c in row:\cf8 \strokec8 \
+\cf9 \strokec9             if c.comment: print(ws.title, c.coordinate, repr(c.comment.text[:200]))\cf8 \strokec8 \
+\cf9 \strokec9 EOF\cf8 \cb1 \strokec8 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f1\fs18 \cf4 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\fs24 \cf14 Reviewing output for personal or sensitive information.\
+\
+Ran a command
+\fs18 \cf15 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs16\fsmilli8250 \cf5 \cb6 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 bash\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs24 \cf7 \cb6 \strokec7 cd\cf8 \strokec8  \cf9 \strokec9 /tmp\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 rm\cf8 \strokec8  \cf9 \strokec9 -rf\cf8 \strokec8  \cf9 \strokec9 vba\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 mkdir\cf8 \strokec8  \cf9 \strokec9 vba\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 cd\cf8 \strokec8  \cf9 \strokec9 vba\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 unzip\cf8 \strokec8  \cf9 \strokec9 -q\cf8 \strokec8  \cf9 \strokec9 -o\cf8 \strokec8  \cf9 \strokec9 /mnt/user-data/uploads/TimeCalc-25.xlsm\cf8 \strokec8  \cf9 \strokec9 xl/vbaProject.bin\cf8 \strokec8  \cf9 \strokec9 xl/ctrlProps/ctrlProp1.xml\cf8 \strokec8  \cf9 \strokec9 xl/ctrlProps/ctrlProp2.xml\cf8 \strokec8  \cf9 \strokec9 xl/workbook.xml\cf8 \strokec8  \cf9 \strokec9 xl/comments3.xml\cf8 \strokec8  2>&1 | \cf7 \strokec7 head\cf8 \strokec8  \cf9 \strokec9 -3\cf8 \strokec8 \
+\cf7 \strokec7 python3\cf8 \strokec8  \cf9 \strokec9 -c\cf8 \strokec8  \cf9 \strokec9 "import oletools; print('oletools', oletools.__version__)"\cf8 \strokec8  2>&1 | \cf7 \strokec7 tail\cf8 \strokec8  \cf9 \strokec9 -1\cf8 \strokec8 \
+\cf7 \strokec7 python3\cf8 \strokec8  \cf9 \strokec9 -c\cf8 \strokec8  \cf9 \strokec9 "import olefile; print('olefile', olefile.__version__)"\cf8 \strokec8  2>&1 | \cf7 \strokec7 tail\cf8 \strokec8  \cf9 \strokec9 -1\cf8 \strokec8 \
+\cf7 \strokec7 echo\cf8 \strokec8  \cf9 \strokec9 "--- ctrlProp1 ---"\cf10 \strokec10 ;\cf8 \strokec8  \cf7 \strokec7 cat\cf8 \strokec8  \cf9 \strokec9 xl/ctrlProps/ctrlProp1.xml\cf10 \strokec10 ;\cf8 \strokec8  \cf7 \strokec7 echo\cf8 \strokec8 \
+\cf7 \strokec7 echo\cf8 \strokec8  \cf9 \strokec9 "--- workbook.xml (head) ---"\cf10 \strokec10 ;\cf8 \strokec8  \cf7 \strokec7 head\cf8 \strokec8  \cf9 \strokec9 -c\cf8 \strokec8  \cf17 \cb6 \strokec17 1500\cf8 \cb6 \strokec8  \cf9 \strokec9 xl/workbook.xml\cf10 \strokec10 ;\cf8 \strokec8  \cf7 \strokec7 echo\cf8 \strokec8 \
+\cf7 \strokec7 echo\cf8 \strokec8  \cf9 \strokec9 "--- strings in vbaProject.bin (module names) ---"\cf8 \strokec8 \
+\cf7 \strokec7 strings\cf8 \strokec8  \cf9 \strokec9 -n\cf8 \strokec8  \cf17 \cb6 \strokec17 6\cf8 \cb6 \strokec8  \cf9 \strokec9 xl/vbaProject.bin\cf8 \strokec8  | \cf7 \strokec7 grep\cf8 \strokec8  \cf9 \strokec9 -iE\cf8 \strokec8  \cf9 \strokec9 "^(Attribute VB_Name|Sub |Function |Module|Sheet|ThisWorkbook|Class)"\cf8 \strokec8  | \cf7 \strokec7 sort\cf8 \strokec8  \cf9 \strokec9 -u\cf8 \strokec8  | \cf7 \strokec7 head\cf8 \strokec8  \cf9 \strokec9 -30\cf8 \cb1 \strokec8 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f1\fs18 \cf4 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\pardeftab720\partightenfactor0
+
+\fs24 \cf14 Building a custom parser to extract embedded macro data.\
+
+\fs18 \cf4 \
+
+\fs24 \cf14 Minimal CFB (OLE) reader + MS-OVBA decompressor to extract VBA source \cf18 extract_vba.py
+\f6 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec19 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f1 \cf14 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+Ran a command
+\fs18 \cf15 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs16\fsmilli8250 \cf5 \cb6 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 bash\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs24 \cf7 \cb6 \strokec7 cd\cf8 \strokec8  \cf9 \strokec9 /tmp/vba\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 python3\cf8 \strokec8  \cf9 \strokec9 extract_vba.py\cf8 \strokec8  \cf9 \strokec9 xl/vbaProject.bin\cf8 \strokec8  2>&1 | \cf7 \strokec7 head\cf8 \strokec8  \cf9 \strokec9 -70\cf8 \cb1 \strokec8 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f6 \cf0 \strokec19 \
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf14 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 Extraktionen fungerade. Bara Module1 (29 rader) och Module2 (94 rader) inneh\'e5ller kod, s\'e5 jag l\'e4ser b\'e5da.\
+
+\f6 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec19 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f1 \cf14 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 Ran a command
+\fs18 \cf15 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs16\fsmilli8250 \cf5 \cb6 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 bash\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs24 \cf7 \cb6 \strokec7 cd\cf8 \strokec8  \cf9 \strokec9 /tmp/vba/src\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf20 \cb6 \strokec20 for\cf8 \cb6 \strokec8  m \cf20 \cb6 \strokec20 in\cf8 \cb6 \strokec8  \cf9 \strokec9 Module1\cf8 \strokec8  \cf9 \strokec9 Module2\cf10 \strokec10 ;\cf8 \strokec8  \cf20 \cb6 \strokec20 do\cf8 \cb6 \strokec8  \cf7 \strokec7 echo\cf8 \strokec8  \cf9 \strokec9 "=================== \cf21 \cb6 \strokec21 $m\cf9 \cb6 \strokec9  ==================="\cf10 \strokec10 ;\cf8 \strokec8  \cf7 \strokec7 grep\cf8 \strokec8  \cf9 \strokec9 -v\cf8 \strokec8  \cf9 \strokec9 '^Attribute '\cf8 \strokec8  \cf21 \cb6 \strokec21 $m\cf9 \cb6 \strokec9 .bas\cf8 \strokec8  | \cf7 \strokec7 sed\cf8 \strokec8  \cf9 \strokec9 '/^\\s*$/d'\cf10 \strokec10 ;\cf8 \strokec8  \cf20 \cb6 \strokec20 done\cf8 \cb1 \strokec8 \
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf8 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f1\fs24 \cf14 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 Planning a Python importer to convert the file into JSON\
+\pard\pardeftab720\sa20\partightenfactor0
+
+\f4 \cf22 \cb13 \expnd0\expndtw0\kerning0
+Setting up a new React project based on the existing structure.\
+Untangling the weekly time-sheet's workday and duration logic.\
+Mapping activity flags to time-bank and normal-time totals.\
+Decoding how daily durations sum into per-activity totals.\
+Comparing manual report hours against registered time entries.\
+Tracing the running time-bank balance across weeks.\
+Spotting a mismatch between sick-leave and flex-time rules.\
+Weighing offline tooling limits and safe handling of personal data.\
+Working out how blank rows encode chained time gaps.\
+Designing the calculation engine to mirror sheet formulas.\
+Checking header constants that override registered-time counting.\
+Validating logged durations against orphaned activity totals.\
+Weighing chart options and offline build constraints for the UI.\
+Planning a Python importer to convert the file into JSON.
+\f6 \cf0 \cb1 \outl0\strokewidth0 \strokec19 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f1\fs18 \cf15 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\pardeftab720\partightenfactor0
+
+\fs24 \cf14 Kollar sandl\'e5dans milj\'f6 och verifierar modellskillnader mellan veckoblad\
+
+\f6 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec19 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f1 \cf14 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 Ran a command
+\fs18 \cf15 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs16\fsmilli8250 \cf5 \cb6 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 bash\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs24 \cf7 \cb6 \strokec7 cd\cf8 \strokec8  \cf9 \strokec9 /tmp\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 echo\cf8 \strokec8  \cf9 \strokec9 "node: \cf10 \strokec10 $(\cf7 \strokec7 node\cf9 \strokec9  -v \cf8 \strokec8 2>&1\cf10 \strokec10 )\cf9 \strokec9   npm: \cf10 \strokec10 $(\cf7 \strokec7 npm\cf9 \strokec9  -v \cf8 \strokec8 2>&1\cf10 \strokec10 )\cf9 \strokec9   tsc: \cf10 \strokec10 $(\cf7 \strokec7 which\cf9 \strokec9  tsc \cf8 \strokec8 2>&1\cf10 \strokec10 )\cf9 \strokec9 "\cf10 \strokec10 ;\cf8 \strokec8  \cf7 \strokec7 ls\cf8 \strokec8  \cf9 \strokec9 /home/claude/.npm-global/lib/node_modules\cf8 \strokec8  2>\cf9 \strokec9 /dev/null\cf8 \strokec8  | \cf7 \strokec7 head\cf10 \strokec10 ;\cf8 \strokec8  \
+\cf7 \strokec7 timeout\cf8 \strokec8  \cf17 \cb6 \strokec17 20\cf8 \cb6 \strokec8  \cf9 \strokec9 npm\cf8 \strokec8  \cf9 \strokec9 view\cf8 \strokec8  \cf9 \strokec9 vite\cf8 \strokec8  \cf9 \strokec9 version\cf8 \strokec8  2>&1 | \cf7 \strokec7 tail\cf8 \strokec8  \cf9 \strokec9 -2\cf8 \strokec8 \
+\cf7 \strokec7 python3\cf8 \strokec8  \cf9 \strokec9 -\cf8 \strokec8  <<\cf9 \strokec9 'EOF'\cf8 \strokec8 \
+\cf9 \strokec9 from openpyxl import load_workbook\cf8 \strokec8 \
+\cf9 \strokec9 p="/mnt/user-data/uploads/TimeCalc-25.xlsm"\cf8 \strokec8 \
+\cf9 \strokec9 wf = load_workbook(p, keep_vba=True)\cf8 \strokec8 \
+\cf9 \strokec9 names=[f"V\{n:02d\}" for n in range(1,53)]+["V1-26"]\cf8 \strokec8 \
+\cf9 \strokec9 # 1) B23 / C25 patterns\cf8 \strokec8 \
+\cf9 \strokec9 pat=\{\}\cf8 \strokec8 \
+\cf9 \strokec9 for n in names:\cf8 \strokec8 \
+\cf9 \strokec9     ws=wf[n]; pat.setdefault((ws["B23"].value, ws["C25"].value if n in("V01","V1-26") else "\'85"),[]).append(n)\cf8 \strokec8 \
+\cf9 \strokec9 print("B23 patterns:")\cf8 \strokec8 \
+\cf9 \strokec9 b23=\{\}\cf8 \strokec8 \
+\cf9 \strokec9 for n in names: b23.setdefault(wf[n]["B23"].value,[]).append(n)\cf8 \strokec8 \
+\cf9 \strokec9 for k,v in b23.items(): print("  ",k,"->",v if len(v)<6 else f"\{v[0]\}..\{v[-1]\} (\{len(v)\} sheets)")\cf8 \strokec8 \
+\cf9 \strokec9 print("C25 samples:", \{n:wf[n]["C25"].value for n in ("V01","V02","V03","V26","V52","V1-26")\})\cf8 \strokec8 \
+\cf9 \strokec9 # 2) Row-3 header cells that are constants (overrides) per sheet\cf8 \strokec8 \
+\cf9 \strokec9 hdr=["H","K","N","Q","T","W","Z","AC","AF","AI"]\cf8 \strokec8 \
+\cf9 \strokec9 flag=["I","L","O","R","U","X","AA","AD","AG","AJ"]\cf8 \strokec8 \
+\cf9 \strokec9 print("\\nH3-type constants (forced 'Tid'):")\cf8 \strokec8 \
+\cf9 \strokec9 for n in names:\cf8 \strokec8 \
+\cf9 \strokec9     c=[(h,wf[n][f"\{h\}3"].value) for h in hdr if wf[n][f"\{h\}3"].value is not None and not str(wf[n][f"\{h\}3"].value).startswith("=")]\cf8 \strokec8 \
+\cf9 \strokec9     if c: print("  ",n,c)\cf8 \strokec8 \
+\cf9 \strokec9 print("Distinct flag values (row 3):", sorted(\{repr(wf[n][f"\{f\}3"].value) for n in names for f in flag\}))\cf8 \strokec8 \
+\cf9 \strokec9 # 3) day-block dates: first date & how many blocks\cf8 \strokec8 \
+\cf9 \strokec9 import datetime\cf8 \strokec8 \
+\cf9 \strokec9 print("\\nFirst date per sheet (G2):", \{n:wf[n]["G2"].value.date().isoformat() for n in ("V01","V02","V52","V1-26")\})\cf8 \strokec8 \
+\cf9 \strokec9 EOF\cf8 \cb1 \strokec8 \
+\pard\pardeftab720\partightenfactor0
+
+\f6 \cf0 \strokec19 \
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf14 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 Investigating edge cases like Sunday quirks and unused blocks\
+\pard\pardeftab720\sa20\partightenfactor0
+
+\f4 \cf22 \cb13 \expnd0\expndtw0\kerning0
+Checking environment constraints before setting up the project.\
+Comparing block structures across weekly sheets for discrepancies.\
+Investigating edge cases like Sunday quirks and unused blocks.
+\f6 \cf0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \outl0\strokewidth0 \strokec19 \
+
+\f1 \cf14 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 Adjusting approach after npm failure and memory crash\
+
+\f6 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec19 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f1 \cf14 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 Ran a command
+\fs18 \cf15 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs16\fsmilli8250 \cf5 \cb6 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 bash\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs24 \cf7 \cb6 \strokec7 cd\cf8 \strokec8  \cf9 \strokec9 /tmp\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 python3\cf8 \strokec8  \cf9 \strokec9 -\cf8 \strokec8  <<\cf9 \strokec9 'EOF'\cf8 \strokec8 \
+\cf9 \strokec9 from openpyxl import load_workbook\cf8 \strokec8 \
+\cf9 \strokec9 from openpyxl.utils import get_column_letter as L, column_index_from_string as CI\cf8 \strokec8 \
+\cf9 \strokec9 import datetime, collections\cf8 \strokec8 \
+\cf9 \strokec9 p="/mnt/user-data/uploads/TimeCalc-25.xlsm"\cf8 \strokec8 \
+\cf9 \strokec9 wf = load_workbook(p, keep_vba=True)\cf8 \strokec8 \
+\cf9 \strokec9 names=[f"V\{n:02d\}" for n in range(1,53)]+["V1-26"]\cf8 \strokec8 \
+\cf9 \strokec9 blocks=[CI(c) for c in ("G","J","M","P","S","V","Y","AB","AE","AH")]  # first col of each day-block\cf8 \strokec8 \
+\
+\cf9 \strokec9 def cells(ws, r0, r1, c0, c1):\cf8 \strokec8 \
+\cf9 \strokec9     for row in ws.iter_rows(min_row=r0, max_row=r1, min_col=c0, max_col=c1):\cf8 \strokec8 \
+\cf9 \strokec9         for c in row: yield c\cf8 \strokec8 \
+\
+\cf9 \strokec9 # (a) usage of day-blocks 6..10 (idx 5..9): flags, log entries, reported hours\cf8 \strokec8 \
+\cf9 \strokec9 use=collections.defaultdict(lambda: collections.Counter())\cf8 \strokec8 \
+\cf9 \strokec9 for n in names:\cf8 \strokec8 \
+\cf9 \strokec9     ws=wf[n]\cf8 \strokec8 \
+\cf9 \strokec9     for bi,c0 in enumerate(blocks):\cf8 \strokec8 \
+\cf9 \strokec9         flag=ws.cell(3,c0+2).value\cf8 \strokec8 \
+\cf9 \strokec9         if flag not in (None,""): use[bi]["flag"]+=1\cf8 \strokec8 \
+\cf9 \strokec9         for r in range(4,21):\cf8 \strokec8 \
+\cf9 \strokec9             v=ws.cell(r,c0+2).value\cf8 \strokec8 \
+\cf9 \strokec9             if v not in (None,"") : use[bi]["reported"]+=1\cf8 \strokec8 \
+\cf9 \strokec9         for r in range(24,46):\cf8 \strokec8 \
+\cf9 \strokec9             if ws.cell(r,c0).value not in (None,"") or ws.cell(r,c0+1).value not in (None,""): use[bi]["log"]+=1\cf8 \strokec8 \
+\cf9 \strokec9 print("(a) usage per day-block index (0=Mon..6=Sun,7..9=next Mon..Wed):")\cf8 \strokec8 \
+\cf9 \strokec9 for bi in range(10): print("   ",bi,dict(use[bi]))\cf8 \strokec8 \
+\
+\cf9 \strokec9 # (b) value types in log time cells / activity cells / reported cells\cf8 \strokec8 \
+\cf9 \strokec9 types=collections.Counter()\cf8 \strokec8 \
+\cf9 \strokec9 odd=[]\cf8 \strokec8 \
+\cf9 \strokec9 for n in names:\cf8 \strokec8 \
+\cf9 \strokec9     ws=wf[n]\cf8 \strokec8 \
+\cf9 \strokec9     for c0 in blocks:\cf8 \strokec8 \
+\cf9 \strokec9         for r in range(24,46):\cf8 \strokec8 \
+\cf9 \strokec9             v=ws.cell(r,c0+1).value\cf8 \strokec8 \
+\cf9 \strokec9             if v is not None: \cf8 \strokec8 \
+\cf9 \strokec9                 types[("time",type(v).__name__)]+=1\cf8 \strokec8 \
+\cf9 \strokec9                 if not isinstance(v,datetime.time): odd.append((n,ws.cell(r,c0+1).coordinate,v))\cf8 \strokec8 \
+\cf9 \strokec9         for r in range(25,46):\cf8 \strokec8 \
+\cf9 \strokec9             v=ws.cell(r,c0).value\cf8 \strokec8 \
+\cf9 \strokec9             if v is not None: types[("act",type(v).__name__)]+=1\cf8 \strokec8 \
+\cf9 \strokec9         for r in range(4,21):\cf8 \strokec8 \
+\cf9 \strokec9             v=ws.cell(r,c0+2).value\cf8 \strokec8 \
+\cf9 \strokec9             if v is not None: types[("rep",type(v).__name__ + ("=f" if isinstance(v,str) and v.startswith("=") else ""))]+=1\cf8 \strokec8 \
+\cf9 \strokec9 print("\\n(b) types:",dict(types)); print("    non-time in time cells:",odd[:10])\cf8 \strokec8 \
+\cf9 \strokec9 fr=collections.Counter()\cf8 \strokec8 \
+\cf9 \strokec9 for n in names:\cf8 \strokec8 \
+\cf9 \strokec9     ws=wf[n]\cf8 \strokec8 \
+\cf9 \strokec9     for c0 in blocks:\cf8 \strokec8 \
+\cf9 \strokec9         for r in range(4,21):\cf8 \strokec8 \
+\cf9 \strokec9             v=ws.cell(r,c0+2).value\cf8 \strokec8 \
+\cf9 \strokec9             if isinstance(v,str): fr[v]+=1\cf8 \strokec8 \
+\cf9 \strokec9 print("    reported formulas/strings:",dict(fr))\cf8 \strokec8 \
+\
+\cf9 \strokec9 # (e) A/B/C flag patterns across sheets\cf8 \strokec8 \
+\cf9 \strokec9 pat=collections.Counter()\cf8 \strokec8 \
+\cf9 \strokec9 for n in names:\cf8 \strokec8 \
+\cf9 \strokec9     ws=wf[n]\cf8 \strokec8 \
+\cf9 \strokec9     key=tuple(tuple((ws.cell(r,c).value or "") for c in (1,2,3)) for r in range(4,22))\cf8 \strokec8 \
+\cf9 \strokec9     pat[key]+=1\cf8 \strokec8 \
+\cf9 \strokec9 print("\\n(e) distinct A/B/C flag patterns across sheets:",len(pat), [v for v in pat.values()])\cf8 \strokec8 \
+\cf9 \strokec9 k=list(pat)[0]\cf8 \strokec8 \
+\cf9 \strokec9 print("    A,B,C per row 4..21 (most common):",[("".join("x" if v else "." for v in t)) for t in k])\cf8 \strokec8 \
+\cf9 \strokec9 # (f) D column formulas identical?\cf8 \strokec8 \
+\cf9 \strokec9 dp=set()\cf8 \strokec8 \
+\cf9 \strokec9 for n in names:\cf8 \strokec8 \
+\cf9 \strokec9     ws=wf[n]; dp.add(tuple(ws.cell(r,4).value for r in range(4,22)))\cf8 \strokec8 \
+\cf9 \strokec9 print("\\n(f) distinct D4:D21 patterns:",len(dp))\cf8 \strokec8 \
+\cf9 \strokec9 # (d) rows 46-48 content\cf8 \strokec8 \
+\cf9 \strokec9 c46=[(n,c.coordinate,c.value) for n in names for c in cells(wf[n],46,48,1,36) if c.value not in (None,"")]\cf8 \strokec8 \
+\cf9 \strokec9 print("(d) non-empty cells rows 46-48:",c46[:5],len(c46))\cf8 \strokec8 \
+\cf9 \strokec9 EOF\cf8 \cb1 \strokec8 \
+\pard\pardeftab720\partightenfactor0
+
+\f6 \cf0 \strokec19 \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f1 \cf14 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 Diffing per-week activity flags and flagging a stray text entry.\
+\pard\pardeftab720\partightenfactor0
+
+\f4 \cf22 \cb13 \expnd0\expndtw0\kerning0
+Simplifying the schedule model to a workweek pattern.\
+Diffing per-week activity flags and flagging a stray text entry.
+\f7\fs28 \cf5 \cb1 \outl0\strokewidth0 \strokec5 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f1\fs18 \cf15 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\pardeftab720\partightenfactor0
+
+\fs24 \cf14 Kartl\'e4gger avvikelser och villkorsstyrd formatering i schemat
+\fs18 \cf15 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\fs24 \cf14 \
+Ran a command\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs16\fsmilli8250 \cf5 \cb6 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 bash\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs24 \cf7 \cb6 \strokec7 cd\cf8 \strokec8  \cf9 \strokec9 /tmp\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 python3\cf8 \strokec8  \cf9 \strokec9 -\cf8 \strokec8  <<\cf9 \strokec9 'EOF'\cf8 \strokec8 \
+\cf9 \strokec9 from openpyxl import load_workbook\cf8 \strokec8 \
+\cf9 \strokec9 from openpyxl.utils import column_index_from_string as CI\cf8 \strokec8 \
+\cf9 \strokec9 import collections, re\cf8 \strokec8 \
+\cf9 \strokec9 p="/mnt/user-data/uploads/TimeCalc-25.xlsm"\cf8 \strokec8 \
+\cf9 \strokec9 wf = load_workbook(p, keep_vba=True)\cf8 \strokec8 \
+\cf9 \strokec9 wv = load_workbook(p, data_only=True)\cf8 \strokec8 \
+\cf9 \strokec9 names=[f"V\{n:02d\}" for n in range(1,53)]+["V1-26"]\cf8 \strokec8 \
+\cf9 \strokec9 blocks=[CI(c) for c in ("G","J","M","P","S")]\cf8 \strokec8 \
+\cf9 \strokec9 act=[wv["V02"].cell(r,4).value for r in range(4,22)]\cf8 \strokec8 \
+\
+\cf9 \strokec9 # flag pattern diffs\cf8 \strokec8 \
+\cf9 \strokec9 def pat(ws): return tuple(tuple(bool(ws.cell(r,c).value) for c in (1,2,3)) for r in range(4,22))\cf8 \strokec8 \
+\cf9 \strokec9 base=collections.Counter(pat(wf[n]) for n in names).most_common(1)[0][0]\cf8 \strokec8 \
+\cf9 \strokec9 print("Flag deviations from the common pattern (A=rpt,B=bank,C=normal):")\cf8 \strokec8 \
+\cf9 \strokec9 for n in names:\cf8 \strokec8 \
+\cf9 \strokec9     pt=pat(wf[n])\cf8 \strokec8 \
+\cf9 \strokec9     if pt!=base:\cf8 \strokec8 \
+\cf9 \strokec9         d=[(act[i], "".join("ABC"[j] if base[i][j] else "-" for j in range(3))+"\uc0\u8594 "+"".join("ABC"[j] if pt[i][j] else "-" for j in range(3))) for i in range(18) if pt[i]!=base[i]]\cf8 \strokec8 \
+\cf9 \strokec9         print("  ",n,d)\cf8 \strokec8 \
+\
+\cf9 \strokec9 # stray text in reported cells\cf8 \strokec8 \
+\cf9 \strokec9 for n in names:\cf8 \strokec8 \
+\cf9 \strokec9     ws=wf[n]\cf8 \strokec8 \
+\cf9 \strokec9     for c0 in blocks:\cf8 \strokec8 \
+\cf9 \strokec9         for r in range(4,21):\cf8 \strokec8 \
+\cf9 \strokec9             v=ws.cell(r,c0+2).value\cf8 \strokec8 \
+\cf9 \strokec9             if isinstance(v,str) and not v.startswith("="): print("\\nStray text:",n,ws.cell(r,c0+2).coordinate,repr(v),"| activity:",act[r-4])\cf8 \strokec8 \
+\
+\cf9 \strokec9 # Overview vs sheet: weekly diff\cf8 \strokec8 \
+\cf9 \strokec9 print("\\nOverview!B (tidbank diff) vs sheet!B24, mismatches:")\cf8 \strokec8 \
+\cf9 \strokec9 ov=wv["Overview"]; bad=0\cf8 \strokec8 \
+\cf9 \strokec9 for i,n in enumerate(names):\cf8 \strokec8 \
+\cf9 \strokec9     r=4+i\cf8 \strokec8 \
+\cf9 \strokec9     ob=ov.cell(r,2).value; sb=wv[n]["B24"].value\cf8 \strokec8 \
+\cf9 \strokec9     if abs((ob or 0)-(sb or 0))>1e-9: bad+=1; print(f"   \{n\}: Overview=\{ob:.3f\} sheet=\{sb:.3f\}  \uc0\u916 =\{ob-sb:+.3f\}")\cf8 \strokec8 \
+\cf9 \strokec9 print("   mismatches:",bad)\cf8 \strokec8 \
+\cf9 \strokec9 print("Final bank: Overview C56=",ov["C56"].value," | V1-26 C25=",wv["V1-26"]["C25"].value)\cf8 \strokec8 \
+\
+\cf9 \strokec9 # conditional formatting: unique rule formulas on V02 (compact)\cf8 \strokec8 \
+\cf9 \strokec9 ws=wf["V02"]; rules=collections.Counter()\cf8 \strokec8 \
+\cf9 \strokec9 for rng,rs in ws.conditional_formatting._cf_rules.items():\cf8 \strokec8 \
+\cf9 \strokec9     for r in rs:\cf8 \strokec8 \
+\cf9 \strokec9         f=(r.formula or [""])[0]\cf8 \strokec8 \
+\cf9 \strokec9         rules[(r.type, re.sub(r"\\$?[A-Z]\{1,2\}\\$?\\d+","<ref>",f)[:70], r.operator or "")]+=1\cf8 \strokec8 \
+\cf9 \strokec9 print("\\nV02 CF rule shapes (type, formula-shape, operator): count")\cf8 \strokec8 \
+\cf9 \strokec9 for k,v in rules.most_common(14): print("  ",v,k)\cf8 \strokec8 \
+\cf9 \strokec9 EOF\
+\cf8 \cb1 \strokec8 \
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf14 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 Cross-checking formula rules and stray data anomalies.\
+\pard\pardeftab720\partightenfactor0
+
+\f4 \cf22 \cb13 \expnd0\expndtw0\kerning0
+Untangling flag deviations in the pattern data.\
+Cross-checking formula rules and stray data anomalies.\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f1\fs18 \cf15 \cb1 \kerning1\expnd0\expndtw0 \
+
+\fs24 \cf14 Ran a command\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs16\fsmilli8250 \cf5 \cb6 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 bash\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs24 \cf7 \cb6 \strokec7 cd\cf8 \strokec8  \cf9 \strokec9 /tmp\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 python3\cf8 \strokec8  \cf9 \strokec9 -\cf8 \strokec8  <<\cf9 \strokec9 'EOF'\cf8 \strokec8 \
+\cf9 \strokec9 from openpyxl import load_workbook\cf8 \strokec8 \
+\cf9 \strokec9 import re\cf8 \strokec8 \
+\cf9 \strokec9 p="/mnt/user-data/uploads/TimeCalc-25.xlsm"\cf8 \strokec8 \
+\cf9 \strokec9 wf = load_workbook(p, keep_vba=True)\cf8 \strokec8 \
+\cf9 \strokec9 ws=wf["V02"]\cf8 \strokec8 \
+\cf9 \strokec9 print("V02 non-trivial CF rules (range -> rule):")\cf8 \strokec8 \
+\cf9 \strokec9 for rng,rs in ws.conditional_formatting._cf_rules.items():\cf8 \strokec8 \
+\cf9 \strokec9     for r in rs:\cf8 \strokec8 \
+\cf9 \strokec9         f=(r.formula or [""])[0]\cf8 \strokec8 \
+\cf9 \strokec9         if r.type=="expression" and re.match(r'^\\$?[A-Z]+\\$?\\d+<>"Ja"$',f): continue\cf8 \strokec8 \
+\cf9 \strokec9         dxf=r.dxf\cf8 \strokec8 \
+\cf9 \strokec9         fill=(dxf.fill.bgColor.rgb if dxf and dxf.fill and dxf.fill.bgColor is not None else None) if dxf else None\cf8 \strokec8 \
+\cf9 \strokec9         font=(dxf.font.color.rgb if dxf and dxf.font and dxf.font.color is not None else None) if dxf else None\cf8 \strokec8 \
+\cf9 \strokec9         print(f"  \{str(rng.sqref)[:60]:60s\} \{r.type\} \{r.operator or ''\} \{f[:110]\} fill=\{fill\} font=\{font\}")\cf8 \strokec8 \
+\cf9 \strokec9 # the <>"Ja" rules: which ranges do they cover (sample) ?\cf8 \strokec8 \
+\cf9 \strokec9 print("\\nSample of '<>\\"Ja\\"' rules:")\cf8 \strokec8 \
+\cf9 \strokec9 n=0\cf8 \strokec8 \
+\cf9 \strokec9 for rng,rs in ws.conditional_formatting._cf_rules.items():\cf8 \strokec8 \
+\cf9 \strokec9     for r in rs:\cf8 \strokec8 \
+\cf9 \strokec9         f=(r.formula or [""])[0]\cf8 \strokec8 \
+\cf9 \strokec9         if re.match(r'^\\$?[A-Z]+\\$?\\d+<>"Ja"$',f):\cf8 \strokec8 \
+\cf9 \strokec9             n+=1\cf8 \strokec8 \
+\cf9 \strokec9             if n<=6: print("  ",str(rng.sqref)[:50],"|",f)\cf8 \strokec8 \
+\cf9 \strokec9 # Legend cells colors: B27 (Fields to edit), B28 (warning), B29 (calculated)\cf8 \strokec8 \
+\cf9 \strokec9 for c in ("B27","B28","B29"):\cf8 \strokec8 \
+\cf9 \strokec9     cell=ws[c]; print(c,cell.value,"fill=",cell.fill.fgColor.rgb, "theme=",cell.fill.fgColor.theme)\cf8 \strokec8 \
+\cf9 \strokec9 EOF\cf8 \cb1 \strokec8 \
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf8 \
+\pard\pardeftab720\sa20\partightenfactor0
+
+\f1\fs24 \cf14 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 Preparing type stubs to verify UI code without full compilation.\
+\pard\pardeftab720\sa20\partightenfactor0
+
+\f4 \cf22 \cb13 \expnd0\expndtw0\kerning0
+Setting up rules to flag hour discrepancies per activity.\
+Handling blank cells so formulas don't misfire on warnings.\
+Tracing how empty cells trigger unexpected reported-versus-logged warnings.\
+Choosing dependable package versions for the project setup.\
+Deciding on a lightweight, dependency-free test runner setup.\
+Designing the data model for weeks, entries, and flags.\
+Preserving row order to keep duration chains accurate.\
+Untangling floating-point rounding in Excel's time conversions.\
+Matching Excel's rounding quirks against JavaScript arithmetic.\
+Mapping weekly balances to their overview and sheet counterparts.\
+Modellerar hur lunchraden automatiskt h\'e4rleder rapporterad tid.\
+Definierar villkor f\'f6r varningar om avvikande rapporterad tid.\
+Defining test data structure for cached week and overview values.\
+Sketching the project's folder and file structure.\
+Preparing type stubs to verify UI code without full compilation.\
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf8 \cb1 \outl0\strokewidth0 \strokec8 \
+\pard\pardeftab720\sa20\partightenfactor0
+
+\f1\fs24 \cf14 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 Read frontend-design skill before writing Anu UI code\
+\pard\pardeftab720\partightenfactor0
+
+\f6 \cf16 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec16 \
+\pard\pardeftab720\sa20\partightenfactor0
+
+\f1 \cf14 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 Defining the import data format and comment handling.
+\f6 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec19 \
+\pard\pardeftab720\sa20\partightenfactor0
+
+\f4 \cf22 \cb13 \outl0\strokewidth0 Designing a spreadsheet-style personal time-tracking app.\
+Choosing colors and type to fit spreadsheet conventions.\
+Sketching the week overview layout and build plan.\
+Parsing weekly sheets into structured day and activity records.\
+Mapping expected week-level totals and activity formulas.\
+Designing the time-conversion and weekly calculation engine.\
+Replicating Excel's per-activity sum formulas precisely.\
+Matching Excel's time-rounding quirks for weekly totals.\
+Replicating Excel's time-wrap edge cases faithfully.\
+Planning app state, storage, and year-generation logic.\
+Designing week and settings views with Swedish labels.\
+Planning input parsing, formatting, and file structure details.\
+Defining the import data format and comment handling.\
+\pard\pardeftab720\sa20\partightenfactor0
+
+\f1 \cf14 \cb1 \kerning1\expnd0\expndtw0 \
+\pard\pardeftab720\partightenfactor0
+\cf14 Planning the import script based on the workbook structure\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\fs18 \cf15 \
+
+\fs24 \cf14 Ran a command\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs16\fsmilli8250 \cf5 \cb6 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 bash\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs24 \cf7 \cb6 \strokec7 mkdir\cf8 \strokec8  \cf9 \strokec9 -p\cf8 \strokec8  \cf9 \strokec9 /home/claude/TimeCalcReact/\{scripts,src/engine,src/state,src/ui,tests,data,public/seed\}\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 cd\cf8 \strokec8  \cf9 \strokec9 /home/claude/TimeCalcReact\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 ls\cf8 \cb1 \strokec8 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f1\fs18 \cf15 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\pardeftab720\partightenfactor0
+
+\fs24 \cf14 Diagnosing unexpected brace expansion behavior in the shell output.\
+
+\f6 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec19 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f1 \cf14 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 Ran a command\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs16\fsmilli8250 \cf5 \cb6 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 bash\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs24 \cf7 \cb6 \strokec7 cd\cf8 \strokec8  \cf9 \strokec9 /home/claude\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 ls\cf8 \strokec8  \cf9 \strokec9 -la\cf8 \strokec8  \cf9 \strokec9 TimeCalcReact\cf10 \strokec10 ;\cf8 \strokec8  \cf7 \strokec7 rm\cf8 \strokec8  \cf9 \strokec9 -rf\cf8 \strokec8  \cf9 \strokec9 TimeCalcReact\cf10 \strokec10 ;\cf8 \strokec8  \cf7 \strokec7 mkdir\cf8 \strokec8  \cf9 \strokec9 -p\cf8 \strokec8  \cf9 \strokec9 TimeCalcReact\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 cd\cf8 \strokec8  \cf9 \strokec9 TimeCalcReact\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf20 \cb6 \strokec20 for\cf8 \cb6 \strokec8  d \cf20 \cb6 \strokec20 in\cf8 \cb6 \strokec8  \cf9 \strokec9 scripts\cf8 \strokec8  \cf9 \strokec9 src/engine\cf8 \strokec8  \cf9 \strokec9 src/state\cf8 \strokec8  \cf9 \strokec9 src/ui\cf8 \strokec8  \cf9 \strokec9 tests\cf8 \strokec8  \cf9 \strokec9 data\cf8 \strokec8  \cf9 \strokec9 public/seed\cf10 \strokec10 ;\cf8 \strokec8  \cf20 \cb6 \strokec20 do\cf8 \cb6 \strokec8  \cf7 \strokec7 mkdir\cf8 \strokec8  \cf9 \strokec9 -p\cf8 \strokec8  \cf9 \strokec9 "\cf21 \cb6 \strokec21 $d\cf9 \cb6 \strokec9 "\cf10 \strokec10 ;\cf8 \strokec8  \cf20 \cb6 \strokec20 done\cf10 \cb6 \strokec10 ;\cf8 \strokec8  \cf7 \strokec7 find\cf8 \strokec8  \cf9 \strokec9 .\cf8 \strokec8  \cf9 \strokec9 -type\cf8 \strokec8  \cf9 \strokec9 d\cf8 \strokec8  | \cf7 \strokec7 sort\cf8 \cb1 \strokec8 \
+\pard\pardeftab720\partightenfactor0
+
+\f6 \cf0 \strokec19 \
+
+\f1 \cf14 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 Nu importskriptet:\
+
+\f6 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec19 \
+
+\f1 \cf14 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 Importer: converts TimeCalc xlsm to JSON dataset + Excel\'92s cached values for golden tests \cf23 import_xlsm.py\cf14 \
+
+\f6 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec19 \
+
+\f1 \cf14 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 Cleaning up messy code snippets and odd expressions.\
+\
+\pard\pardeftab720\partightenfactor0
+\cf14 Clean up the pointless conditional expression for activity name \cf23 import_xlsm.py\cf14 \
+\pard\pardeftab720\partightenfactor0
+\cf14 \
+\pard\pardeftab720\partightenfactor0
+\cf14 Simplify derivedReport detection and row bookkeeping \cf23 import_xlsm.py\cf14 \
+\pard\pardeftab720\partightenfactor0
+\cf14 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf14 Ran a command\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs16\fsmilli8250 \cf5 \cb6 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 bash\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs24 \cf7 \cb6 \strokec7 cd\cf8 \strokec8  \cf9 \strokec9 /home/claude/TimeCalcReact\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 python3\cf8 \strokec8  \cf9 \strokec9 scripts/import_xlsm.py\cf8 \strokec8  \cf9 \strokec9 /mnt/user-data/uploads/TimeCalc-25.xlsm\cf8 \strokec8  2>&1 | \cf7 \strokec7 tail\cf8 \strokec8  \cf9 \strokec9 -20\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 ls\cf8 \strokec8  \cf9 \strokec9 -la\cf8 \strokec8  \cf9 \strokec9 data\cf8 \strokec8  \cf9 \strokec9 public/seed\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 python3\cf8 \strokec8  \cf9 \strokec9 -\cf8 \strokec8  <<\cf9 \strokec9 'EOF'\cf8 \strokec8 \
+\cf9 \strokec9 import json\cf8 \strokec8 \
+\cf9 \strokec9 d=json.load(open("data/timecalc-2025.json"))\cf8 \strokec8 \
+\cf9 \strokec9 print("config:",d["config"])\cf8 \strokec8 \
+\cf9 \strokec9 print("activities:",[(a["name"],a["defaults"]["bank"],a["derivedReport"]) for a in d["activities"]])\cf8 \strokec8 \
+\cf9 \strokec9 w=d["weeks"][1]\cf8 \strokec8 \
+\cf9 \strokec9 print("V02 keys:",w["id"],w["label"],len(w["days"]),"days")\cf8 \strokec8 \
+\cf9 \strokec9 print("V02 Wed:",json.dumps(w["days"][2],ensure_ascii=False)[:420])\cf8 \strokec8 \
+\cf9 \strokec9 print("last week:",d["weeks"][-1]["id"],d["weeks"][-1]["label"],d["weeks"][-1]["days"][0]["date"])\cf8 \strokec8 \
+\cf9 \strokec9 EOF\cf8 \cb1 \strokec8 \
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf14 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\pardeftab720\partightenfactor0
+\cf14 Mapping golden-test fields against expected calculation outputs.\
+\pard\pardeftab720\partightenfactor0
+
+\f4 \cf22 \cb13 \expnd0\expndtw0\kerning0
+Validating the imported data for accuracy.\
+Designing the TypeScript engine's core data types.\
+Structuring weekly and yearly calculation output types.\
+Implementing day and activity calculation logic.\
+Aggregating weekly totals across activities and days.\
+Defining warning thresholds for mismatched totals.\
+Building yearly rollups and default dataset generation.\
+Working out how to configure the default weekday template.\
+Designing time parsing and formatting utilities.\
+Converting between decimal hours and time-of-day values.\
+Drafting test cases covering conversions and warning rules.\
+Mapping golden-test fields against expected calculation outputs.
+\f7\fs28 \cf5 \cb1 \outl0\strokewidth0 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs24 \cf14 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+Bygger ber\'e4kningsmotorn i ren TypeScript\
+\
+\pard\pardeftab720\partightenfactor0
+\cf14 Engine types \cf23 types.ts\cf14 \
+\pard\pardeftab720\partightenfactor0
+\cf14 \
+\pard\pardeftab720\partightenfactor0
+\cf14 Time helpers: parsing, formatting and the Excel-compatible conversions \cf23 time.ts\cf14 \
+\pard\pardeftab720\partightenfactor0
+\cf14 \
+Nu sj\'e4lva veckober\'e4kningen, som \'e4r k\'e4rnan och \'e5terskapar cellformlerna och varningsreglerna:\
+\
+\pard\pardeftab720\partightenfactor0
+\cf14 Week calculation engine replicating the sheet formulas and warning rules \cf23 week.ts\cf14 \
+\pard\pardeftab720\partightenfactor0
+\cf14 \
+Cleaning up an unused function parameter.\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf14 Ran a command\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs16\fsmilli8250 \cf5 \cb6 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 bash\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs24 \cf7 \cb6 \strokec7 cd\cf8 \strokec8  \cf9 \strokec9 /home/claude/TimeCalcReact/src/engine\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 python3\cf8 \strokec8  \cf9 \strokec9 -\cf8 \strokec8  <<\cf9 \strokec9 'EOF'\cf8 \strokec8 \
+\cf9 \strokec9 import re\cf8 \strokec8 \
+\cf9 \strokec9 p="week.ts"; s=open(p).read()\cf8 \strokec8 \
+\cf9 \strokec9 s=s.replace("calc.warnings = collectWarnings(week, activities, calc)","calc.warnings = collectWarnings(activities, calc)")\cf8 \strokec8 \
+\cf9 \strokec9 s=s.replace("function collectWarnings(week: Week, activities: Activity[], calc: WeekCalc): Warning[] \{","function collectWarnings(activities: Activity[], calc: WeekCalc): Warning[] \{")\cf8 \strokec8 \
+\cf9 \strokec9 s=s.replace("\\n  void week\\n  return out\\n","\\n  return out\\n")\cf8 \strokec8 \
+\cf9 \strokec9 open(p,"w").write(s)\cf8 \strokec8 \
+\cf9 \strokec9 print("void week" in s, "collectWarnings(week" in s)\cf8 \strokec8 \
+\cf9 \strokec9 EOF\cf8 \cb1 \strokec8 \
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf14 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+Nu \'e5rs-/\'f6versiktsber\'e4kningen och fabriken (nytt \'e5r, makroekvivalenterna):\
+
+\f6 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec19 \
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf14 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 Year overview calculation (overview sheet) \cf23 year.ts\cf14 \
+\pard\pardeftab720\partightenfactor0
+
+\f6 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec19 \
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf14 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 Deciding how default work-log rules should apply.\
+\pard\pardeftab720\partightenfactor0
+
+\f4 \cf22 \cb13 \expnd0\expndtw0\kerning0
+Building a factory module for managing dataset state.\
+Deciding how default work-log rules should apply.\
+\pard\pardeftab720\partightenfactor0
+
+\f6 \cf0 \cb1 \outl0\strokewidth0 \strokec19 \
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf14 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 Factory helpers: new year, macro equivalents, activity renme \cf23 factory.ts\
+\
+\pard\tx0\pardeftab720\partightenfactor0
+\cf14 Engine barrel file \cf23 index.ts\
+\pard\pardeftab720\partightenfactor0
+\cf23 \
+\pard\pardeftab720\partightenfactor0
+\cf14 Nu det viktigaste testet. Motorn ska ge samma tal som Excel f\'f6r alla 53 veckor, j\'e4mf\'f6rt mot Excels egna cachade v\'e4rden.\
+\pard\pardeftab720\partightenfactor0
+\cf14 \
+Golden test comparing the engine to Excel\'92s cached values \cf23 golden.test.ts\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf14 Ran a command\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs16\fsmilli8250 \cf5 \cb6 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 bash\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs24 \cf7 \cb6 \strokec7 cd\cf8 \strokec8  \cf9 \strokec9 /home/claude/TimeCalcReact\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 node\cf8 \strokec8  \cf9 \strokec9 --test\cf8 \strokec8  \cf9 \strokec9 tests/golden.test.ts\cf8 \strokec8  2>&1 | \cf7 \strokec7 head\cf8 \strokec8  \cf9 \strokec9 -80\cf8 \cb1 \strokec8 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f1 \cf14 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\pardeftab720\sa20\partightenfactor0
+\cf14 Verifying rounding precision against floating-point edge cases.\
+\pard\pardeftab720\sa20\partightenfactor0
+
+\f4 \cf22 \cb13 \expnd0\expndtw0\kerning0
+Reconciling timesheet totals against bank hours and activity logs.\
+Tracing a rounding mismatch to Excel's floating-point quirks.\
+Implementing Excel-style rounding to match precisely.\
+Investigating an extra day's worth of unmapped minutes.\
+Pinpointing a date-conversion bug in the Excel library's leap-year fix.\
+Designing a fix to bypass the faulty date conversion.\
+Verifying rounding precision against floating-point edge cases.\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\sa20\pardirnatural\partightenfactor0
+
+\f1 \cf14 \cb1 \kerning1\expnd0\expndtw0 \
+\pard\pardeftab720\partightenfactor0
+\cf14 Investigating five rounding and date discrepancies in golden test\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf14 \
+Ran a command\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs16\fsmilli8250 \cf5 \cb6 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 bash\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs24 \cf7 \cb6 \strokec7 cd\cf8 \strokec8  \cf9 \strokec9 /tmp\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 python3\cf8 \strokec8  \cf9 \strokec9 -\cf8 \strokec8  <<\cf9 \strokec9 'EOF'\cf8 \strokec8 \
+\cf9 \strokec9 from openpyxl import load_workbook\cf8 \strokec8 \
+\cf9 \strokec9 p="/mnt/user-data/uploads/TimeCalc-25.xlsm"\cf8 \strokec8 \
+\cf9 \strokec9 wv = load_workbook(p, data_only=True)\cf8 \strokec8 \
+\cf9 \strokec9 for sheet in ("V16","V17","V18"):\cf8 \strokec8 \
+\cf9 \strokec9     c = wv[sheet]["E33"]\cf8 \strokec8 \
+\cf9 \strokec9     print(sheet, "E33 value:", repr(c.value), "| number_format:", c.number_format)\cf8 \strokec8 \
+\cf9 \strokec9 # raw serial straight from the XML, bypassing openpyxl's date conversion\cf8 \strokec8 \
+\cf9 \strokec9 import zipfile, re\cf8 \strokec8 \
+\cf9 \strokec9 z = zipfile.ZipFile(p)\cf8 \strokec8 \
+\cf9 \strokec9 wb = z.read("xl/workbook.xml").decode()\cf8 \strokec8 \
+\cf9 \strokec9 rels = z.read("xl/_rels/workbook.xml.rels").decode()\cf8 \strokec8 \
+\cf9 \strokec9 sid = re.search(r'<sheet [^>]*name="V17"[^>]*r:id="(rId\\d+)"', wb).group(1)\cf8 \strokec8 \
+\cf9 \strokec9 target = re.search(r'Id="%s"[^>]*Target="([^"]+)"|Target="([^"]+)"[^>]*Id="%s"' % (sid,sid), rels)\cf8 \strokec8 \
+\cf9 \strokec9 t = (target.group(1) or target.group(2)).lstrip("/")\cf8 \strokec8 \
+\cf9 \strokec9 xml = z.read(t if t.startswith("xl/") else "xl/"+t).decode()\cf8 \strokec8 \
+\cf9 \strokec9 m = re.search(r'<c r="E33"[^>]*>.*?<v>([^<]+)</v>', xml)\cf8 \strokec8 \
+\cf9 \strokec9 print("V17 E33 raw serial in XML:", m.group(1), "=> minutes:", float(m.group(1))*1440)\cf8 \strokec8 \
+\cf9 \strokec9 EOF
+\f1 \cf14 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\sa20\pardirnatural\partightenfactor0
+\cf14 \
+\pard\pardeftab720\partightenfactor0
+\cf14 Untangling a spreadsheet time-value discrepancy.\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\sa20\pardirnatural\partightenfactor0
+\cf14 \
+Comparing V17 formulas against neighboring sheets\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf14 Ran a command\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs16\fsmilli8250 \cf5 \cb6 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 bash\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs24 \cf7 \cb6 \strokec7 cd\cf8 \strokec8  \cf9 \strokec9 /tmp\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 python3\cf8 \strokec8  \cf9 \strokec9 -\cf8 \strokec8  <<\cf9 \strokec9 'EOF'\cf8 \strokec8 \
+\cf9 \strokec9 from openpyxl import load_workbook\cf8 \strokec8 \
+\cf9 \strokec9 p="/mnt/user-data/uploads/TimeCalc-25.xlsm"\cf8 \strokec8 \
+\cf9 \strokec9 wf = load_workbook(p); wv = load_workbook(p, data_only=True)\cf8 \strokec8 \
+\cf9 \strokec9 def grid(ws): return \{c.coordinate:c.value for row in ws.iter_rows(min_row=1,max_row=48,max_col=39) for c in row if c.value is not None\}\cf8 \strokec8 \
+\cf9 \strokec9 g16,g17,g18 = grid(wf["V16"]),grid(wf["V17"]),grid(wf["V18"])\cf8 \strokec8 \
+\cf9 \strokec9 # cells where V17 differs from BOTH neighbours in formula text (ignoring date/time/flag/log inputs)\cf8 \strokec8 \
+\cf9 \strokec9 import re\cf8 \strokec8 \
+\cf9 \strokec9 def is_formula(v): return isinstance(v,str) and v.startswith("=")\cf8 \strokec8 \
+\cf9 \strokec9 diff=[k for k in set(g17)|set(g16)|set(g18) if (is_formula(g17.get(k)) or is_formula(g16.get(k)) or is_formula(g18.get(k))) and g17.get(k)!=g16.get(k) and g17.get(k)!=g18.get(k)]\cf8 \strokec8 \
+\cf9 \strokec9 print("formula cells where V17 differs from V16 and V18:",len(diff))\cf8 \strokec8 \
+\cf9 \strokec9 for k in sorted(diff)[:15]: print("  ",k,"| V16:",g16.get(k),"| V17:",g17.get(k),"| V18:",g18.get(k))\cf8 \strokec8 \
+\cf9 \strokec9 # constants in the 'calculated' area: rows 3..22 columns G..AJ that are NOT formulas, V17 vs neighbours\cf8 \strokec8 \
+\cf9 \strokec9 print("\\nnon-formula constants in G3:AJ22 of V17:")\cf8 \strokec8 \
+\cf9 \strokec9 for k,v in sorted(g17.items()):\cf8 \strokec8 \
+\cf9 \strokec9     m=re.match(r"([A-Z]+)(\\d+)",k); col,row=m.group(1),int(m.group(2))\cf8 \strokec8 \
+\cf9 \strokec9     if 3<=row<=22 and not is_formula(v) and col not in ("A","B","C","D","E","F"): \cf8 \strokec8 \
+\cf9 \strokec9         print("  ",k,repr(v),"| V16:",repr(g16.get(k)),"| V18:",repr(g18.get(k)))\cf8 \strokec8 \
+\cf9 \strokec9 print("\\nV17 G3/J3/M3/P3/S3/V3/Y3/AB3/AE3/AH3 cached:")\cf8 \strokec8 \
+\cf9 \strokec9 print(\{c: str(wv["V17"][c+"3"].value) for c in ("G","J","M","P","S","V","Y","AB","AE","AH")\})\cf8 \strokec8 \
+\cf9 \strokec9 print("V17 E32, E33, E34 cached:", wv["V17"]["E32"].value, wv["V17"]["E33"].value, wv["V17"]["E34"].value)\cf8 \strokec8 \
+\cf9 \strokec9 EOF
+\f1 \cf14 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\sa20\pardirnatural\partightenfactor0
+\cf14 \
+\pard\pardeftab720\partightenfactor0
+\cf14 Flagging deleted formulas and refining the majority-comparison logic.\
+\pard\pardeftab720\partightenfactor0
+
+\f4 \cf22 \cb13 \expnd0\expndtw0\kerning0
+Tracking down a spreadsheet formula error in a time calculation.\
+Designing a general anomaly-detection check for overwritten formulas.\
+Flagging deleted formulas and refining the majority-comparison logic.\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\sa20\pardirnatural\partightenfactor0
+
+\f1 \cf14 \cb1 \kerning1\expnd0\expndtw0 \
+\pard\pardeftab720\partightenfactor0
+\cf14 Pinpointing hardcoded constant causing arbetsbokens felaktiga summering\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\sa20\pardirnatural\partightenfactor0
+\cf14 \
+\pard\pardeftab720\partightenfactor0
+\cf14 Make ROUND match Excel\'92s 15-significant-digit behavior instead of an epsilon fudge \cf23 time.ts\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\sa20\pardirnatural\partightenfactor0
+\cf14 \
+\pard\pardeftab720\partightenfactor0
+\cf14 Remove the unneeded epsilon in TRUNC(tenths*60) \cf23 time.ts\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\sa20\pardirnatural\partightenfactor0
+\cf14 \
+L\'e4gger till anomalidetektering f\'f6r avvikande formler i importskriptet\
+\
+\pard\pardeftab720\partightenfactor0
+\cf14 Add workbook anomaly detection (formulas overwritten by constants / deleted) to the importer \cf23 import_xlsm.py\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\sa20\pardirnatural\partightenfactor0
+\cf14 \
+Improving readability of a time-duration representation.\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf14 Ran a command\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs16\fsmilli8250 \cf5 \cb6 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 bash\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs24 \cf7 \cb6 \strokec7 cd\cf8 \strokec8  \cf9 \strokec9 /home/claude/TimeCalcReact\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 python3\cf8 \strokec8  \cf9 \strokec9 -\cf8 \strokec8  <<\cf9 \strokec9 'EOF'\cf8 \strokec8 \
+\cf9 \strokec9 p="scripts/import_xlsm.py"; s=open(p).read()\cf8 \strokec8 \
+\
+\cf9 \strokec9 # readable constant description\cf8 \strokec8 \
+\cf9 \strokec9 s=s.replace('''def note_of(*cells):''','''def describe_value(v):\cf8 \strokec8 \
+\cf9 \strokec9     if isinstance(v, dt.timedelta):\cf8 \strokec8 \
+\cf9 \strokec9         minutes = int(v.total_seconds() // 60)\cf8 \strokec8 \
+\cf9 \strokec9         return f"\{minutes // 60\}:\{minutes % 60:02d\}"\cf8 \strokec8 \
+\cf9 \strokec9     if isinstance(v, dt.time):\cf8 \strokec8 \
+\cf9 \strokec9         return f"\{v.hour\}:\{v.minute:02d\}"\cf8 \strokec8 \
+\cf9 \strokec9     return repr(v)\cf8 \strokec8 \
+\
+\
+\cf9 \strokec9 def note_of(*cells):''',1)\cf8 \strokec8 \
+\cf9 \strokec9 s=s.replace('''"found": None if v is None else repr(v)\}''','''"found": None if v is None else describe_value(v)\}''',1)\cf8 \strokec8 \
+\
+\cf9 \strokec9 # keep anomalies in expected.json\cf8 \strokec8 \
+\cf9 \strokec9 s=s.replace('''expected = \{"version": 1, "weeks": exp_weeks, "overview": \{"rows": ov_rows, "activityTotals": totals, "grandTotalHours": grand\}\}''',\cf8 \strokec8 \
+\cf9 \strokec9 '''expected = \{"version": 1, "anomalies": anomalies, "weeks": exp_weeks, "overview": \{"rows": ov_rows, "activityTotals": totals, "grandTotalHours": grand\}\}''',1)\cf8 \strokec8 \
+\cf9 \strokec9 open(p,"w").write(s)\cf8 \strokec8 \
+\cf9 \strokec9 EOF\cf8 \strokec8 \
+\cf7 \strokec7 python3\cf8 \strokec8  \cf9 \strokec9 scripts/import_xlsm.py\cf8 \strokec8  \cf9 \strokec9 /mnt/user-data/uploads/TimeCalc-25.xlsm\cf8 \strokec8  2>&1 | \cf7 \strokec7 tail\cf8 \strokec8  \cf9 \strokec9 -12
+\f1 \cf14 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\sa20\pardirnatural\partightenfactor0
+\cf14 \
+Locating anomalies and cross-checking for hidden issues.\
+\
+Checking if the deleted formula in row 31 has any impact\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf14 Ran a command\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs16\fsmilli8250 \cf5 \cb6 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 bash\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs24 \cf7 \cb6 \strokec7 cd\cf8 \strokec8  \cf9 \strokec9 /home/claude/TimeCalcReact\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 python3\cf8 \strokec8  \cf9 \strokec9 -\cf8 \strokec8  <<\cf9 \strokec9 'EOF'\cf8 \strokec8 \
+\cf9 \strokec9 import json\cf8 \strokec8 \
+\cf9 \strokec9 d=json.load(open("data/timecalc-2025.json"))\cf8 \strokec8 \
+\cf9 \strokec9 w=next(w for w in d["weeks"] if w["id"]=="V17")\cf8 \strokec8 \
+\cf9 \strokec9 fri=w["days"][4]\cf8 \strokec8 \
+\cf9 \strokec9 print("V17 fredag: start",fri["start"],"| antal rader:",len(fri["rows"]))\cf8 \strokec8 \
+\cf9 \strokec9 for i,r in enumerate(fri["rows"]): print("  rad",25+i,r)\cf8 \strokec8 \
+\cf9 \strokec9 EOF
+\f1 \cf14 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\sa20\pardirnatural\partightenfactor0
+\cf14 \
+\pard\pardeftab720\partightenfactor0
+\cf14 Documenting the V17 discrepancy in the golden test\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf14 Ran a command\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs16\fsmilli8250 \cf5 \cb6 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 bash\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs24 \cf7 \cb6 \strokec7 cd\cf8 \strokec8  \cf9 \strokec9 /home/claude/TimeCalcReact\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 python3\cf8 \strokec8  \cf9 \strokec9 -\cf8 \strokec8  <<\cf9 \strokec9 'EOF'\cf8 \strokec8 \
+\cf9 \strokec9 p="tests/golden.test.ts"; s=open(p).read()\cf8 \strokec8 \
+\
+\cf9 \strokec9 s=s.replace('''interface Expected \{\cf8 \strokec8 \
+\cf9 \strokec9   weeks: Record<string, any>''','''interface Expected \{\cf8 \strokec8 \
+\cf9 \strokec9   anomalies: \{ sheet: string; cell: string; expectedFormula: string; found: string | null \}[]\cf8 \strokec8 \
+\cf9 \strokec9   weeks: Record<string, any>''',1)\cf8 \strokec8 \
+\
+\cf9 \strokec9 s=s.replace('''const TOL_H = 1e-9 // timmar''','''/**\cf8 \strokec8 \
+\cf9 \strokec9  * K\'e4nda fel i originalarbetsboken som g\'f6r att Excels eget facit \'e4r fel. Motorn ska INTE \'e5terskapa dem;\cf8 \strokec8 \
+\cf9 \strokec9  * i st\'e4llet kontrolleras att Excel avviker med exakt det dokumenterade beloppet, och bara om importen\cf8 \strokec8 \
+\cf9 \strokec9  * ocks\'e5 rapporterat anomalin (s\'e5 att testet inte tystnar om arbetsboken senare r\'e4ttas).\cf8 \strokec8 \
+\cf9 \strokec9  *\cf8 \strokec8 \
+\cf9 \strokec9  * V17!AH3 inneh\'e5ller konstanten 24:00 i st\'e4llet f\'f6r =SUM(AI4:AI21) (ett oanv\'e4nt dagblock). Excel\cf8 \strokec8 \
+\cf9 \strokec9  * summerar d\'e4rf\'f6r 1440 minuter f\'f6r mycket i E33 och visar E34 = \uc0\u8722 24:00.\cf8 \strokec8 \
+\cf9 \strokec9  */\cf8 \strokec8 \
+\cf9 \strokec9 const KNOWN_EXCEL_DEVIATIONS = [\cf8 \strokec8 \
+\cf9 \strokec9   \{ sheet: 'V17', cell: 'AH3', field: 'summed E33', excelMinusEngine: 1440 \},\cf8 \strokec8 \
+\cf9 \strokec9   \{ sheet: 'V17', cell: 'AH3', field: 'unmapped E34', excelMinusEngine: -1440 \},\cf8 \strokec8 \
+\cf9 \strokec9 ]\cf8 \strokec8 \
+\
+\cf9 \strokec9 const TOL_H = 1e-9 // timmar''',1)\cf8 \strokec8 \
+\
+\cf9 \strokec9 s=s.replace('''    it('veckosummor (B22, B23, B24, C22, C24, F22, E22, E32\'96E37)', () => \{\cf8 \strokec8 \
+\cf9 \strokec9       const diffs: string[] = []\cf8 \strokec8 \
+\cf9 \strokec9       calc.weeks.forEach((w, i) => \{\cf8 \strokec8 \
+\cf9 \strokec9         const e = exp.weeks[w.id]\cf8 \strokec8 \
+\cf9 \strokec9         const row = calc.rows[i]\cf8 \strokec8 \
+\cf9 \strokec9         const at = (k: string) => `$\{w.id\}.$\{k\}`''','''    // Facit justerat f\'f6r dokumenterade fel i arbetsboken (se KNOWN_EXCEL_DEVIATIONS)\cf8 \strokec8 \
+\cf9 \strokec9     const excelValue = (sheet: string, field: string, value: number | null): number | null => \{\cf8 \strokec8 \
+\cf9 \strokec9       const dev = KNOWN_EXCEL_DEVIATIONS.find(\cf8 \strokec8 \
+\cf9 \strokec9         (d) => d.sheet === sheet && d.field === field && exp.anomalies.some((a) => a.sheet === d.sheet && a.cell === d.cell),\cf8 \strokec8 \
+\cf9 \strokec9       )\cf8 \strokec8 \
+\cf9 \strokec9       return dev && value !== null ? value - dev.excelMinusEngine : value\cf8 \strokec8 \
+\cf9 \strokec9     \}\cf8 \strokec8 \
+\
+\cf9 \strokec9     it('importen rapporterar de k\'e4nda avvikelserna i arbetsboken', () => \{\cf8 \strokec8 \
+\cf9 \strokec9       // Om den h\'e4r raden b\'f6rjar fallera har arbetsboken r\'e4ttats \'96 ta d\'e5 bort motsvarande KNOWN_EXCEL_DEVIATIONS.\cf8 \strokec8 \
+\cf9 \strokec9       for (const d of KNOWN_EXCEL_DEVIATIONS) \{\cf8 \strokec8 \
+\cf9 \strokec9         assert.ok(exp.anomalies.some((a) => a.sheet === d.sheet && a.cell === d.cell), `$\{d.sheet\}!$\{d.cell\} borde vara rapporterad som avvikelse`)\cf8 \strokec8 \
+\cf9 \strokec9       \}\cf8 \strokec8 \
+\cf9 \strokec9     \})\cf8 \strokec8 \
+\
+\cf9 \strokec9     it('veckosummor (B22, B23, B24, C22, C24, F22, E22, E32\'96E37)', () => \{\cf8 \strokec8 \
+\cf9 \strokec9       const diffs: string[] = []\cf8 \strokec8 \
+\cf9 \strokec9       calc.weeks.forEach((w, i) => \{\cf8 \strokec8 \
+\cf9 \strokec9         const e = exp.weeks[w.id]\cf8 \strokec8 \
+\cf9 \strokec9         const row = calc.rows[i]\cf8 \strokec8 \
+\cf9 \strokec9         const at = (k: string) => `$\{w.id\}.$\{k\}`''',1)\cf8 \strokec8 \
+\
+\cf9 \strokec9 s=s.replace('''compare(diffs, at('summed E33'), e.summedMin, w.summed, TOL_MIN)\cf8 \strokec8 \
+\cf9 \strokec9         compare(diffs, at('unmapped E34'), e.unmappedMin, w.unmapped, TOL_MIN)''','''compare(diffs, at('summed E33'), excelValue(w.id, 'summed E33', e.summedMin), w.summed, TOL_MIN)\cf8 \strokec8 \
+\cf9 \strokec9         compare(diffs, at('unmapped E34'), excelValue(w.id, 'unmapped E34', e.unmappedMin), w.unmapped, TOL_MIN)''',1)\cf8 \strokec8 \
+\cf9 \strokec9 open(p,"w").write(s)\cf8 \strokec8 \
+\cf9 \strokec9 EOF\cf8 \strokec8 \
+\cf7 \strokec7 node\cf8 \strokec8  \cf9 \strokec9 --test\cf8 \strokec8  \cf9 \strokec9 tests/golden.test.ts\cf8 \strokec8  2>&1 | \cf7 \strokec7 grep\cf8 \strokec8  \cf9 \strokec9 -E\cf8 \strokec8  \cf9 \strokec9 "^(\\s*)(ok|not ok)|avvikelser|# (pass|fail|tests)"
+\f5\fs28 \cf11 \cb6 \strokec11 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\sa20\pardirnatural\partightenfactor0
+
+\f1\fs24 \cf14 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+Encoding conditional-formatting rules as golden test data.\
+
+\f4 \cf22 \cb13 \expnd0\expndtw0\kerning0
+Validating a spreadsheet engine against Excel's calculations.\
+Cross-checking warning logic against Excel's formatting rules.\
+Encoding conditional-formatting rules as golden test data.\
+
+\f1 \cf14 \cb1 \kerning1\expnd0\expndtw0 \
+Confirming golden tests can actually catch regressions\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf14 Ran a command\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs16\fsmilli8250 \cf5 \cb6 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 bash\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs24 \cf7 \cb6 \strokec7 rm\cf8 \strokec8  \cf9 \strokec9 -rf\cf8 \strokec8  \cf9 \strokec9 /tmp/mut\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 cp\cf8 \strokec8  \cf9 \strokec9 -r\cf8 \strokec8  \cf9 \strokec9 /home/claude/TimeCalcReact\cf8 \strokec8  \cf9 \strokec9 /tmp/mut\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 cd\cf8 \strokec8  \cf9 \strokec9 /tmp/mut\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \
+\pard\pardeftab720\partightenfactor0
+\cf24 \cb6 \strokec24 # Mutation 1: wrong expected-hours divisor\cf8 \cb6 \strokec8 \
+\pard\pardeftab720\partightenfactor0
+\cf7 \strokec7 sed\cf8 \strokec8  \cf9 \strokec9 -i\cf8 \strokec8  \cf9 \strokec9 's|(config.weeklyHours \\* workdays) / config.workdaysPerWeek|(config.weeklyHours * workdays) / 4|'\cf8 \strokec8  \cf9 \strokec9 src/engine/week.ts\cf8 \strokec8 \
+\cf7 \strokec7 echo\cf8 \strokec8  \cf9 \strokec9 "== mutation 1 (divisor 5 -> 4) =="\cf10 \strokec10 ;\cf8 \strokec8  \cf7 \strokec7 node\cf8 \strokec8  \cf9 \strokec9 --test\cf8 \strokec8  \cf9 \strokec9 tests/golden.test.ts\cf8 \strokec8  2>&1 | \cf7 \strokec7 grep\cf8 \strokec8  \cf9 \strokec9 -E\cf8 \strokec8  \cf9 \strokec9 "^# (pass|fail)"\cf8 \strokec8 \
+\cf7 \strokec7 cp\cf8 \strokec8  \cf9 \strokec9 /home/claude/TimeCalcReact/src/engine/week.ts\cf8 \strokec8  \cf9 \strokec9 src/engine/week.ts\cf8 \strokec8 \
+\pard\pardeftab720\partightenfactor0
+\cf24 \cb6 \strokec24 # Mutation 2: break the duration chain (don't reset on blank time)\cf8 \cb6 \strokec8 \
+\pard\pardeftab720\partightenfactor0
+\cf7 \strokec7 sed\cf8 \strokec8  \cf9 \strokec9 -i\cf8 \strokec8  \cf9 \strokec9 's|    prev = row.end$|    prev = row.end ?? prev|'\cf8 \strokec8  \cf9 \strokec9 src/engine/week.ts\cf8 \strokec8 \
+\cf7 \strokec7 echo\cf8 \strokec8  \cf9 \strokec9 "== mutation 2 (chain no longer breaks on blank time) =="\cf10 \strokec10 ;\cf8 \strokec8  \cf7 \strokec7 node\cf8 \strokec8  \cf9 \strokec9 --test\cf8 \strokec8  \cf9 \strokec9 tests/golden.test.ts\cf8 \strokec8  2>&1 | \cf7 \strokec7 grep\cf8 \strokec8  \cf9 \strokec9 -E\cf8 \strokec8  \cf9 \strokec9 "^# (pass|fail)"\cf8 \strokec8 \
+\cf7 \strokec7 cp\cf8 \strokec8  \cf9 \strokec9 /home/claude/TimeCalcReact/src/engine/week.ts\cf8 \strokec8  \cf9 \strokec9 src/engine/week.ts\cf8 \strokec8 \
+\pard\pardeftab720\partightenfactor0
+\cf24 \cb6 \strokec24 # Mutation 3: registered counted on all days regardless of workday flag\cf8 \cb6 \strokec8 \
+\pard\pardeftab720\partightenfactor0
+\cf7 \strokec7 sed\cf8 \strokec8  \cf9 \strokec9 -i\cf8 \strokec8  \cf9 \strokec9 's|countsRegistered: day.workday \\|\\| day.forceRegistered|countsRegistered: true|'\cf8 \strokec8  \cf9 \strokec9 src/engine/week.ts\cf8 \strokec8 \
+\cf7 \strokec7 echo\cf8 \strokec8  \cf9 \strokec9 "== mutation 3 (registered ignores workday flag) =="\cf10 \strokec10 ;\cf8 \strokec8  \cf7 \strokec7 node\cf8 \strokec8  \cf9 \strokec9 --test\cf8 \strokec8  \cf9 \strokec9 tests/golden.test.ts\cf8 \strokec8  2>&1 | \cf7 \strokec7 grep\cf8 \strokec8  \cf9 \strokec9 -E\cf8 \strokec8  \cf9 \strokec9 "^# (pass|fail)"\cf8 \strokec8 \
+\cf7 \strokec7 rm\cf8 \strokec8  \cf9 \strokec9 -rf\cf8 \strokec8  \cf9 \strokec9 /tmp/mut
+\f1 \cf14 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\sa20\pardirnatural\partightenfactor0
+\cf14 \
+\pard\pardeftab720\partightenfactor0
+\cf14 Verifierar varningslogiken mot Excels villkorsregler\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf14 Ran a command\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs16\fsmilli8250 \cf5 \cb6 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 bash\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs24 \cf7 \cb6 \strokec7 cd\cf8 \strokec8  \cf9 \strokec9 /home/claude/TimeCalcReact\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 python3\cf8 \strokec8  \cf9 \strokec9 -\cf8 \strokec8  <<\cf9 \strokec9 'EOF'\cf8 \strokec8 \
+\cf9 \strokec9 p="scripts/import_xlsm.py"; s=open(p).read()\cf8 \strokec8 \
+\
+\cf9 \strokec9 emul = '''\cf8 \strokec8 \
+\cf9 \strokec9     # ---- Excels varningar (villkorsformat) utv\'e4rderade p\'e5 de cachade v\'e4rdena ---------------\cf8 \strokec8 \
+\cf9 \strokec9     # Reglerna \'e4r avl\'e4sta ur arbetsbokens villkorsformatering (se README). Fel i en regelformel\cf8 \strokec8 \
+\cf9 \strokec9     # (t.ex. DAY("") n\'e4r en cell \'e4r tom) ger ingen markering, precis som i Excel.\cf8 \strokec8 \
+\cf9 \strokec9     def emulate_warnings(sheet):\cf8 \strokec8 \
+\cf9 \strokec9         v, f = wv[sheet], wf[sheet]\cf8 \strokec8 \
+\cf9 \strokec9         hrs_of = lambda cell: None if to_minutes(cell.value) is None else to_minutes(cell.value) / 60\cf8 \strokec8 \
+\cf9 \strokec9         out = []\cf8 \strokec8 \
+\cf9 \strokec9         for bi, c0 in enumerate(BLOCK_FIRST_COLS[:DAYS_IN_MODEL]):\cf8 \strokec8 \
+\cf9 \strokec9             for r in range(4, 21):                                   # I4:I20 mot H4:H20\cf8 \strokec8 \
+\cf9 \strokec9                 h = hrs_of(v.cell(r, c0 + 1))\cf8 \strokec8 \
+\cf9 \strokec9                 if h is None:\cf8 \strokec8 \
+\cf9 \strokec9                     continue\cf8 \strokec8 \
+\cf9 \strokec9                 raw = f.cell(r, c0 + 2).value\cf8 \strokec8 \
+\cf9 \strokec9                 if raw is None:\cf8 \strokec8 \
+\cf9 \strokec9                     i = 0.0                                          # tom cell r\'e4knas som 0\cf8 \strokec8 \
+\cf9 \strokec9                 elif isinstance(raw, str) and raw.startswith("="):\cf8 \strokec8 \
+\cf9 \strokec9                     i = to_number(v.cell(r, c0 + 2).value)\cf8 \strokec8 \
+\cf9 \strokec9                 else:\cf8 \strokec8 \
+\cf9 \strokec9                     i = to_number(raw)                               # text ger #VALUE! -> ingen markering\cf8 \strokec8 \
+\cf9 \strokec9                 if i is not None and abs(i - h) > 0.25 + 1e-9:\cf8 \strokec8 \
+\cf9 \strokec9                     out.append(f"dayActivity:\{bi\}:\{names[r - 4]\}")\cf8 \strokec8 \
+\cf9 \strokec9             i22, h22 = to_number(v.cell(22, c0 + 2).value), hrs_of(v.cell(22, c0 + 1))\cf8 \strokec8 \
+\cf9 \strokec9             if i22 is not None and h22 is not None and abs(i22 - h22) > 0.5 + 1e-9:\cf8 \strokec8 \
+\cf9 \strokec9                 out.append(f"dayTotal:\{bi\}")\cf8 \strokec8 \
+\cf9 \strokec9         for i, r in enumerate(ACT_ROWS):                             # F4:F21 mot E4:E21\cf8 \strokec8 \
+\cf9 \strokec9             fv, ev = to_number(v.cell(r, 6).value), hrs_of(v.cell(r, 5))\cf8 \strokec8 \
+\cf9 \strokec9             if fv is not None and ev is not None and abs(fv - ev) > 0.25 + 1e-9:\cf8 \strokec8 \
+\cf9 \strokec9                 out.append(f"activityWeek:\{names[i]\}")\cf8 \strokec8 \
+\cf9 \strokec9         f22, e22 = to_number(v["F22"].value), hrs_of(v["E22"])\cf8 \strokec8 \
+\cf9 \strokec9         if f22 is not None and e22 is not None and abs(f22 - e22) > 0.25 + 1e-9:\cf8 \strokec8 \
+\cf9 \strokec9             out.append("rptWeek")\cf8 \strokec8 \
+\cf9 \strokec9         if (to_number(v["C24"].value) or 0) and abs(to_number(v["C24"].value)) > 1e-9:\cf8 \strokec8 \
+\cf9 \strokec9             out.append("normalDiff")\cf8 \strokec8 \
+\cf9 \strokec9         if (to_minutes(v["E34"].value) or 0) and abs(to_minutes(v["E34"].value)) > 1e-9:\cf8 \strokec8 \
+\cf9 \strokec9             out.append("unmapped")\cf8 \strokec8 \
+\cf9 \strokec9         e37 = hrs_of(v["E37"])\cf8 \strokec8 \
+\cf9 \strokec9         if e37 is not None and abs(e37) > 0.5 + 1e-9:\cf8 \strokec8 \
+\cf9 \strokec9             out.append("regVsReported")\cf8 \strokec8 \
+\cf9 \strokec9         return sorted(out)\cf8 \strokec8 \
+\
+\cf9 \strokec9     for wm in weeks_meta:\cf8 \strokec8 \
+\cf9 \strokec9         exp_weeks[wm["sheet"]]["warnings"] = emulate_warnings(wm["sheet"])\cf8 \strokec8 \
+\
+\cf9 \strokec9 '''\cf8 \strokec8 \
+\cf9 \strokec9 marker = "    ov_rows = [\{"\cf8 \strokec8 \
+\cf9 \strokec9 assert marker in s\cf8 \strokec8 \
+\cf9 \strokec9 s = s.replace(marker, emul + marker, 1)\cf8 \strokec8 \
+\cf9 \strokec9 open(p,"w").write(s)\cf8 \strokec8 \
+\cf9 \strokec9 EOF\cf8 \strokec8 \
+\cf7 \strokec7 python3\cf8 \strokec8  \cf9 \strokec9 scripts/import_xlsm.py\cf8 \strokec8  \cf9 \strokec9 /mnt/user-data/uploads/TimeCalc-25.xlsm\cf8 \strokec8  2>&1 | \cf7 \strokec7 tail\cf8 \strokec8  \cf9 \strokec9 -4\cf8 \strokec8 \
+\cf7 \strokec7 python3\cf8 \strokec8  \cf9 \strokec9 -\cf8 \strokec8  <<\cf9 \strokec9 'EOF'\cf8 \strokec8 \
+\cf9 \strokec9 import json, collections\cf8 \strokec8 \
+\cf9 \strokec9 e=json.load(open("/home/claude/TimeCalcReact/data/expected-2025.json"))\cf8 \strokec8 \
+\cf9 \strokec9 c=collections.Counter(w.split(":")[0] for v in e["weeks"].values() for w in v["warnings"])\cf8 \strokec8 \
+\cf9 \strokec9 print("Excel-varningar totalt per typ:",dict(c))\cf8 \strokec8 \
+\cf9 \strokec9 print("veckor med minst en varning:",sum(1 for v in e["weeks"].values() if v["warnings"]),"av",len(e["weeks"]))\cf8 \strokec8 \
+\cf9 \strokec9 EOF\cf8 \cb1 \strokec8 \
+
+\f1 \cf14 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\sa20\pardirnatural\partightenfactor0
+\cf14 \
+Building a golden test for warning message handling.\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf14 Ran a command\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs16\fsmilli8250 \cf5 \cb6 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 bash\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs24 \cf7 \cb6 \strokec7 cd\cf8 \strokec8  \cf9 \strokec9 /home/claude/TimeCalcReact\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 python3\cf8 \strokec8  \cf9 \strokec9 -\cf8 \strokec8  <<\cf9 \strokec9 'EOF'\cf8 \strokec8 \
+\cf9 \strokec9 p="tests/golden.test.ts"; s=open(p).read()\cf8 \strokec8 \
+\
+\cf9 \strokec9 s=s.replace("import type \{ Dataset \} from '../src/engine/index.ts'","import type \{ Dataset, Warning \} from '../src/engine/index.ts'",1)\cf8 \strokec8 \
+\
+\cf9 \strokec9 s=s.replace("\{ sheet: 'V17', cell: 'AH3', field: 'unmapped E34', excelMinusEngine: -1440 \},",\cf8 \strokec8 \
+\cf9 \strokec9             "\{ sheet: 'V17', cell: 'AH3', field: 'unmapped E34', excelMinusEngine: -1440, warning: 'unmapped' \},",1)\cf8 \strokec8 \
+\cf9 \strokec9 s=s.replace("const KNOWN_EXCEL_DEVIATIONS = [","const KNOWN_EXCEL_DEVIATIONS: \{ sheet: string; cell: string; field: string; excelMinusEngine: number; warning?: string \}[] = [",1)\cf8 \strokec8 \
+\
+\cf9 \strokec9 tail = '''\cf8 \strokec8 \
+\cf9 \strokec9     it('varningar: motorn visar samma varningar som Excels villkorsformat', () => \{\cf8 \strokec8 \
+\cf9 \strokec9       const key = (w: Warning) =>\cf8 \strokec8 \
+\cf9 \strokec9         w.code === 'dayActivity' ? `dayActivity:$\{w.day\}:$\{w.activity\}` : w.code === 'dayTotal' ? `dayTotal:$\{w.day\}` : w.code === 'activityWeek' ? `activityWeek:$\{w.activity\}` : w.code\cf8 \strokec8 \
+\cf9 \strokec9       const diffs: string[] = []\cf8 \strokec8 \
+\cf9 \strokec9       let excelTotal = 0\cf8 \strokec8 \
+\cf9 \strokec9       for (const w of calc.weeks) \{\cf8 \strokec8 \
+\cf9 \strokec9         const suppressed = KNOWN_EXCEL_DEVIATIONS.filter(\cf8 \strokec8 \
+\cf9 \strokec9           (d) => d.sheet === w.id && d.warning && exp.anomalies.some((a) => a.sheet === d.sheet && a.cell === d.cell),\cf8 \strokec8 \
+\cf9 \strokec9         ).map((d) => d.warning)\cf8 \strokec8 \
+\cf9 \strokec9         const excel: string[] = (exp.weeks[w.id].warnings as string[]).filter((x) => !suppressed.includes(x))\cf8 \strokec8 \
+\cf9 \strokec9         const engine = w.warnings.filter((x) => x.code !== 'negativeDuration').map(key).sort()\cf8 \strokec8 \
+\cf9 \strokec9         excelTotal += excel.length\cf8 \strokec8 \
+\cf9 \strokec9         if (JSON.stringify(excel) !== JSON.stringify(engine)) diffs.push(`$\{w.id\}: Excel [$\{excel\}] motorn [$\{engine\}]`)\cf8 \strokec8 \
+\cf9 \strokec9       \}\cf8 \strokec8 \
+\cf9 \strokec9       assert.ok(excelTotal > 0, 'facit inneh\'e5ller inga varningar \'96 testet vore meningsl\'f6st')\cf8 \strokec8 \
+\cf9 \strokec9       assert.deepEqual(diffs, [])\cf8 \strokec8 \
+\cf9 \strokec9     \})\cf8 \strokec8 \
+\cf9 \strokec9 '''\cf8 \strokec8 \
+\cf9 \strokec9 # insert before the final closing of describe: find last "  \})\\n\}\\n"\cf8 \strokec8 \
+\cf9 \strokec9 idx = s.rstrip().rfind("  \})\\n\}")\cf8 \strokec8 \
+\cf9 \strokec9 s = s[:idx] + tail + s[idx:]\cf8 \strokec8 \
+\cf9 \strokec9 open(p,"w").write(s)\cf8 \strokec8 \
+\cf9 \strokec9 EOF\cf8 \strokec8 \
+\cf7 \strokec7 node\cf8 \strokec8  \cf9 \strokec9 --test\cf8 \strokec8  \cf9 \strokec9 tests/golden.test.ts\cf8 \strokec8  2>&1 | \cf7 \strokec7 grep\cf8 \strokec8  \cf9 \strokec9 -E\cf8 \strokec8  \cf9 \strokec9 "^(\\s*)(ok|not ok)|Excel \\[|# (pass|fail)"
+\f1 \cf14 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\sa20\pardirnatural\partightenfactor0
+\cf14 \
+\
+Validating warnings and building unit tests for the engine.\
+\
+Skriver enhetstester f\'f6r att f\'e5nga subtila Excel-regler\
+\
+Synthetic engine unit tests documenting the subtle rules \cf23 engine.tests.ts\cf14 \
+\
+Skriver testfall f\'f6r varningslogik utan logg eller rapport.\
+\
+Fix the sloppy empty-day warning test that had a meaningless \'94|| true\'94 \cf23 engine.tests.ts\cf14 \
+\
+Nake the balance assertion readable \cf23 engine.tests.ts\cf14 \
+\
+\
+\
+\
+\
+\
+\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f6 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec19 Nu \'e4r bladstrukturen klar. Sista delen \'e4r VBA-makrona, som styr knapparna i bladen.Varken 
+\f8\fs26 oletools
+\f6\fs24  eller 
+\f8\fs26 olefile
+\f6\fs24  finns h\'e4r, och n\'e4tverket \'e4r avst\'e4ngt. Jag skriver d\'e4rf\'f6r en liten parser f\'f6r att l\'e4sa VBA-k\'e4llkoden direkt ur 
+\f8\fs26 vbaProject.bin
+\f6\fs24 .Extraktionen fungerade. Bara 
+\f8\fs26 Module1
+\f6\fs24  (29 rader) och 
+\f8\fs26 Module2
+\f6\fs24  (94 rader) inneh\'e5ller kod, s\'e5 jag l\'e4ser b\'e5da.Alla 53 veckor st\'e4mmer mellan 
+\f8\fs26 Overview
+\f6\fs24  och veckobladen, s\'e5 jag har 53 kontrollv\'e4rden att testa mot. Jag tittar exakt p\'e5 var varningsreglerna sitter, s\'e5 att jag kan \'e5terskapa dem i appen.Nu har jag full f\'f6rst\'e5else f\'f6r modellen och varningsreglerna. Innan jag skriver UI-koden l\'e4ser jag frontend-design-skillen, som ska l\'e4sas f\'f6re allt UI-arbete.Skalet expanderade inte klammrarna och skapade en katalog med fel namn. Jag rensar upp och g\'f6r om det.Nu importskriptet:Tv\'e5 rader i skriptet blev slarviga (en meningsl\'f6s 
+\f8\fs26 if False
+\f6\fs24 -konstruktion och en on\'f6dig walrus). Jag r\'e4ttar dem innan jag k\'f6r.Nu sj\'e4lva veckober\'e4kningen, som \'e4r k\'e4rnan och \'e5terskapar cellformlerna och varningsreglerna:Jag l\'e4mnade en oanv\'e4nd parameter (
+\f8\fs26 week
+\f6\fs24 ) med ett 
+\f8\fs26 void week
+\f6\fs24 -hack. Jag tar bort den ordentligt.Nu \'e5rs-/\'f6versiktsber\'e4kningen och fabriken (nytt \'e5r, makroekvivalenterna):Nu det viktigaste testet. Motorn ska ge samma tal som Excel f\'f6r alla 53 veckor, j\'e4mf\'f6rt mot Excels egna cachade v\'e4rden.Excel visar 24 varningar \'f6ver \'e5ret i 20 av 53 veckor (19 av dem \'e4r 
+\f8\fs26 normalDiff
+\f6\fs24 ). Nu l\'e4gger jag till testet som j\'e4mf\'f6r motorns varningar med dessa:Tv\'e5 av testerna jag skrev \'e4r slarviga: ett har ett meningsl\'f6st 
+\f8\fs26 || true
+\f6\fs24  som skulle d\'f6lja ett fel, och ett har en f\'f6rvirrande aritmetik. Jag r\'e4ttar dem innan jag k\'f6r.
+\f8\fs26 node --test
+\f6\fs24  tolkar katalogen som en fil. Jag anv\'e4nder ett glob-m\'f6nster i st\'e4llet (som ska st\'e5 i 
+\f8\fs26 package.json
+\f6\fs24  ocks\'e5):Alla 42 tester g\'e5r igenom (33 enhetstester och 9 golden). Nu typkontroll av motorn med 
+\f8\fs26 tsc
+\f6\fs24  i strikt l\'e4ge. Jag kollar ocks\'e5 om Node-typer finns f\'f6r att kunna kontrollera testerna:\
+Tack! Jag l\'e4ser f\'f6rst in mig p\'e5 r\'e4tt metod f\'f6r att \'f6ppna filen.Arbetsboken har 54 blad: 52 veckoblad (V01\'96V52), ett 
+\f8\fs26 Overview
+\f6\fs24  och ett 
+\f8\fs26 V1-26
+\f6\fs24 , plus ett VBA-projekt. Jag tittar n\'e4rmare p\'e5 ett veckoblad, \'f6versiktsbladet och makrona.Nu f\'f6rst\'e5r jag veckobladets struktur. Jag tittar p\'e5 
+\f8\fs26 Overview
+\f6\fs24 , 
+\f8\fs26 V1-26
+\f6\fs24 , datavalidering, kommentarer och makrona, men h\'e5ller utskriften kompaktare den h\'e4r g\'e5ngen.Nu har jag hela ber\'e4kningsmodellen. Det som \'e5terst\'e5r \'e4r VBA-makrona (knapparna), datavalidering och hur indata ser ut i ett ifyllt vecko-blad. Jag h\'e5ller utskriften kort.Nu \'e4r bladstrukturen klar. Sista delen \'e4r VBA-makrona, som styr knapparna i bladen.Varken 
+\f8\fs26 oletools
+\f6\fs24  eller 
+\f8\fs26 olefile
+\f6\fs24  finns h\'e4r, och n\'e4tverket \'e4r avst\'e4ngt. Jag skriver d\'e4rf\'f6r en liten parser f\'f6r att l\'e4sa VBA-k\'e4llkoden direkt ur 
+\f8\fs26 vbaProject.bin
+\f6\fs24 .Extraktionen fungerade. Bara 
+\f8\fs26 Module1
+\f6\fs24  (29 rader) och 
+\f8\fs26 Module2
+\f6\fs24  (94 rader) inneh\'e5ller kod, s\'e5 jag l\'e4ser b\'e5da.Alla 53 veckor st\'e4mmer mellan 
+\f8\fs26 Overview
+\f6\fs24  och veckobladen, s\'e5 jag har 53 kontrollv\'e4rden att testa mot. Jag tittar exakt p\'e5 var varningsreglerna sitter, s\'e5 att jag kan \'e5terskapa dem i appen.Nu har jag full f\'f6rst\'e5else f\'f6r modellen och varningsreglerna. Innan jag skriver UI-koden l\'e4ser jag frontend-design-skillen, som ska l\'e4sas f\'f6re allt UI-arbete.Skalet expanderade inte klammrarna och skapade en katalog med fel namn. Jag rensar upp och g\'f6r om det.Nu importskriptet:Tv\'e5 rader i skriptet blev slarviga (en meningsl\'f6s 
+\f8\fs26 if False
+\f6\fs24 -konstruktion och en on\'f6dig walrus). Jag r\'e4ttar dem innan jag k\'f6r.Nu sj\'e4lva veckober\'e4kningen, som \'e4r k\'e4rnan och \'e5terskapar cellformlerna och varningsreglerna:Jag l\'e4mnade en oanv\'e4nd parameter (
+\f8\fs26 week
+\f6\fs24 ) med ett 
+\f8\fs26 void week
+\f6\fs24 -hack. Jag tar bort den ordentligt.Nu \'e5rs-/\'f6versiktsber\'e4kningen och fabriken (nytt \'e5r, makroekvivalenterna):Nu det viktigaste testet. Motorn ska ge samma tal som Excel f\'f6r alla 53 veckor, j\'e4mf\'f6rt mot Excels egna cachade v\'e4rden.Excel visar 24 varningar \'f6ver \'e5ret i 20 av 53 veckor (19 av dem \'e4r 
+\f8\fs26 normalDiff
+\f6\fs24 ). Nu l\'e4gger jag till testet som j\'e4mf\'f6r motorns varningar med dessa:Tv\'e5 av testerna jag skrev \'e4r slarviga: ett har ett meningsl\'f6st 
+\f8\fs26 || true
+\f6\fs24  som skulle d\'f6lja ett fel, och ett har en f\'f6rvirrande aritmetik. Jag r\'e4ttar dem innan jag k\'f6r.
+\f8\fs26 node --test
+\f6\fs24  tolkar katalogen som en fil. Jag anv\'e4nder ett glob-m\'f6nster i st\'e4llet (som ska st\'e5 i 
+\f8\fs26 package.json
+\f6\fs24  ocks\'e5):Alla 42 tester g\'e5r igenom (33 enhetstester och 9 golden). Nu typkontroll av motorn med 
+\f8\fs26 tsc
+\f6\fs24  i strikt l\'e4ge. Jag kollar ocks\'e5 om Node-typer finns f\'f6r att kunna kontrollera testerna:\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f1\fs18 \cf4 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\
+Ran 53 commands, created 11 files, and 20 more tools\
+Did you finish the last execution before the time ran out?\
+\
+Assessing whether the previous task actually completed.\
+Assessing whether the previous task actually completed.\
+No. The last batch of tool calls was aborted and none of them returned a result, so I can't confirm any of them ran.\
+\
+Finished and verified before the abort:\
+\
+The importer scripts/import_xlsm.py ran on your file (53 weeks, 18 activities).\
+The calculation engine in src/engine/ passes strict type-checking.\
+42 of 42 tests passed, including the golden tests against Excel's own cached values for all 53 weeks. Deliberately breaking the engine three ways made those tests fail, so they do catch errors.\
+src/state/storage.ts was created.\
+Not done:\
+\
+The React UI (state store, components, styles).\
+The project scaffolding: package.json, tsconfig.json, Vite config, index.html, .gitignore.\
+The README.\
+The zip. Nothing has been delivered to you yet.\
+Uncertain: the aborted batch looks like a partial replay of earlier steps. One of those steps was rm -rf TimeCalcReact; mkdir .... If it actually ran, the project directory may have been wiped or partly recreated.\
+\
+Before writing anything else, I'll list /home/claude/TimeCalcReact and re-run the test suite to see what's still there. If files are missing, I'll rebuild them from the work above. Should I go ahead?\
+\
+Can you continue te task?\
+\
+Ja. Jag b\'f6rjar med att kontrollera vad som finns kvar i projektkatalogen efter avbrottet.\
+\
+Ran a command\
+Allt \'e4r intakt: alla filer finns kvar och 42 av 42 tester g\'e5r fortfarande igenom. Jag forts\'e4tter med tillst\'e5ndshanteringen (reducer + persistens).\
+\
+Ran 3 commands, created 2 files\
+Can you continue the task?\
+\
+Building a React app with UI components and setup files.\
+Building a React app with UI components and setup files.\
+Forts\'e4tter med UI:et. Jag bygger komponenterna, appens ing\'e5ngspunkt, projektfilerna och till sist paketerar allt.\
+\
+Created 7 files, ran a command\
+\
+\
+You are out of free messages until 9:10 PM\
+\
+\
+Claude is AI and can make mistakes.\
+\
+\
+SKILL.md\
+Description\
+\
+Use this skill when a file has been uploaded but its content is NOT in your context \'97 only its path at /mnt/user-data/uploads/ is listed in an uploaded_files block. This skill is a router: it tells you which tool to use for each file type (pdf, docx, xlsx, csv, json, images, archives, ebooks) so you read the right amount the right way instead of blindly running cat on a binary. Triggers: any mention of /mnt/user-data/uploads/, an uploaded_files section, a file_path tag, or a user asking about an uploaded file you have not yet read. Do NOT use this skill if the file content is already visible in your context inside a documents block \'97 you already have it.\
+\
+Compatibility\
+claude.ai, Claude Desktop, Cowork \'97 any surface where uploads land at /mnt/user-data/uploads/\
+\
+License\
+Proprietary. LICENSE.txt has complete terms\
+\
+Reading Uploaded Files\
+Why this skill exists\
+When a user uploads a file in claude.ai, Claude Desktop, or Cowork, the file is written to /mnt/user-data/uploads/<filename> and you are told the path in an <uploaded_files> block. The content is not in your context. You must go read it.\
+\
+The naive thing \'97 cat /mnt/user-data/uploads/whatever \'97 is wrong for most files:\
+\
+On a PDF it prints binary garbage.\
+On a 100MB CSV it floods your context with rows you will never use.\
+On a DOCX it prints the raw ZIP bytes.\
+On an image it does nothing useful at all.\
+This skill tells you the right first move for each type, and when to hand off to a deeper skill.\
+\
+General protocol\
+Look at the extension. That is your dispatch key.\
+Stat before you read. Large files need sampling, not slurping.\
+bash\
+   stat -c '%s bytes, %y' /mnt/user-data/uploads/report.pdf\
+   file /mnt/user-data/uploads/report.pdf\
+Read just enough to answer the user's question. If they asked "how many rows are in this CSV", don't load the whole thing into pandas \'97 wc -l gives a fast approximation (it counts newlines, not CSV records, so it may over-count if quoted fields contain embedded newlines).\
+If a dedicated skill exists, go read it. The table below tells you when. The dedicated skills cover editing, creating, and advanced operations that this skill does not.\
+extract-text\
+For docx, odt, epub, xlsx, pptx, rtf, and ipynb the first move is extract-text <file>. It emits markdown for docx/odt/epub (headings, bold, lists, links, tables), tab-separated rows under ## Sheet: headers for xlsx, text under ## Slide N headers for pptx, fenced code cells for ipynb, and plain text for rtf. Pass --format <fmt> when the extension is wrong or absent (e.g., --format xlsx on an .xlsm). If it errors on a file, pandoc <file> -t plain is a fallback; for xlsx/pptx, fall back to the dedicated skill's Python-based approach (openpyxl / python-pptx).\
+\
+Dispatch table\
+Where a dedicated skill is named below, invoke it by name if you have a Skill tool, or Read its SKILL.md (listed in your available skills, or in the same skills directory as this file).\
+\
+Extension	First move	Dedicated skill\
+.pdf	Content inventory (see PDF section)	pdf-reading\
+.docx	extract-text	docx\
+.doc (legacy)	Convert to .docx first	docx\
+.xlsx	extract-text	xlsx\
+.xlsm	extract-text --format xlsx	xlsx\
+.xls (legacy)	pd.read_excel(engine="xlrd") \'97 openpyxl rejects it	xlsx\
+.ods	pd.read_excel(engine="odf") \'97 openpyxl rejects it	xlsx\
+.pptx	extract-text	pptx\
+.ppt (legacy)	Convert to .pptx first	pptx\
+.csv, .tsv	pandas with nrows	\'97 (below)\
+.json, .jsonl	jq for structure	\'97 (below)\
+.jpg, .png, .gif, .webp	Already in your context as vision input	\'97 (below)\
+.zip, .tar, .tar.gz	List contents, do not auto-extract	\'97 (below)\
+.gz (single file)	zcat | head \'97 no manifest to list	\'97 (below)\
+.epub, .odt	extract-text	\'97 (below)\
+.rtf	extract-text	\'97 (below)\
+.ipynb	extract-text	\'97 (below)\
+.txt, .md, .log, code files	wc -c then head or full cat	\'97 (below)\
+Unknown	file then decide	\'97\
+PDF\
+Never cat a PDF \'97 it prints binary garbage.\
+\
+Quick first move \'97 get the page count and determine whether the PDF has an extractable text layer:\
+\
+bash\
+pdfinfo /mnt/user-data/uploads/report.pdf\
+pdffonts /mnt/user-data/uploads/report.pdf\
+pdffonts tells you whether text extraction will work before you try it:\
+\
+No fonts listed (empty table, just the header) 
+\f9 \uc0\u8594 
+\f1  the PDF is a scan or raster export. pdftotext and PdfReader.extract_text() will return nothing useful. Go straight to page rasterization or OCR \'97 see the pdf-reading skill 
+\f9 \uc0\u8594 
+\f1  "Scanned documents".\
+Fonts listed 
+\f9 \uc0\u8594 
+\f1  there is a text layer; extract it:\
+bash\
+  pdftotext -f 1 -l 1 /mnt/user-data/uploads/report.pdf - | head -20\
+The reason to check pdffonts first is user-facing: running pdftotext on a scan produces an empty result, and in a visible transcript that reads as a failed first attempt before you fall back to OCR. The two-line diagnostic above costs one tool call and avoids that \'97 you arrive at the right method on the first try, which is what a user perceives as "it just read my file."\
+\
+That also shapes how to open your reply. The diagnostic commands are plumbing, not content; lead with what the user asked about. On a scanned receipt that might be "This is a 3-page scanned invoice; the amount due on page 2 is $1,845.00," and on a digitally-authored report it might be "The Q3 report runs 28 pages; revenue on p. 4 is $12.3M, up 9% YoY." What you're steering away from is the "I'll examine the PDF" / "Let me check if this is extractable" preamble \'97 the answer to their question is the first thing they should see.\
+\
+For anything beyond a quick peek \'97 figures, tables, attachments, forms, scanned PDFs, visual inspection, or choosing a reading strategy \'97 go read the pdf-reading skill. It covers content inventory, text extraction vs. page rasterization, embedded content extraction, and document-type-aware reading strategies.\
+\
+For PDF form filling, creation, merging, splitting, or watermarking, go read the pdf skill.\
+\
+DOCX / DOC\
+The docx skill covers editing, creating, tracked changes, images. Read it if you need any of those. For a quick look:\
+\
+bash\
+extract-text /mnt/user-data/uploads/memo.docx | head -200\
+Legacy .doc (not .docx) must be converted first \'97 see the docx skill.\
+\
+XLSX / XLS / spreadsheets\
+The xlsx skill covers formulas, formatting, charts, creating. Read it if you need any of those. For a quick look at an .xlsx:\
+\
+bash\
+extract-text /mnt/user-data/uploads/data.xlsx | head -100\
+For .xlsm, add --format xlsx (same zip structure; only the extension differs). When you need a structured preview in Python:\
+\
+python\
+from openpyxl import load_workbook\
+wb = load_workbook("/mnt/user-data/uploads/data.xlsx", read_only=True)\
+print("Sheets:", wb.sheetnames)\
+ws = wb.active\
+for row in ws.iter_rows(max_row=5, values_only=True):\
+    print(row)\
+read_only=True matters \'97 without it, openpyxl loads the entire workbook into memory, which breaks on large files. Do not trust ws.max_row in read-only mode: many non-Excel writers omit the dimension record, so it comes back None or wrong. If you need a row count, iterate or use pandas.\
+\
+Legacy .xls \'97 openpyxl raises InvalidFileException. Use:\
+\
+python\
+import pandas as pd\
+df = pd.read_excel("/mnt/user-data/uploads/old.xls", engine="xlrd", nrows=5)\
+.ods (OpenDocument) \'97 openpyxl also rejects this. Use:\
+\
+python\
+import pandas as pd\
+df = pd.read_excel("/mnt/user-data/uploads/data.ods", engine="odf", nrows=5)\
+PPTX\
+bash\
+extract-text /mnt/user-data/uploads/deck.pptx | head -200\
+Legacy .ppt \'97 convert to .pptx first via LibreOffice; see the pptx skill for the sandbox-safe scripts/office/soffice.py wrapper (bare soffice hangs here because the seccomp filter blocks the AF_UNIX sockets LibreOffice uses for instance management).\
+\
+For anything beyond reading, go to the pptx skill.\
+\
+CSV / TSV\
+Do not cat or head these blindly. A CSV with a 50KB quoted cell in row 1 will wreck your head -5. Use pandas with nrows:\
+\
+python\
+import pandas as pd\
+df = pd.read_csv("/mnt/user-data/uploads/data.csv", nrows=5)\
+print(df)\
+print()\
+print(df.dtypes)\
+Approximate row count without loading (over-counts if the file has RFC-4180 quoted newlines \'97 the same quoted-cell case this section warned about above):\
+\
+bash\
+wc -l /mnt/user-data/uploads/data.csv\
+Full analysis only after you know the shape:\
+\
+python\
+df = pd.read_csv("/mnt/user-data/uploads/data.csv")\
+print(df.describe())\
+TSV: same, with sep="\\t".\
+\
+JSON / JSONL\
+Structure first, content second:\
+\
+bash\
+jq 'type' /mnt/user-data/uploads/data.json\
+jq 'if type == "array" then length elif type == "object" then keys else . end' /mnt/user-data/uploads/data.json\
+(keys errors on scalar JSON roots \'97 a bare "hello" or 42 is valid JSON per RFC 7159 \'97 so guard the branch.)\
+\
+Then drill into what the user actually asked about.\
+\
+JSONL (one object per line) \'97 do not jq the whole file; work line by line:\
+\
+bash\
+head -3 /mnt/user-data/uploads/data.jsonl | jq .\
+wc -l /mnt/user-data/uploads/data.jsonl\
+Images (JPG / PNG / GIF / WEBP)\
+You can already see uploaded images. They are injected into your context as vision inputs alongside the <uploaded_files> pointer. You do not need to read them from disk to describe them.\
+\
+The disk copy is only needed if you are going to process the image programmatically:\
+\
+python\
+from PIL import Image\
+img = Image.open("/mnt/user-data/uploads/photo.jpg")\
+print(img.size, img.mode, img.format)\
+For OCR on an image (text extraction, not description):\
+\
+python\
+import pytesseract\
+print(pytesseract.image_to_string(img))\
+Note: the client resizes images larger than 2000\'d72000 down to that bound and re-encodes as JPEG before upload, so the disk copy may not be the user's original bytes. For most processing this doesn't matter; if the user is asking about original-resolution pixel data, flag it.\
+\
+Archives (ZIP / TAR / TAR.GZ)\
+List first. Extract never \'97 unless the user explicitly asks. Archives can be huge, contain path traversal, or nest forever.\
+\
+bash\
+unzip -l /mnt/user-data/uploads/bundle.zip\
+tar -tf /mnt/user-data/uploads/bundle.tar\
+GNU tar auto-detects compression \'97 tar -tf works on .tar, .tar.gz, .tar.bz2, .tar.xz alike. Don't hard-code -z.\
+\
+If the user wants one file from inside, extract just that one:\
+\
+bash\
+unzip -p /mnt/user-data/uploads/bundle.zip path/inside/file.txt\
+Standalone .gz (not a tar) compresses a single file \'97 there is no manifest to list. Just peek at the decompressed content:\
+\
+bash\
+zcat /mnt/user-data/uploads/data.json.gz | head -50\
+EPUB / ODT\
+bash\
+extract-text /mnt/user-data/uploads/book.epub | head -200\
+For long ebooks, pipe through head \'97 you rarely need the whole thing to answer a question.\
+\
+RTF / IPYNB\
+bash\
+extract-text /mnt/user-data/uploads/notes.rtf | head -200\
+extract-text /mnt/user-data/uploads/notebook.ipynb | head -200\
+Plain text / code / logs\
+Check the size first:\
+\
+bash\
+wc -c /mnt/user-data/uploads/app.log\
+Under ~20KB: cat is fine.\
+Over ~20KB: head -100 and tail -100 to orient. If the user asked about something specific, grep for it. Load the whole thing only if you genuinely need all of it.\
+For log files, the user almost always cares about the end:\
+\
+bash\
+tail -200 /mnt/user-data/uploads/app.log\
+Unknown extension\
+bash\
+file /mnt/user-data/uploads/mystery.bin\
+xxd /mnt/user-data/uploads/mystery.bin | head -5\
+file identifies most things. xxd head shows magic bytes. If file says "data" and the hex doesn't match anything you recognize, ask the user what it is instead of guessing.\
+\
+\
+
+\f0\b\fs48 \cf2 \
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+
+\fs36 \cf25 \
+Ran a command\cf0 \
+
+\f1\b0\fs24 \
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs16\fsmilli8250 \cf5 \cb6 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 bash
+\f3 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs24 \cf7 \cb6 \strokec7 cd\cf8 \strokec8  \cf9 \strokec9 /tmp\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 python3\cf8 \strokec8  \cf9 \strokec9 -\cf8 \strokec8  <<\cf9 \strokec9 'EOF'\cf8 \strokec8 \
+\pard\pardeftab720\partightenfactor0
+\cf9 \strokec9 from openpyxl import load_workbook\cf8 \strokec8 \
+\cf9 \strokec9 import datetime\cf8 \strokec8 \
+\cf9 \strokec9 p="/mnt/user-data/uploads/TimeCalc-25.xlsm"\cf8 \strokec8 \
+\cf9 \strokec9 wf = load_workbook(p, keep_vba=True)\cf8 \strokec8 \
+\
+\cf9 \strokec9 # Data validation on V01 + V02\cf8 \strokec8 \
+\cf9 \strokec9 for n in ("V01","V02"):\cf8 \strokec8 \
+\cf9 \strokec9     ws = wf[n]\cf8 \strokec8 \
+\cf9 \strokec9     for dv in ws.data_validations.dataValidation:\cf8 \strokec8 \
+\cf9 \strokec9         print(n, "DV:", dv.type, dv.formula1, "on", str(dv.sqref)[:120])\cf8 \strokec8 \
+\
+\cf9 \strokec9 # Input (non-formula) cells in V02 rows 22-48\cf8 \strokec8 \
+\cf9 \strokec9 ws = wf["V02"]\cf8 \strokec8 \
+\cf9 \strokec9 print("\\n--- V02 constants (non-formula) rows 1-3, 22-48 ---")\cf8 \strokec8 \
+\cf9 \strokec9 for row in ws.iter_rows(min_row=1, max_row=48, max_col=36):\cf8 \strokec8 \
+\cf9 \strokec9     for c in row:\cf8 \strokec8 \
+\cf9 \strokec9         if c.value is not None and not (isinstance(c.value,str) and c.value.startswith("=")):\cf8 \strokec8 \
+\cf9 \strokec9             if c.row<=3 or c.row>=22:\cf8 \strokec8 \
+\cf9 \strokec9                 print(c.coordinate, repr(c.value), end=" | ")\cf8 \strokec8 \
+\cf9 \strokec9 print()\cf8 \strokec8 \
+\
+\cf9 \strokec9 # Compare V01 vs V02 vs V1-26 formulas: which cells differ structurally?\cf8 \strokec8 \
+\cf9 \strokec9 def formulas(ws):\cf8 \strokec8 \
+\cf9 \strokec9     return \{c.coordinate:c.value for r in ws.iter_rows(max_col=39) for c in r if isinstance(c.value,str) and c.value.startswith("=")\}\cf8 \strokec8 \
+\cf9 \strokec9 f01, f02, f126 = formulas(wf["V01"]), formulas(wf["V02"]), formulas(wf["V1-26"])\cf8 \strokec8 \
+\cf9 \strokec9 print("\\nformula count V01/V02/V1-26:", len(f01), len(f02), len(f126))\cf8 \strokec8 \
+\cf9 \strokec9 d = [k for k in set(f01)|set(f02) if f01.get(k)!=f02.get(k)]\cf8 \strokec8 \
+\cf9 \strokec9 print("V01 vs V02 differing formula cells:", sorted(d)[:20])\cf8 \strokec8 \
+\cf9 \strokec9 d = [k for k in set(f01)|set(f126) if f01.get(k)!=f126.get(k)]\cf8 \strokec8 \
+\cf9 \strokec9 print("V01 vs V1-26 differing formula cells:", sorted(d)[:40])\cf8 \strokec8 \
+\cf9 \strokec9 for k in sorted(d)[:8]: print("  ",k,"V01:",f01.get(k),"| V1-26:",f126.get(k))\cf8 \strokec8 \
+\
+\cf9 \strokec9 # Comments\cf8 \strokec8 \
+\cf9 \strokec9 print("\\n--- comments ---")\cf8 \strokec8 \
+\cf9 \strokec9 for ws in wf.worksheets:\cf8 \strokec8 \
+\cf9 \strokec9     for row in ws.iter_rows():\cf8 \strokec8 \
+\cf9 \strokec9         for c in row:\cf8 \strokec8 \
+\cf9 \strokec9             if c.comment: print(ws.title, c.coordinate, repr(c.comment.text[:200]))\cf8 \strokec8 \
+\cf9 \strokec9 EOF\cf8 \cb1 \strokec8 \
+\pard\pardeftab720\partightenfactor0
+
+\f10\fs16\fsmilli8250 \cf5 \cb6 \strokec5 Output\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs24 \cf8 \cb6 \strokec8 V01 DV: list $D$4:$D$21 on G25:G45 J25:J45 M25:M45 P25:P45 S25:S45 V25:V45 Y25:Y45 AB25:AB45 AE25:AE45 AH25:AH45\
+V02 DV: list $D$4:$D$21 on G25:G45 J25:J45 M25:M45 P25:P45 S25:S45 V25:V45 Y25:Y45 AB25:AB45 AE25:AE45 AH25:AH45\
+\
+--- V02 constants (non-formula) rows 1-3, 22-48 ---\
+A1 'Rapport' | B1 'Tidbank' | C1 'NormalTid' | F1 'xxxxx' | G1 'xxxxxxxxxxxxxxx' | H1 'xxxxx' | I1 'xxxxx' | J1 'xxxxxxxxxxxxxxx' | K1 'xxxxx' | L1 'xxxxx' | M1 'xxxxxxxxxxxxxxx' | N1 'xxxxx' | O1 'xxxxx' | P1 'xxxxxxxxxxxxxxx' | Q1 'xxxxx' | R1 'xxxxx' | S1 'xxxxxxxxxxxxxxx' | T1 'xxxxx' | U1 'xxxxx' | G2 datetime.datetime(2025, 1, 6, 0, 0) | J2 datetime.datetime(2025, 1, 7, 0, 0) | M2 datetime.datetime(2025, 1, 8, 0, 0) | P2 datetime.datetime(2025, 1, 9, 0, 0) | S2 datetime.datetime(2025, 1, 10, 0, 0) | V2 datetime.datetime(2025, 1, 11, 0, 0) | Y2 datetime.datetime(2025, 1, 12, 0, 0) | AB2 datetime.datetime(2025, 1, 13, 0, 0) | AE2 datetime.datetime(2025, 1, 14, 0, 0) | AH2 datetime.datetime(2025, 1, 15, 0, 0) | D3 'Aktiviteter' | F3 'Rpt' | L3 'Ja' | O3 'Ja' | R3 'Ja' | U3 'ja' | Z3 'Tid' | D22 'Rpt.Tid' | D23 'Tidsm\'e5tt' | D24 'Diff' | K24 datetime.time(8, 30) | N24 datetime.time(9, 0) | Q24 datetime.time(9, 0) | T24 datetime.time(9, 0) | B25 'D' | J25 'Department time' | K25 datetime.time(11, 15) | M25 'MT Amodo' | N25 datetime.time(10, 30) | P25 'Department time' | Q25 datetime.time(10, 30) | S25 'Xware' | T25 datetime.time(12, 0) | J26 'MT Amodo' | K26 datetime.time(11, 30) | M26 'Department time' | N26 datetime.time(11, 0) | P26 'MT Amodo' | Q26 datetime.time(12, 0) | S26 'Lunch' | T26 datetime.time(12, 30) | B27 'Fields to edit' | J27 'Department time' | K27 datetime.time(12, 0) | M27 'MT Amodo' | N27 datetime.time(12, 0) | P27 'Lunch' | Q27 datetime.time(12, 30) | S27 'Department time' | T27 datetime.time(13, 30) | B28 'Field warning' | J28 'Lunch' | K28 datetime.time(12, 45) | M28 'Lunch' | N28 datetime.time(12, 30) | P28 'Department time' | Q28 datetime.time(17, 30) | S28 'Produktv\'e5rd' | T28 datetime.time(14, 0) | B29 'Calculated fields' | J29 'Department time' | K29 datetime.time(17, 15) | M29 'MT Amodo' | N29 datetime.time(14, 0) | S29 'Xware' | T29 datetime.time(17, 30) | M30 'Department time' | N30 datetime.time(15, 30) | A31 'TotalTid' | M31 'MT Amodo' | N31 datetime.time(16, 45) | A32 'Registrerad tid:' | A33 'Summerad tid:' | N33 datetime.time(17, 45) | A34 'Registrerad - Summerad. D:' | M34 'Friskv\'e5rd' | N34 datetime.time(18, 45) | A35 'Rapporterad tid:' | A36 '... i tidsformat:' | A37 'Registrerad - Rapporterad. D:' | \
+\
+formula count V01/V02/V1-26: 509 509 510\
+V01 vs V02 differing formula cells: ['B23', 'C25']\
+V01 vs V1-26 differing formula cells: ['B23', 'C25', 'I15']\
+   B23 V01: =38.5*COUNTIF(G3:AJ3,"Ja")/5 | V1-26: =38.5*COUNTIF(G3:U3,"Ja")/5\
+   C25 V01: =34.5+C24 | V1-26: ='V52'!C25+C24\
+   I15 V01: None | V1-26: =38.5/5\
+\
+--- comments ---\
+V13 G28 'Sv\'e4rfar dog'\
+V15 P25 'Begravning \'c5ke'\
+V20 P25 'Trainings'\
+V20 J26 'One on one'\
+V20 J27 'Trainings'\
+V20 M27 'Gone through inbox\\n>500 mails\\nTrainings, ...'\
+V20 M28 'Gone through mailbox\\nFeniX mails'\
+V20 J30 'Trainings'\
+V21 J25 'Standup\\nFixed DB version\\nFixed Unit tests\\nFixed flakey unit tests'\
+V21 M25 'Standup.\\nUsability test cases.'\
+V21 P25 'Usability - Audio'\
+V21 S25 'Standup'\
+V21 G26 'Jakob new eng mgr.'\
+V21 M26 'Info about Thomas'\
+V21 P26 'Fenix-Amodo Planning'\
+V21 S26 'Error event test case strategy'\
+V21 G27 'DB update. Power On removal.'\
+V21 J27 'Usability test cases\\nStruggle with product name exchange\'85\\nStruggle with environment. Could not read registry. Restart'\
+V21 M27 'Usability use cases'\
+V21 P27 'Usability - Audio'\
+V21 S27 'Trying to meet with Benny (PSL)'\
+V21 M28 'Bug mgm'\
+V21 S28 'Win 11 upgrade'\
+V21 G29 'Delivery ongoing design meeting\\nThreat model start updating (handle DB vulnerability)'\
+V21 M29 'Usability test cases'\
+V21 P29 'Usability - Audio'\
+V21 S29 'Error event test case strategy'\
+V21 G30 'Planning with Lennart'\
+V21 P30 'New laptop 5450 replacer'\
+V21 S30 'Documentation'\
+V21 M31 'Usability test cases\\nProblem with default sound without sound files.'\
+V21 P31 'Book PSL about PenQuiz'\
+V21 P32 'Investigate howto test error messages'\
+Overview G2 'I29954'\
+Overview H2 'I30024'\
+Overview I2 'I29983'\
+Overview J2 'I30024'\
+Overview K2 'I30024'\
+Overview L2 'I30020'\
+Overview M2 'I29974'\
+Overview N2 'I29952'\
+Overview O2 'I29934'\
+Overview Q2 'I29980'\
+Overview R2 'I29926'\
+Overview S2 'I29645'\
+Overview T2 'I29720'\
+Overview V2 'I30024'\
+Overview W2 'I30024'\
+V22 G25 'Eng meeting\\nIT updates'\
+V22 J25 'Standup'\
+V22 J26 'Thomas handover'\
+V22 J27 'Error handling test cases'\
+V22 G28 'Error test cases'\
+V22 G29 'Sprint planning'\
+V22 J29 'Error test cases'\
+V22 G30 'Error test cases'\
+V22 J30 'Status & actions test cases.'
+\fs28 \cb1 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f0\b\fs36 \cf26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 Reviewing output for personal or sensitive information.\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf26 Ran a command\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3\b0\fs16\fsmilli8250 \cf5 \cb6 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 bash\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs24 \cf7 \cb6 \strokec7 cd\cf8 \strokec8  \cf9 \strokec9 /tmp\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 rm\cf8 \strokec8  \cf9 \strokec9 -rf\cf8 \strokec8  \cf9 \strokec9 vba\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 mkdir\cf8 \strokec8  \cf9 \strokec9 vba\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 cd\cf8 \strokec8  \cf9 \strokec9 vba\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 unzip\cf8 \strokec8  \cf9 \strokec9 -q\cf8 \strokec8  \cf9 \strokec9 -o\cf8 \strokec8  \cf9 \strokec9 /mnt/user-data/uploads/TimeCalc-25.xlsm\cf8 \strokec8  \cf9 \strokec9 xl/vbaProject.bin\cf8 \strokec8  \cf9 \strokec9 xl/ctrlProps/ctrlProp1.xml\cf8 \strokec8  \cf9 \strokec9 xl/ctrlProps/ctrlProp2.xml\cf8 \strokec8  \cf9 \strokec9 xl/workbook.xml\cf8 \strokec8  \cf9 \strokec9 xl/comments3.xml\cf8 \strokec8  2>&1 | \cf7 \strokec7 head\cf8 \strokec8  \cf9 \strokec9 -3\cf8 \strokec8 \
+\cf7 \strokec7 python3\cf8 \strokec8  \cf9 \strokec9 -c\cf8 \strokec8  \cf9 \strokec9 "import oletools; print('oletools', oletools.__version__)"\cf8 \strokec8  2>&1 | \cf7 \strokec7 tail\cf8 \strokec8  \cf9 \strokec9 -1\cf8 \strokec8 \
+\cf7 \strokec7 python3\cf8 \strokec8  \cf9 \strokec9 -c\cf8 \strokec8  \cf9 \strokec9 "import olefile; print('olefile', olefile.__version__)"\cf8 \strokec8  2>&1 | \cf7 \strokec7 tail\cf8 \strokec8  \cf9 \strokec9 -1\cf8 \strokec8 \
+\cf7 \strokec7 echo\cf8 \strokec8  \cf9 \strokec9 "--- ctrlProp1 ---"\cf10 \strokec10 ;\cf8 \strokec8  \cf7 \strokec7 cat\cf8 \strokec8  \cf9 \strokec9 xl/ctrlProps/ctrlProp1.xml\cf10 \strokec10 ;\cf8 \strokec8  \cf7 \strokec7 echo\cf8 \strokec8 \
+\cf7 \strokec7 echo\cf8 \strokec8  \cf9 \strokec9 "--- workbook.xml (head) ---"\cf10 \strokec10 ;\cf8 \strokec8  \cf7 \strokec7 head\cf8 \strokec8  \cf9 \strokec9 -c\cf8 \strokec8  \cf17 \cb6 \strokec17 1500\cf8 \cb6 \strokec8  \cf9 \strokec9 xl/workbook.xml\cf10 \strokec10 ;\cf8 \strokec8  \cf7 \strokec7 echo\cf8 \strokec8 \
+\cf7 \strokec7 echo\cf8 \strokec8  \cf9 \strokec9 "--- strings in vbaProject.bin (module names) ---"\cf8 \strokec8 \
+\cf7 \strokec7 strings\cf8 \strokec8  \cf9 \strokec9 -n\cf8 \strokec8  \cf17 \cb6 \strokec17 6\cf8 \cb6 \strokec8  \cf9 \strokec9 xl/vbaProject.bin\cf8 \strokec8  | \cf7 \strokec7 grep\cf8 \strokec8  \cf9 \strokec9 -iE\cf8 \strokec8  \cf9 \strokec9 "^(Attribute VB_Name|Sub |Function |Module|Sheet|ThisWorkbook|Class)"\cf8 \strokec8  | \cf7 \strokec7 sort\cf8 \strokec8  \cf9 \strokec9 -u\cf8 \strokec8  | \cf7 \strokec7 head\cf8 \strokec8  \cf9 \strokec9 -30\cf8 \cb1 \strokec8 \
+\pard\pardeftab720\partightenfactor0
+
+\f10\fs16\fsmilli8250 \cf5 \cb6 \strokec5 Output\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs24 \cf8 \cb6 \strokec8 ModuleNotFoundError: No module named 'oletools'\
+ModuleNotFoundError: No module named 'olefile'\
+--- ctrlProp1 ---\
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\
+<formControlPr xmlns="http://schemas.microsoft.com/office/spreadsheetml/2009/9/main" objectType="Button" lockText="1"/>\
+--- workbook.xml (head) ---\
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\
+<workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="x15 xr xr6 xr10 xr2" xmlns:x15="http://schemas.microsoft.com/office/spreadsheetml/2010/11/main" xmlns:xr="http://schemas.microsoft.com/office/spreadsheetml/2014/revision" xmlns:xr6="http://schemas.microsoft.com/office/spreadsheetml/2016/revision6" xmlns:xr10="http://schemas.microsoft.com/office/spreadsheetml/2016/revision10" xmlns:xr2="http://schemas.microsoft.com/office/spreadsheetml/2015/revision2"><fileVersion appName="xl" lastEdited="7" lowestEdited="5" rupBuild="27928" codeName="\{372AB895-14C1-FC20-EB20-F1B4BCFD95AE\}"/><workbookPr codeName="ThisWorkbook" defaultThemeVersion="124226"/><mc:AlternateContent xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"><mc:Choice Requires="x15"><x15ac:absPath url="https://gehealthcare-my.sharepoint.com/personal/212391210_gehealthcare_com/Documents/Documents/MyWorkCenter/Time/" xmlns:x15ac="http://schemas.microsoft.com/office/spreadsheetml/2010/11/ac"/></mc:Choice></mc:AlternateContent><xr:revisionPtr revIDLastSave="163" documentId="13_ncr:1_\{C5C5F2BF-9C96-4995-8C35-CBDF02D5A93F\}" xr6:coauthVersionLast="47" xr6:coauthVersionMax="47" xr10:uidLastSave="\{DAC49ED7-C5D2-419F-8CB9-35BEFECF33D2\}"/><bookViews><workbookView xWindow="-2\
+--- strings in vbaProject.bin (module names) ---\
+Module1\
+Module1=61, 61, 2916, 1052, \
+Module1b\
+Module2\
+Module2=28, 95, 1606, 754, Z\
+Module2c\
+Module=Module1\
+Module=Module2\
+Sheet+\
+Sheet1\
+Sheet10\
+Sheet10 P\
+Sheet10=0, 0, 0, 0, C\
+Sheet11\
+Sheet11!P\
+Sheet11=0, 0, 0, 0, C\
+Sheet12\
+Sheet12"P\
+Sheet12=0, 0, 0, 0, C\
+Sheet13\
+Sheet13#P\
+Sheet13=0, 0, 0, 0, C\
+Sheet14\
+Sheet14$P\
+Sheet14=0, 0, 0, 0, C\
+Sheet15\
+Sheet15%P\
+Sheet15=0, 0, 0, 0, C\
+Sheet16\
+Sheet16&P\
+\pard\pardeftab720\partightenfactor0
+
+\f7\fs28 \cf27 \cb6 \strokec27 Building a custom parser to extract embedded macro data.\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f5 \cf11 \cb6 \strokec11 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\b\fs36 \cf26 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 Building a custom parser to extract embedded macro data.\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f5\b0\fs28 \cf11 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec11 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs16\fsmilli8250 \cf5 \cb6 \strokec5 bash\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs24 \cf7 \cb6 \strokec7 cd\cf8 \strokec8  \cf9 \strokec9 /tmp/vba\cf8 \strokec8  \cf10 \strokec10 &&\cf8 \strokec8  \cf7 \strokec7 python3\cf8 \strokec8  \cf9 \strokec9 extract_vba.py\cf8 \strokec8  \cf9 \strokec9 xl/vbaProject.bin\cf8 \strokec8  2>&1 | \cf7 \strokec7 head\cf8 \strokec8  \cf9 \strokec9 -70\cf8 \cb1 \strokec8 \
+\pard\pardeftab720\partightenfactor0
+
+\f10\fs16\fsmilli8250 \cf5 \cb6 \strokec5 Output\cb1 \
+
+\f4\fs24 \cf8 \cb6 \strokec8 Module1        type=procedural       lines=29\
+ThisWorkbook   type=document/class   lines=0\
+Sheet1         type=document/class   lines=0\
+Sheet2         type=document/class   lines=0\
+Sheet3         type=document/class   lines=0\
+Sheet4         type=document/class   lines=0\
+Sheet5         type=document/class   lines=0\
+Sheet6         type=document/class   lines=0\
+Sheet7         type=document/class   lines=0\
+Sheet8         type=document/class   lines=0\
+Sheet9         type=document/class   lines=0\
+Sheet10        type=document/class   lines=0\
+Sheet11        type=document/class   lines=0\
+Sheet12        type=document/class   lines=0\
+Sheet13        type=document/class   lines=0\
+Sheet14        type=document/class   lines=0\
+Sheet15        type=document/class   lines=0\
+Sheet16        type=document/class   lines=0\
+Sheet17        type=document/class   lines=0\
+Sheet18        type=document/class   lines=0\
+Sheet19        type=document/class   lines=0\
+Sheet20        type=document/class   lines=0\
+Sheet21        type=document/class   lines=0\
+Sheet22        type=document/class   lines=0\
+Sheet23        type=document/class   lines=0\
+Sheet24        type=document/class   lines=0\
+Sheet25        type=document/class   lines=0\
+Sheet26        type=document/class   lines=0\
+Sheet27        type=document/class   lines=0\
+Sheet28        type=document/class   lines=0\
+Sheet29        type=document/class   lines=0\
+Sheet30        type=document/class   lines=0\
+Sheet31        type=document/class   lines=0\
+Sheet32        type=document/class   lines=0\
+Sheet33        type=document/class   lines=0\
+Sheet34        type=document/class   lines=0\
+Sheet36        type=document/class   lines=0\
+Sheet35        type=document/class   lines=0\
+Sheet37        type=document/class   lines=0\
+Sheet38        type=document/class   lines=0\
+Sheet39        type=document/class   lines=0\
+Sheet40        type=document/class   lines=0\
+Sheet41        type=document/class   lines=0\
+Sheet42        type=document/class   lines=0\
+Sheet43        type=document/class   lines=0\
+Sheet44        type=document/class   lines=0\
+Sheet45        type=document/class   lines=0\
+Sheet46        type=document/class   lines=0\
+Sheet47        type=document/class   lines=0\
+Sheet48        type=document/class   lines=0\
+Sheet49        type=document/class   lines=0\
+Sheet50        type=document/class   lines=0\
+Sheet51        type=document/class   lines=0\
+Sheet52        type=document/class   lines=0\
+Sheet53        type=document/class   lines=0\
+Sheet54        type=document/class   lines=0\
+Module2        type=procedural       lines=94\
+\pard\pardeftab720\partightenfactor0
+
+\f5\fs28 \cf11 \cb1 \strokec11 \
+\
+\
+
+\f7 \cf27 \cb6 \strokec27 Kollar sandl\'e5dans milj\'f6 och verifierar modellskillnader mellan veckoblad\cb1 \
+
+\f5 \cf11 \strokec11 \
+\
+
+\f7 \cf27 \cb6 \strokec27 Adjusting approach after npm failure and memory crash\cb1 \
+
+\f5 \cf11 \strokec11 \
+\
+
+\f7 \cf27 \cb6 \strokec27 Kartl\'e4gger avvikelser och villkorsstyrd formatering i schemat\cb1 \
+
+\f5 \cf11 \strokec11 \
+\
+\
+\
+\
+\
+
+\f7 \cf27 \cb6 \strokec27 Planning the import script based on the workbook structure\cb1 \
+
+\f5 \cf11 \strokec11 \
+
+\f7 \cf27 \cb6 \strokec27 Diagnosing unexpected brace expansion behavior in the shell output.\cb1 \
+
+\f5 \cf11 \strokec11 \
+
+\f7 \cf27 \cb6 \strokec27 Nu importskriptet:\cb1 \
+
+\f5 \cf11 \strokec11 \
+
+\f7 \cf27 \cb6 \strokec27 Cleaning up messy code snippets and odd expressions.\cb1 \
+
+\f5 \cf11 \strokec11 \
+\
+\
+\
+
+\f7 \cf27 \cb6 \strokec27 Bygger ber\'e4kningsmotorn i ren TypeScript\cb1 \
+
+\f5 \cf11 \strokec11 \
+\
+\
+\
+
+\f7 \cf27 \cb6 \strokec27 Cleaning up an unused function parameter.\cb1 \
+
+\f5 \cf11 \strokec11 \
+
+\f7 \cf27 \cb6 \strokec27 Nu \'e5rs-/\'f6versiktsber\'e4kningen och fabriken (nytt \'e5r, makroekvivalenterna):\cb1 \
+
+\f5 \cf11 \strokec11 \
+\
+\
+\
+\
+\
+\
+\
+
+\f7 \cf27 \cb6 \strokec27 Investigating five rounding and date discrepancies in golden test\cb1 \
+
+\f5 \cf11 \strokec11 \
+
+\f7 \cf27 \cb6 \strokec27 Untangling a spreadsheet time-value discrepancy.\cb1 \
+\cb6 Comparing V17 formulas against neighboring sheets\cb1 \
+
+\f5 \cf11 \strokec11 \
+\
+
+\f7 \cf27 \cb6 \strokec27 Pinpointing hardcoded constant causing arbetsbokens felaktiga summering\cb1 \
+
+\f5 \cf11 \strokec11 \
+\
+
+\f7 \cf27 \cb6 \strokec27 L\'e4gger till anomalidetektering f\'f6r avvikande formler i importskriptet\cb1 \
+
+\f5 \cf11 \strokec11 \
+
+\f7 \cf27 \cb6 \strokec27 Improving readability of a time-duration representation.\cb1 \
+
+\f5 \cf11 \strokec11 \
+
+\f7 \cf27 \cb6 \strokec27 Locating anomalies and cross-checking for hidden issues.\cb1 \
+\cb6 Checking if the deleted formula in row 31 has any impact\cb1 \
+
+\f5 \cf11 \strokec11 \
+
+\f7 \cf27 \cb6 \strokec27 Documenting the V17 discrepancy in the golden test\cb1 \
+
+\f5 \cf11 \strokec11 \
+\
+
+\f7 \cf27 \cb6 \strokec27 Confirming golden tests can actually catch regressions\cb1 \
+
+\f5 \cf11 \strokec11 \
+
+\f7 \cf27 \cb6 \strokec27 Verifierar varningslogiken mot Excels villkorsregler\cb1 \
+
+\f5 \cf11 \strokec11 \
+
+\f7 \cf27 \cb6 \strokec27 Building a golden test for warning message handling.\cb1 \
+
+\f5 \cf11 \strokec11 \
+
+\f7 \cf27 \cb6 \strokec27 Validating warnings and building unit tests for the engine.\cb1 \
+\cb6 Skriver enhetstester f\'f6r att f\'e5nga subtila Excel-regler\cb1 \
+
+\f5 \cf11 \strokec11 \
+
+\f7 \cf27 \cb6 \strokec27 Skriver testfall f\'f6r varningslogik utan logg eller rapport.\cb1 \
+
+\f5 \cf11 \strokec11 \
+\
+\
+\
+
+\f7 \cf27 \cb6 \strokec27 Fixing en felaktig testf\'f6rv\'e4ntan kring flyttalsavrundning\cb1 \
+
+\f5 \cf11 \strokec11 \
+\
+\
+\
+
+\f7 \cf27 \cb6 \strokec27 Setting up type-checking after confirming all tests pass.\cb1 \
+
+\f5 \cf11 \strokec11 \
+\
+
+\f7 \cf27 \cb6 \strokec27 Setting up state and storage for the app\cb1 \
+
+\f5 \cf11 \strokec11 \
+
+\f7 \cf27 \cb6 \strokec27 Tack! Jag l\'e4ser f\'f6rst in mig p\'e5 r\'e4tt metod f\'f6r att \'f6ppna filen.\cb1 \
+
+\f5 \cf11 \strokec11 \
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+
+\f7 \cf27 \cb6 \strokec27 Nu importskriptet:\cb1 \
+
+\f5 \cf11 \strokec11 \
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+
+\f7 \cf27 \cb6 \strokec27 Nu \'e5rs-/\'f6versiktsber\'e4kningen och fabriken (nytt \'e5r, makroekvivalenterna):\cb1 \
+
+\f5 \cf11 \strokec11 \
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f7\fs30 \cf11 \cb28 Did you finish the last execution before the time ran out?\cb1 \
+
+\fs28 \
+\
+\pard\pardeftab720\partightenfactor0
+\cf27 \cb6 \strokec27 Assessing whether the previous task actually completed.\cb1 \
+
+\f5 \cf11 \cb6 \strokec11 Assessing whether the previous task actually completed.\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\fs32 \cf11 \cb6 No. The last batch of tool calls was aborted and none of them returned a result, so I can't confirm any of them ran.\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f11\b \cf11 \cb6 Finished and verified before the abort:
+\f5\b0 \cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0\cf11 \cb6 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec11 The importer\'a0
+\f4\fs28\fsmilli14400 \cf29 \cb28 \strokec29 scripts/import_xlsm.py
+\f5\fs32 \cf11 \cb6 \strokec11 \'a0ran on your file (53 weeks, 18 activities).\cb1 \
+\ls1\ilvl0\cb6 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec11 The calculation engine in\'a0
+\f4\fs28\fsmilli14400 \cf29 \cb28 \strokec29 src/engine/
+\f5\fs32 \cf11 \cb6 \strokec11 \'a0passes strict type-checking.\cb1 \
+\ls1\ilvl0\cb6 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec11 42 of 42 tests passed, including the golden tests against Excel's own cached values for all 53 weeks. Deliberately breaking the engine three ways made those tests fail, so they do catch errors.\cb1 \
+\ls1\ilvl0
+\f4\fs28\fsmilli14400 \cf29 \cb28 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec29 src/state/storage.ts
+\f5\fs32 \cf11 \cb6 \strokec11 \'a0was created.\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f11\b \cf11 \cb6 Not done:
+\f5\b0 \cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls2\ilvl0\cf11 \cb6 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec11 The React UI (state store, components, styles).\cb1 \
+\ls2\ilvl0\cb6 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec11 The project scaffolding:\'a0
+\f4\fs28\fsmilli14400 \cf29 \cb28 \strokec29 package.json
+\f5\fs32 \cf11 \cb6 \strokec11 ,\'a0
+\f4\fs28\fsmilli14400 \cf29 \cb28 \strokec29 tsconfig.json
+\f5\fs32 \cf11 \cb6 \strokec11 , Vite config,\'a0
+\f4\fs28\fsmilli14400 \cf29 \cb28 \strokec29 index.html
+\f5\fs32 \cf11 \cb6 \strokec11 ,\'a0
+\f4\fs28\fsmilli14400 \cf29 \cb28 \strokec29 .gitignore
+\f5\fs32 \cf11 \cb6 \strokec11 .\cb1 \
+\ls2\ilvl0\cb6 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec11 The README.\cb1 \
+\ls2\ilvl0\cb6 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec11 The zip. Nothing has been delivered to you yet.\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f11\b \cf11 \cb6 Uncertain:
+\f5\b0 \'a0the aborted batch looks like a partial replay of earlier steps. One of those steps was\'a0
+\f4\fs28\fsmilli14400 \cf29 \cb28 \strokec29 rm -rf TimeCalcReact; mkdir ...
+\f5\fs32 \cf11 \cb6 \strokec11 . If it actually ran, the project directory may have been wiped or partly recreated.\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf11 \cb6 Before writing anything else, I'll list\'a0
+\f4\fs28\fsmilli14400 \cf29 \cb28 \strokec29 /home/claude/TimeCalcReact
+\f5\fs32 \cf11 \cb6 \strokec11 \'a0and re-run the test suite to see what's still there. If files are missing, I'll rebuild them from the work above. Should I go ahead?\cb1 \
+
+\f7\fs30 \cb28 Can you continue te task?\cb1 \
+
+\fs28 \
+\
+
+\f5\fs32 \cb6 Ja. Jag b\'f6rjar med att kontrollera vad som finns kvar i projektkatalogen efter avbrottet.\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf11 \cb6 Ran a command\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\fs32 \cf11 \cb6 Allt \'e4r intakt: alla filer finns kvar och 42 av 42 tester g\'e5r fortfarande igenom. Jag forts\'e4tter med tillst\'e5ndshanteringen (reducer + persistens).\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf11 \cb6 Ran 3 commands, created 2 files\cb1 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f7 \cf11 \
+\
+\
+\
+\
+\
+\
+\cb6 \
+\
+\cb1 \
+\
+\
+\
+\cb6 You are out of free\'a0{\field{\*\fldinst{HYPERLINK "https://support.claude.com/en/articles/11647753-understanding-usage-and-length-limits"}}{\fldrslt \cf30 \ul \ulc30 \strokec30 messages}}\'a0until 9:10 PM\cb1 \
+\
+\
+\
+\pard\pardeftab720\partightenfactor0
+
+\fs32 \cf11 \
+\
+\
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf11 \
+\
+\
+\
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "https://support.anthropic.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on"}}{\fldrslt 
+\fs26 \cf27 \cb6 \strokec27 Claude is AI and can make mistakes.}}
+\fs26 \cf27 \strokec27 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf11 \strokec11 \
+\pard\pardeftab720\partightenfactor0
+\cf27 \cb27 \strokec27 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb31 \strokec5 Extract vba\cf27 \strokec27 \'a0\'b7\'a0PY\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+\cf11 \strokec11 \
+\pard\pardeftab720\partightenfactor0
+\cf11 \cb32 \
+\cf5 \cb6 \strokec5 The current content can\'92t be loaded from where this file was saved. Showing what Claude wrote when creating it.\'a0Claude has edited the file since then, so later changes aren\'92t shown.\cb1 \
+
+\f3\fs24 \cf27 \strokec27 \
+
+\f4 \cf20 \cb31 \strokec20 import\cf11 \strokec11  \cf21 \strokec21 struct\cf11 \strokec11 , \cf21 \strokec21 sys\cf11 \cb1 \strokec11 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11 \'a0\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf20 \cb31 \strokec20 def\cf11 \strokec11  \cf21 \strokec21 ovba_decompress\cf11 \strokec11 (\cf21 \strokec21 data\cf11 \strokec11 ):\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11     \cf20 \strokec20 assert\cf11 \strokec11  \cf21 \strokec21 data\cf11 \strokec11 [\cf17 \strokec17 0\cf11 \strokec11 ] \cf8 \strokec8 ==\cf11 \strokec11  \cf17 \strokec17 1\cf11 \cb1 \strokec11 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11     \cf21 \strokec21 out\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 bytearray\cf11 \strokec11 (); \cf21 \strokec21 pos\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf17 \strokec17 1\cf11 \cb1 \strokec11 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11     \cf20 \strokec20 while\cf11 \strokec11  \cf21 \strokec21 pos\cf11 \strokec11  \cf8 \strokec8 <\cf11 \strokec11  \cf21 \strokec21 len\cf11 \strokec11 (\cf21 \strokec21 data\cf11 \strokec11 ):\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf21 \strokec21 hdr\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 struct\cf11 \strokec11 .\cf21 \strokec21 unpack_from\cf11 \strokec11 (\cf9 \strokec9 "<H"\cf11 \strokec11 , \cf21 \strokec21 data\cf11 \strokec11 , \cf21 \strokec21 pos\cf11 \strokec11 )[\cf17 \strokec17 0\cf11 \strokec11 ]\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf21 \strokec21 size\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  (\cf21 \strokec21 hdr\cf11 \strokec11  \cf8 \strokec8 &\cf11 \strokec11  \cf17 \strokec17 0x0FFF\cf11 \strokec11 ) \cf8 \strokec8 +\cf11 \strokec11  \cf17 \strokec17 3\cf11 \cb1 \strokec11 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf21 \strokec21 compressed\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  (\cf21 \strokec21 hdr\cf11 \strokec11  \cf8 \strokec8 >>\cf11 \strokec11  \cf17 \strokec17 15\cf11 \strokec11 ) \cf8 \strokec8 &\cf11 \strokec11  \cf17 \strokec17 1\cf11 \cb1 \strokec11 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf21 \strokec21 chunk_end\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 min\cf11 \strokec11 (\cf21 \strokec21 pos\cf11 \strokec11  \cf8 \strokec8 +\cf11 \strokec11  \cf21 \strokec21 size\cf11 \strokec11 , \cf21 \strokec21 len\cf11 \strokec11 (\cf21 \strokec21 data\cf11 \strokec11 ))\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf21 \strokec21 pos\cf11 \strokec11  \cf8 \strokec8 +=\cf11 \strokec11  \cf17 \strokec17 2\cf11 \cb1 \strokec11 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf21 \strokec21 chunk_start_out\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 len\cf11 \strokec11 (\cf21 \strokec21 out\cf11 \strokec11 )\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf20 \strokec20 if\cf11 \strokec11  \cf8 \strokec8 not\cf11 \strokec11  \cf21 \strokec21 compressed\cf11 \strokec11 :\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11             \cf21 \strokec21 out\cf11 \strokec11  \cf8 \strokec8 +=\cf11 \strokec11  \cf21 \strokec21 data\cf11 \strokec11 [\cf21 \strokec21 pos\cf11 \strokec11 :\cf21 \strokec21 pos\cf11 \strokec11  \cf8 \strokec8 +\cf11 \strokec11  \cf17 \strokec17 4096\cf11 \strokec11 ]; \cf21 \strokec21 pos\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 chunk_end\cf11 \strokec11 ; \cf20 \strokec20 continue\cf11 \cb1 \strokec11 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf20 \strokec20 while\cf11 \strokec11  \cf21 \strokec21 pos\cf11 \strokec11  \cf8 \strokec8 <\cf11 \strokec11  \cf21 \strokec21 chunk_end\cf11 \strokec11 :\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11             \cf21 \strokec21 flags\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 data\cf11 \strokec11 [\cf21 \strokec21 pos\cf11 \strokec11 ]; \cf21 \strokec21 pos\cf11 \strokec11  \cf8 \strokec8 +=\cf11 \strokec11  \cf17 \strokec17 1\cf11 \cb1 \strokec11 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11             \cf20 \strokec20 for\cf11 \strokec11  \cf21 \strokec21 bit\cf11 \strokec11  \cf8 \strokec8 in\cf11 \strokec11  \cf21 \strokec21 range\cf11 \strokec11 (\cf17 \strokec17 8\cf11 \strokec11 ):\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11                 \cf20 \strokec20 if\cf11 \strokec11  \cf21 \strokec21 pos\cf11 \strokec11  \cf8 \strokec8 >=\cf11 \strokec11  \cf21 \strokec21 chunk_end\cf11 \strokec11 : \cf20 \strokec20 break\cf11 \cb1 \strokec11 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11                 \cf20 \strokec20 if\cf11 \strokec11  \cf8 \strokec8 not\cf11 \strokec11  (\cf21 \strokec21 flags\cf11 \strokec11  \cf8 \strokec8 >>\cf11 \strokec11  \cf21 \strokec21 bit\cf11 \strokec11 ) \cf8 \strokec8 &\cf11 \strokec11  \cf17 \strokec17 1\cf11 \strokec11 :\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11                     \cf21 \strokec21 out\cf11 \strokec11 .\cf21 \strokec21 append\cf11 \strokec11 (\cf21 \strokec21 data\cf11 \strokec11 [\cf21 \strokec21 pos\cf11 \strokec11 ]); \cf21 \strokec21 pos\cf11 \strokec11  \cf8 \strokec8 +=\cf11 \strokec11  \cf17 \strokec17 1\cf11 \cb1 \strokec11 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11                 \cf20 \strokec20 else\cf11 \strokec11 :\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11                     \cf21 \strokec21 tok\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 struct\cf11 \strokec11 .\cf21 \strokec21 unpack_from\cf11 \strokec11 (\cf9 \strokec9 "<H"\cf11 \strokec11 , \cf21 \strokec21 data\cf11 \strokec11 , \cf21 \strokec21 pos\cf11 \strokec11 )[\cf17 \strokec17 0\cf11 \strokec11 ]; \cf21 \strokec21 pos\cf11 \strokec11  \cf8 \strokec8 +=\cf11 \strokec11  \cf17 \strokec17 2\cf11 \cb1 \strokec11 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11                     \cf21 \strokec21 diff\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 len\cf11 \strokec11 (\cf21 \strokec21 out\cf11 \strokec11 ) \cf8 \strokec8 -\cf11 \strokec11  \cf21 \strokec21 chunk_start_out\cf11 \cb1 \strokec11 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11                     \cf21 \strokec21 bits\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 max\cf11 \strokec11 ((\cf21 \strokec21 diff\cf11 \strokec11  \cf8 \strokec8 -\cf11 \strokec11  \cf17 \strokec17 1\cf11 \strokec11 ).\cf21 \strokec21 bit_length\cf11 \strokec11 (), \cf17 \strokec17 4\cf11 \strokec11 ) \cf20 \strokec20 if\cf11 \strokec11  \cf21 \strokec21 diff\cf11 \strokec11  \cf8 \strokec8 >\cf11 \strokec11  \cf17 \strokec17 1\cf11 \strokec11  \cf20 \strokec20 else\cf11 \strokec11  \cf17 \strokec17 4\cf11 \cb1 \strokec11 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11                     \cf21 \strokec21 len_mask\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf17 \strokec17 0xFFFF\cf11 \strokec11  \cf8 \strokec8 >>\cf11 \strokec11  \cf21 \strokec21 bits\cf11 \cb1 \strokec11 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11                     \cf21 \strokec21 length\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  (\cf21 \strokec21 tok\cf11 \strokec11  \cf8 \strokec8 &\cf11 \strokec11  \cf21 \strokec21 len_mask\cf11 \strokec11 ) \cf8 \strokec8 +\cf11 \strokec11  \cf17 \strokec17 3\cf11 \cb1 \strokec11 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11                     \cf21 \strokec21 offset\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  (\cf21 \strokec21 tok\cf11 \strokec11  \cf8 \strokec8 >>\cf11 \strokec11  (\cf17 \strokec17 16\cf11 \strokec11  \cf8 \strokec8 -\cf11 \strokec11  \cf21 \strokec21 bits\cf11 \strokec11 )) \cf8 \strokec8 +\cf11 \strokec11  \cf17 \strokec17 1\cf11 \cb1 \strokec11 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11                     \cf20 \strokec20 for\cf11 \strokec11  \cf21 \strokec21 _\cf11 \strokec11  \cf8 \strokec8 in\cf11 \strokec11  \cf21 \strokec21 range\cf11 \strokec11 (\cf21 \strokec21 length\cf11 \strokec11 ):\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11                         \cf21 \strokec21 out\cf11 \strokec11 .\cf21 \strokec21 append\cf11 \strokec11 (\cf21 \strokec21 out\cf11 \strokec11 [\cf8 \strokec8 -\cf21 \strokec21 offset\cf11 \strokec11 ])\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11     \cf20 \strokec20 return\cf11 \strokec11  \cf21 \strokec21 bytes\cf11 \strokec11 (\cf21 \strokec21 out\cf11 \strokec11 )\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11 \'a0\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf20 \cb31 \strokec20 class\cf11 \strokec11  \cf21 \strokec21 CFB\cf11 \strokec11 :\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11     \cf20 \strokec20 def\cf11 \strokec11  \cf21 \strokec21 __init__\cf11 \strokec11 (\cf21 \strokec21 self\cf11 \strokec11 , \cf21 \strokec21 raw\cf11 \strokec11 ):\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf21 \strokec21 self\cf11 \strokec11 .\cf21 \strokec21 raw\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 raw\cf11 \cb1 \strokec11 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         (\cf21 \strokec21 self\cf11 \strokec11 .\cf21 \strokec21 sec_shift\cf11 \strokec11 , \cf21 \strokec21 self\cf11 \strokec11 .\cf21 \strokec21 mini_shift\cf11 \strokec11 ) \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 struct\cf11 \strokec11 .\cf21 \strokec21 unpack_from\cf11 \strokec11 (\cf9 \strokec9 "<HH"\cf11 \strokec11 , \cf21 \strokec21 raw\cf11 \strokec11 , \cf17 \strokec17 30\cf11 \strokec11 )\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf21 \strokec21 self\cf11 \strokec11 .\cf21 \strokec21 ssz\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf17 \strokec17 1\cf11 \strokec11  \cf8 \strokec8 <<\cf11 \strokec11  \cf21 \strokec21 self\cf11 \strokec11 .\cf21 \strokec21 sec_shift\cf11 \strokec11 ; \cf21 \strokec21 self\cf11 \strokec11 .\cf21 \strokec21 msz\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf17 \strokec17 1\cf11 \strokec11  \cf8 \strokec8 <<\cf11 \strokec11  \cf21 \strokec21 self\cf11 \strokec11 .\cf21 \strokec21 mini_shift\cf11 \cb1 \strokec11 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf21 \strokec21 n_fat\cf11 \strokec11 , \cf21 \strokec21 dir_start\cf11 \strokec11 , \cf21 \strokec21 _\cf11 \strokec11 , \cf21 \strokec21 cutoff\cf11 \strokec11 , \cf21 \strokec21 mfat_start\cf11 \strokec11 , \cf21 \strokec21 n_mfat\cf11 \strokec11 , \cf21 \strokec21 difat_start\cf11 \strokec11 , \cf21 \strokec21 n_difat\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 struct\cf11 \strokec11 .\cf21 \strokec21 unpack_from\cf11 \strokec11 (\cf9 \strokec9 "<IIIIIIII"\cf11 \strokec11 , \cf21 \strokec21 raw\cf11 \strokec11 , \cf17 \strokec17 44\cf11 \strokec11 )\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf21 \strokec21 self\cf11 \strokec11 .\cf21 \strokec21 cutoff\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 cutoff\cf11 \cb1 \strokec11 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf21 \strokec21 difat\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 list\cf11 \strokec11 (\cf21 \strokec21 struct\cf11 \strokec11 .\cf21 \strokec21 unpack_from\cf11 \strokec11 (\cf9 \strokec9 "<109I"\cf11 \strokec11 , \cf21 \strokec21 raw\cf11 \strokec11 , \cf17 \strokec17 76\cf11 \strokec11 ))\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf21 \strokec21 s\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 difat_start\cf11 \cb1 \strokec11 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf20 \strokec20 for\cf11 \strokec11  \cf21 \strokec21 _\cf11 \strokec11  \cf8 \strokec8 in\cf11 \strokec11  \cf21 \strokec21 range\cf11 \strokec11 (\cf21 \strokec21 n_difat\cf11 \strokec11 ):\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11             \cf21 \strokec21 b\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 self\cf11 \strokec11 .\cf21 \strokec21 sector\cf11 \strokec11 (\cf21 \strokec21 s\cf11 \strokec11 ); \cf21 \strokec21 vals\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 struct\cf11 \strokec11 .\cf21 \strokec21 unpack\cf11 \strokec11 (\cf9 \strokec9 "<%dI"\cf11 \strokec11  \cf8 \strokec8 %\cf11 \strokec11  (\cf21 \strokec21 self\cf11 \strokec11 .\cf21 \strokec21 ssz\cf11 \strokec11  \cf8 \strokec8 //\cf11 \strokec11  \cf17 \strokec17 4\cf11 \strokec11 ), \cf21 \strokec21 b\cf11 \strokec11 )\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11             \cf21 \strokec21 difat\cf11 \strokec11  \cf8 \strokec8 +=\cf11 \strokec11  \cf21 \strokec21 vals\cf11 \strokec11 [:\cf8 \strokec8 -\cf17 \strokec17 1\cf11 \strokec11 ]; \cf21 \strokec21 s\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 vals\cf11 \strokec11 [\cf8 \strokec8 -\cf17 \strokec17 1\cf11 \strokec11 ]\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf21 \strokec21 fat\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  []\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf20 \strokec20 for\cf11 \strokec11  \cf21 \strokec21 d\cf11 \strokec11  \cf8 \strokec8 in\cf11 \strokec11  \cf21 \strokec21 difat\cf11 \strokec11 [:\cf21 \strokec21 n_fat\cf11 \strokec11 ]:\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11             \cf21 \strokec21 fat\cf11 \strokec11  \cf8 \strokec8 +=\cf11 \strokec11  \cf21 \strokec21 struct\cf11 \strokec11 .\cf21 \strokec21 unpack\cf11 \strokec11 (\cf9 \strokec9 "<%dI"\cf11 \strokec11  \cf8 \strokec8 %\cf11 \strokec11  (\cf21 \strokec21 self\cf11 \strokec11 .\cf21 \strokec21 ssz\cf11 \strokec11  \cf8 \strokec8 //\cf11 \strokec11  \cf17 \strokec17 4\cf11 \strokec11 ), \cf21 \strokec21 self\cf11 \strokec11 .\cf21 \strokec21 sector\cf11 \strokec11 (\cf21 \strokec21 d\cf11 \strokec11 ))\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf21 \strokec21 self\cf11 \strokec11 .\cf21 \strokec21 fat\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 fat\cf11 \cb1 \strokec11 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf21 \strokec21 d\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 self\cf11 \strokec11 .\cf21 \strokec21 chain\cf11 \strokec11 (\cf21 \strokec21 dir_start\cf11 \strokec11 )\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf21 \strokec21 self\cf11 \strokec11 .\cf21 \strokec21 entries\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  []\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf20 \strokec20 for\cf11 \strokec11  \cf21 \strokec21 i\cf11 \strokec11  \cf8 \strokec8 in\cf11 \strokec11  \cf21 \strokec21 range\cf11 \strokec11 (\cf17 \strokec17 0\cf11 \strokec11 , \cf21 \strokec21 len\cf11 \strokec11 (\cf21 \strokec21 d\cf11 \strokec11 ), \cf17 \strokec17 128\cf11 \strokec11 ):\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11             \cf21 \strokec21 e\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 d\cf11 \strokec11 [\cf21 \strokec21 i\cf11 \strokec11 :\cf21 \strokec21 i\cf8 \strokec8 +\cf17 \strokec17 128\cf11 \strokec11 ]\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11             \cf21 \strokec21 nl\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 struct\cf11 \strokec11 .\cf21 \strokec21 unpack_from\cf11 \strokec11 (\cf9 \strokec9 "<H"\cf11 \strokec11 , \cf21 \strokec21 e\cf11 \strokec11 , \cf17 \strokec17 64\cf11 \strokec11 )[\cf17 \strokec17 0\cf11 \strokec11 ]\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11             \cf21 \strokec21 name\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 e\cf11 \strokec11 [:\cf21 \strokec21 max\cf11 \strokec11 (\cf21 \strokec21 nl\cf11 \strokec11  \cf8 \strokec8 -\cf11 \strokec11  \cf17 \strokec17 2\cf11 \strokec11 , \cf17 \strokec17 0\cf11 \strokec11 )].\cf21 \strokec21 decode\cf11 \strokec11 (\cf9 \strokec9 "utf-16le"\cf11 \strokec11 , \cf9 \strokec9 "replace"\cf11 \strokec11 )\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11             \cf21 \strokec21 typ\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 e\cf11 \strokec11 [\cf17 \strokec17 66\cf11 \strokec11 ]; \cf21 \strokec21 left\cf11 \strokec11 , \cf21 \strokec21 right\cf11 \strokec11 , \cf21 \strokec21 child\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 struct\cf11 \strokec11 .\cf21 \strokec21 unpack_from\cf11 \strokec11 (\cf9 \strokec9 "<III"\cf11 \strokec11 , \cf21 \strokec21 e\cf11 \strokec11 , \cf17 \strokec17 68\cf11 \strokec11 )\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11             \cf21 \strokec21 start\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 struct\cf11 \strokec11 .\cf21 \strokec21 unpack_from\cf11 \strokec11 (\cf9 \strokec9 "<I"\cf11 \strokec11 , \cf21 \strokec21 e\cf11 \strokec11 , \cf17 \strokec17 116\cf11 \strokec11 )[\cf17 \strokec17 0\cf11 \strokec11 ]; \cf21 \strokec21 size\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 struct\cf11 \strokec11 .\cf21 \strokec21 unpack_from\cf11 \strokec11 (\cf9 \strokec9 "<Q"\cf11 \strokec11 , \cf21 \strokec21 e\cf11 \strokec11 , \cf17 \strokec17 120\cf11 \strokec11 )[\cf17 \strokec17 0\cf11 \strokec11 ]\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11             \cf21 \strokec21 self\cf11 \strokec11 .\cf21 \strokec21 entries\cf11 \strokec11 .\cf21 \strokec21 append\cf11 \strokec11 (\cf21 \strokec21 dict\cf11 \strokec11 (\cf21 \strokec21 name\cf8 \strokec8 =\cf21 \strokec21 name\cf11 \strokec11 , \cf21 \strokec21 type\cf8 \strokec8 =\cf21 \strokec21 typ\cf11 \strokec11 , \cf21 \strokec21 left\cf8 \strokec8 =\cf21 \strokec21 left\cf11 \strokec11 , \cf21 \strokec21 right\cf8 \strokec8 =\cf21 \strokec21 right\cf11 \strokec11 , \cf21 \strokec21 child\cf8 \strokec8 =\cf21 \strokec21 child\cf11 \strokec11 , \cf21 \strokec21 start\cf8 \strokec8 =\cf21 \strokec21 start\cf11 \strokec11 , \cf21 \strokec21 size\cf8 \strokec8 =\cf21 \strokec21 size\cf11 \strokec11 ))\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf21 \strokec21 root\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 self\cf11 \strokec11 .\cf21 \strokec21 entries\cf11 \strokec11 [\cf17 \strokec17 0\cf11 \strokec11 ]\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf21 \strokec21 self\cf11 \strokec11 .\cf21 \strokec21 ministream\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 self\cf11 \strokec11 .\cf21 \strokec21 read_chain\cf11 \strokec11 (\cf21 \strokec21 root\cf11 \strokec11 [\cf9 \strokec9 "start"\cf11 \strokec11 ], \cf21 \strokec21 root\cf11 \strokec11 [\cf9 \strokec9 "size"\cf11 \strokec11 ]) \cf20 \strokec20 if\cf11 \strokec11  \cf21 \strokec21 root\cf11 \strokec11 [\cf9 \strokec9 "size"\cf11 \strokec11 ] \cf20 \strokec20 else\cf11 \strokec11  \cf9 \strokec9 b""\cf11 \cb1 \strokec11 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf21 \strokec21 self\cf11 \strokec11 .\cf21 \strokec21 minifat\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  []\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf20 \strokec20 if\cf11 \strokec11  \cf21 \strokec21 n_mfat\cf11 \strokec11 :\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11             \cf21 \strokec21 m\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 self\cf11 \strokec11 .\cf21 \strokec21 read_chain\cf11 \strokec11 (\cf21 \strokec21 mfat_start\cf11 \strokec11 )\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11             \cf21 \strokec21 self\cf11 \strokec11 .\cf21 \strokec21 minifat\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 list\cf11 \strokec11 (\cf21 \strokec21 struct\cf11 \strokec11 .\cf21 \strokec21 unpack\cf11 \strokec11 (\cf9 \strokec9 "<%dI"\cf11 \strokec11  \cf8 \strokec8 %\cf11 \strokec11  (\cf21 \strokec21 len\cf11 \strokec11 (\cf21 \strokec21 m\cf11 \strokec11 ) \cf8 \strokec8 //\cf11 \strokec11  \cf17 \strokec17 4\cf11 \strokec11 ), \cf21 \strokec21 m\cf11 \strokec11 ))\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11     \cf20 \strokec20 def\cf11 \strokec11  \cf21 \strokec21 sector\cf11 \strokec11 (\cf21 \strokec21 self\cf11 \strokec11 , \cf21 \strokec21 n\cf11 \strokec11 ): \cf20 \strokec20 return\cf11 \strokec11  \cf21 \strokec21 self\cf11 \strokec11 .\cf21 \strokec21 raw\cf11 \strokec11 [(\cf21 \strokec21 n\cf11 \strokec11  \cf8 \strokec8 +\cf11 \strokec11  \cf17 \strokec17 1\cf11 \strokec11 ) \cf8 \strokec8 *\cf11 \strokec11  \cf21 \strokec21 self\cf11 \strokec11 .\cf21 \strokec21 ssz\cf11 \strokec11 :(\cf21 \strokec21 n\cf11 \strokec11  \cf8 \strokec8 +\cf11 \strokec11  \cf17 \strokec17 2\cf11 \strokec11 ) \cf8 \strokec8 *\cf11 \strokec11  \cf21 \strokec21 self\cf11 \strokec11 .\cf21 \strokec21 ssz\cf11 \strokec11 ]\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11     \cf20 \strokec20 def\cf11 \strokec11  \cf21 \strokec21 chain\cf11 \strokec11 (\cf21 \strokec21 self\cf11 \strokec11 , \cf21 \strokec21 start\cf11 \strokec11 ):\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf21 \strokec21 out\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf9 \strokec9 b""\cf11 \strokec11 ; \cf21 \strokec21 s\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 start\cf11 \strokec11 ; \cf21 \strokec21 seen\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf17 \strokec17 0\cf11 \cb1 \strokec11 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf20 \strokec20 while\cf11 \strokec11  \cf21 \strokec21 s\cf11 \strokec11  \cf8 \strokec8 <\cf11 \strokec11  \cf17 \strokec17 0xFFFFFFFA\cf11 \strokec11  \cf8 \strokec8 and\cf11 \strokec11  \cf21 \strokec21 seen\cf11 \strokec11  \cf8 \strokec8 <\cf11 \strokec11  \cf17 \strokec17 1_000_000\cf11 \strokec11 :\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11             \cf21 \strokec21 out\cf11 \strokec11  \cf8 \strokec8 +=\cf11 \strokec11  \cf21 \strokec21 self\cf11 \strokec11 .\cf21 \strokec21 sector\cf11 \strokec11 (\cf21 \strokec21 s\cf11 \strokec11 ); \cf21 \strokec21 s\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 self\cf11 \strokec11 .\cf21 \strokec21 fat\cf11 \strokec11 [\cf21 \strokec21 s\cf11 \strokec11 ]; \cf21 \strokec21 seen\cf11 \strokec11  \cf8 \strokec8 +=\cf11 \strokec11  \cf17 \strokec17 1\cf11 \cb1 \strokec11 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf20 \strokec20 return\cf11 \strokec11  \cf21 \strokec21 out\cf11 \cb1 \strokec11 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11     \cf20 \strokec20 def\cf11 \strokec11  \cf21 \strokec21 read_chain\cf11 \strokec11 (\cf21 \strokec21 self\cf11 \strokec11 , \cf21 \strokec21 start\cf11 \strokec11 , \cf21 \strokec21 size\cf8 \strokec8 =\cf11 \strokec11 None):\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf21 \strokec21 d\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 self\cf11 \strokec11 .\cf21 \strokec21 chain\cf11 \strokec11 (\cf21 \strokec21 start\cf11 \strokec11 ); \cf20 \strokec20 return\cf11 \strokec11  \cf21 \strokec21 d\cf11 \strokec11 [:\cf21 \strokec21 size\cf11 \strokec11 ] \cf20 \strokec20 if\cf11 \strokec11  \cf21 \strokec21 size\cf11 \strokec11  \cf8 \strokec8 is not\cf11 \strokec11  None \cf20 \strokec20 else\cf11 \strokec11  \cf21 \strokec21 d\cf11 \cb1 \strokec11 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11     \cf20 \strokec20 def\cf11 \strokec11  \cf21 \strokec21 read_stream\cf11 \strokec11 (\cf21 \strokec21 self\cf11 \strokec11 , \cf21 \strokec21 e\cf11 \strokec11 ):\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf20 \strokec20 if\cf11 \strokec11  \cf21 \strokec21 e\cf11 \strokec11 [\cf9 \strokec9 "size"\cf11 \strokec11 ] \cf8 \strokec8 <\cf11 \strokec11  \cf21 \strokec21 self\cf11 \strokec11 .\cf21 \strokec21 cutoff\cf11 \strokec11 :\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11             \cf21 \strokec21 out\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf9 \strokec9 b""\cf11 \strokec11 ; \cf21 \strokec21 s\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 e\cf11 \strokec11 [\cf9 \strokec9 "start"\cf11 \strokec11 ]\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11             \cf20 \strokec20 while\cf11 \strokec11  \cf21 \strokec21 s\cf11 \strokec11  \cf8 \strokec8 <\cf11 \strokec11  \cf17 \strokec17 0xFFFFFFFA\cf11 \strokec11 :\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11                 \cf21 \strokec21 out\cf11 \strokec11  \cf8 \strokec8 +=\cf11 \strokec11  \cf21 \strokec21 self\cf11 \strokec11 .\cf21 \strokec21 ministream\cf11 \strokec11 [\cf21 \strokec21 s\cf11 \strokec11  \cf8 \strokec8 *\cf11 \strokec11  \cf21 \strokec21 self\cf11 \strokec11 .\cf21 \strokec21 msz\cf11 \strokec11 :(\cf21 \strokec21 s\cf11 \strokec11  \cf8 \strokec8 +\cf11 \strokec11  \cf17 \strokec17 1\cf11 \strokec11 ) \cf8 \strokec8 *\cf11 \strokec11  \cf21 \strokec21 self\cf11 \strokec11 .\cf21 \strokec21 msz\cf11 \strokec11 ]; \cf21 \strokec21 s\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 self\cf11 \strokec11 .\cf21 \strokec21 minifat\cf11 \strokec11 [\cf21 \strokec21 s\cf11 \strokec11 ]\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11             \cf20 \strokec20 return\cf11 \strokec11  \cf21 \strokec21 out\cf11 \strokec11 [:\cf21 \strokec21 e\cf11 \strokec11 [\cf9 \strokec9 "size"\cf11 \strokec11 ]]\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf20 \strokec20 return\cf11 \strokec11  \cf21 \strokec21 self\cf11 \strokec11 .\cf21 \strokec21 read_chain\cf11 \strokec11 (\cf21 \strokec21 e\cf11 \strokec11 [\cf9 \strokec9 "start"\cf11 \strokec11 ], \cf21 \strokec21 e\cf11 \strokec11 [\cf9 \strokec9 "size"\cf11 \strokec11 ])\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11     \cf20 \strokec20 def\cf11 \strokec11  \cf21 \strokec21 children\cf11 \strokec11 (\cf21 \strokec21 self\cf11 \strokec11 , \cf21 \strokec21 idx\cf11 \strokec11 ):\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf21 \strokec21 res\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  []\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf20 \strokec20 def\cf11 \strokec11  \cf21 \strokec21 walk\cf11 \strokec11 (\cf21 \strokec21 i\cf11 \strokec11 ):\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11             \cf20 \strokec20 if\cf11 \strokec11  \cf21 \strokec21 i\cf11 \strokec11  \cf8 \strokec8 ==\cf11 \strokec11  \cf17 \strokec17 0xFFFFFFFF\cf11 \strokec11 : \cf20 \strokec20 return\cf11 \cb1 \strokec11 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11             \cf21 \strokec21 e\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 self\cf11 \strokec11 .\cf21 \strokec21 entries\cf11 \strokec11 [\cf21 \strokec21 i\cf11 \strokec11 ]; \cf21 \strokec21 walk\cf11 \strokec11 (\cf21 \strokec21 e\cf11 \strokec11 [\cf9 \strokec9 "left"\cf11 \strokec11 ]); \cf21 \strokec21 res\cf11 \strokec11 .\cf21 \strokec21 append\cf11 \strokec11 (\cf21 \strokec21 i\cf11 \strokec11 ); \cf21 \strokec21 walk\cf11 \strokec11 (\cf21 \strokec21 e\cf11 \strokec11 [\cf9 \strokec9 "right"\cf11 \strokec11 ])\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf21 \strokec21 walk\cf11 \strokec11 (\cf21 \strokec21 self\cf11 \strokec11 .\cf21 \strokec21 entries\cf11 \strokec11 [\cf21 \strokec21 idx\cf11 \strokec11 ][\cf9 \strokec9 "child"\cf11 \strokec11 ]); \cf20 \strokec20 return\cf11 \strokec11  \cf21 \strokec21 res\cf11 \cb1 \strokec11 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11     \cf20 \strokec20 def\cf11 \strokec11  \cf21 \strokec21 find_path\cf11 \strokec11 (\cf21 \strokec21 self\cf11 \strokec11 , \cf8 \strokec8 *\cf21 \strokec21 names\cf11 \strokec11 ):\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf21 \strokec21 idx\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf17 \strokec17 0\cf11 \cb1 \strokec11 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf20 \strokec20 for\cf11 \strokec11  \cf21 \strokec21 n\cf11 \strokec11  \cf8 \strokec8 in\cf11 \strokec11  \cf21 \strokec21 names\cf11 \strokec11 :\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11             \cf20 \strokec20 for\cf11 \strokec11  \cf21 \strokec21 c\cf11 \strokec11  \cf8 \strokec8 in\cf11 \strokec11  \cf21 \strokec21 self\cf11 \strokec11 .\cf21 \strokec21 children\cf11 \strokec11 (\cf21 \strokec21 idx\cf11 \strokec11 ):\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11                 \cf20 \strokec20 if\cf11 \strokec11  \cf21 \strokec21 self\cf11 \strokec11 .\cf21 \strokec21 entries\cf11 \strokec11 [\cf21 \strokec21 c\cf11 \strokec11 ][\cf9 \strokec9 "name"\cf11 \strokec11 ] \cf8 \strokec8 ==\cf11 \strokec11  \cf21 \strokec21 n\cf11 \strokec11 : \cf21 \strokec21 idx\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 c\cf11 \strokec11 ; \cf20 \strokec20 break\cf11 \cb1 \strokec11 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11             \cf20 \strokec20 else\cf11 \strokec11 : \cf20 \strokec20 return\cf11 \strokec11  None\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf20 \strokec20 return\cf11 \strokec11  \cf21 \strokec21 idx\cf11 \cb1 \strokec11 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11 \'a0\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf20 \cb31 \strokec20 def\cf11 \strokec11  \cf21 \strokec21 main\cf11 \strokec11 (\cf21 \strokec21 path\cf11 \strokec11 ):\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11     \cf21 \strokec21 cfb\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 CFB\cf11 \strokec11 (\cf21 \strokec21 open\cf11 \strokec11 (\cf21 \strokec21 path\cf11 \strokec11 , \cf9 \strokec9 "rb"\cf11 \strokec11 ).\cf21 \strokec21 read\cf11 \strokec11 ())\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11     \cf21 \strokec21 vba\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 cfb\cf11 \strokec11 .\cf21 \strokec21 find_path\cf11 \strokec11 (\cf9 \strokec9 "VBA"\cf11 \strokec11 )\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11     \cf21 \strokec21 kids\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \{\cf21 \strokec21 cfb\cf11 \strokec11 .\cf21 \strokec21 entries\cf11 \strokec11 [\cf21 \strokec21 c\cf11 \strokec11 ][\cf9 \strokec9 "name"\cf11 \strokec11 ]: \cf21 \strokec21 c\cf11 \strokec11  \cf20 \strokec20 for\cf11 \strokec11  \cf21 \strokec21 c\cf11 \strokec11  \cf8 \strokec8 in\cf11 \strokec11  \cf21 \strokec21 cfb\cf11 \strokec11 .\cf21 \strokec21 children\cf11 \strokec11 (\cf21 \strokec21 vba\cf11 \strokec11 )\}\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11     \cf21 \strokec21 dir_data\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 ovba_decompress\cf11 \strokec11 (\cf21 \strokec21 cfb\cf11 \strokec11 .\cf21 \strokec21 read_stream\cf11 \strokec11 (\cf21 \strokec21 cfb\cf11 \strokec11 .\cf21 \strokec21 entries\cf11 \strokec11 [\cf21 \strokec21 kids\cf11 \strokec11 [\cf9 \strokec9 "dir"\cf11 \strokec11 ]]))\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11     \cf21 \strokec21 pos\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf17 \strokec17 0\cf11 \strokec11 ; \cf21 \strokec21 mods\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  []; \cf21 \strokec21 cur\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \{\}\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11     \cf20 \strokec20 while\cf11 \strokec11  \cf21 \strokec21 pos\cf11 \strokec11  \cf8 \strokec8 <\cf11 \strokec11  \cf21 \strokec21 len\cf11 \strokec11 (\cf21 \strokec21 dir_data\cf11 \strokec11 ):\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf21 \strokec21 rid\cf11 \strokec11 , \cf21 \strokec21 sz\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 struct\cf11 \strokec11 .\cf21 \strokec21 unpack_from\cf11 \strokec11 (\cf9 \strokec9 "<HI"\cf11 \strokec11 , \cf21 \strokec21 dir_data\cf11 \strokec11 , \cf21 \strokec21 pos\cf11 \strokec11 ); \cf21 \strokec21 pos\cf11 \strokec11  \cf8 \strokec8 +=\cf11 \strokec11  \cf17 \strokec17 6\cf11 \cb1 \strokec11 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf20 \strokec20 if\cf11 \strokec11  \cf21 \strokec21 rid\cf11 \strokec11  \cf8 \strokec8 ==\cf11 \strokec11  \cf17 \strokec17 0x0009\cf11 \strokec11 : \cf21 \strokec21 sz\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf17 \strokec17 6\cf11 \strokec11   \cf24 \strokec24 # PROJECTVERSION quirk\cf11 \cb1 \strokec11 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf21 \strokec21 body\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 dir_data\cf11 \strokec11 [\cf21 \strokec21 pos\cf11 \strokec11 :\cf21 \strokec21 pos\cf11 \strokec11  \cf8 \strokec8 +\cf11 \strokec11  \cf21 \strokec21 sz\cf11 \strokec11 ]; \cf21 \strokec21 pos\cf11 \strokec11  \cf8 \strokec8 +=\cf11 \strokec11  \cf21 \strokec21 sz\cf11 \cb1 \strokec11 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf20 \strokec20 if\cf11 \strokec11  \cf21 \strokec21 rid\cf11 \strokec11  \cf8 \strokec8 ==\cf11 \strokec11  \cf17 \strokec17 0x0019\cf11 \strokec11 : \cf21 \strokec21 cur\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \{\cf9 \strokec9 "name"\cf11 \strokec11 : \cf21 \strokec21 body\cf11 \strokec11 .\cf21 \strokec21 decode\cf11 \strokec11 (\cf9 \strokec9 "latin1"\cf11 \strokec11 )\}; \cf21 \strokec21 mods\cf11 \strokec11 .\cf21 \strokec21 append\cf11 \strokec11 (\cf21 \strokec21 cur\cf11 \strokec11 )\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf20 \strokec20 elif\cf11 \strokec11  \cf21 \strokec21 rid\cf11 \strokec11  \cf8 \strokec8 ==\cf11 \strokec11  \cf17 \strokec17 0x001A\cf11 \strokec11 : \cf21 \strokec21 cur\cf11 \strokec11 [\cf9 \strokec9 "stream"\cf11 \strokec11 ] \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 body\cf11 \strokec11 .\cf21 \strokec21 decode\cf11 \strokec11 (\cf9 \strokec9 "latin1"\cf11 \strokec11 )\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf20 \strokec20 elif\cf11 \strokec11  \cf21 \strokec21 rid\cf11 \strokec11  \cf8 \strokec8 ==\cf11 \strokec11  \cf17 \strokec17 0x0031\cf11 \strokec11 : \cf21 \strokec21 cur\cf11 \strokec11 [\cf9 \strokec9 "offset"\cf11 \strokec11 ] \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 struct\cf11 \strokec11 .\cf21 \strokec21 unpack\cf11 \strokec11 (\cf9 \strokec9 "<I"\cf11 \strokec11 , \cf21 \strokec21 body\cf11 \strokec11 )[\cf17 \strokec17 0\cf11 \strokec11 ]\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf20 \strokec20 elif\cf11 \strokec11  \cf21 \strokec21 rid\cf11 \strokec11  \cf8 \strokec8 ==\cf11 \strokec11  \cf17 \strokec17 0x0021\cf11 \strokec11 : \cf21 \strokec21 cur\cf11 \strokec11 [\cf9 \strokec9 "type"\cf11 \strokec11 ] \cf8 \strokec8 =\cf11 \strokec11  \cf9 \strokec9 "procedural"\cf11 \cb1 \strokec11 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf20 \strokec20 elif\cf11 \strokec11  \cf21 \strokec21 rid\cf11 \strokec11  \cf8 \strokec8 ==\cf11 \strokec11  \cf17 \strokec17 0x0022\cf11 \strokec11 : \cf21 \strokec21 cur\cf11 \strokec11 [\cf9 \strokec9 "type"\cf11 \strokec11 ] \cf8 \strokec8 =\cf11 \strokec11  \cf9 \strokec9 "document/class"\cf11 \cb1 \strokec11 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11     \cf20 \strokec20 for\cf11 \strokec11  \cf21 \strokec21 m\cf11 \strokec11  \cf8 \strokec8 in\cf11 \strokec11  \cf21 \strokec21 mods\cf11 \strokec11 :\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf21 \strokec21 src\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 ovba_decompress\cf11 \strokec11 (\cf21 \strokec21 cfb\cf11 \strokec11 .\cf21 \strokec21 read_stream\cf11 \strokec11 (\cf21 \strokec21 cfb\cf11 \strokec11 .\cf21 \strokec21 entries\cf11 \strokec11 [\cf21 \strokec21 kids\cf11 \strokec11 [\cf21 \strokec21 m\cf11 \strokec11 [\cf9 \strokec9 "stream"\cf11 \strokec11 ]]])[\cf21 \strokec21 m\cf11 \strokec11 [\cf9 \strokec9 "offset"\cf11 \strokec11 ]:]).\cf21 \strokec21 decode\cf11 \strokec11 (\cf9 \strokec9 "cp1252"\cf11 \strokec11 , \cf9 \strokec9 "replace"\cf11 \strokec11 )\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf21 \strokec21 m\cf11 \strokec11 [\cf9 \strokec9 "src"\cf11 \strokec11 ] \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 src\cf11 \strokec11 .\cf21 \strokec21 replace\cf11 \strokec11 (\cf9 \strokec9 "\\r\\n"\cf11 \strokec11 , \cf9 \strokec9 "\\n"\cf11 \strokec11 )\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11     \cf20 \strokec20 return\cf11 \strokec11  \cf21 \strokec21 mods\cf11 \cb1 \strokec11 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11 \'a0\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf20 \cb31 \strokec20 if\cf11 \strokec11  \cf21 \strokec21 __name__\cf11 \strokec11  \cf8 \strokec8 ==\cf11 \strokec11  \cf9 \strokec9 "__main__"\cf11 \strokec11 :\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11     \cf21 \strokec21 mods\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 main\cf11 \strokec11 (\cf21 \strokec21 sys\cf11 \strokec11 .\cf21 \strokec21 argv\cf11 \strokec11 [\cf17 \strokec17 1\cf11 \strokec11 ])\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11     \cf20 \strokec20 for\cf11 \strokec11  \cf21 \strokec21 m\cf11 \strokec11  \cf8 \strokec8 in\cf11 \strokec11  \cf21 \strokec21 mods\cf11 \strokec11 :\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf21 \strokec21 body\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf9 \strokec9 "\\n"\cf11 \strokec11 .\cf21 \strokec21 join\cf11 \strokec11 (\cf21 \strokec21 l\cf11 \strokec11  \cf20 \strokec20 for\cf11 \strokec11  \cf21 \strokec21 l\cf11 \strokec11  \cf8 \strokec8 in\cf11 \strokec11  \cf21 \strokec21 m\cf11 \strokec11 [\cf9 \strokec9 "src"\cf11 \strokec11 ].\cf21 \strokec21 split\cf11 \strokec11 (\cf9 \strokec9 "\\n"\cf11 \strokec11 ) \cf20 \strokec20 if\cf11 \strokec11  \cf21 \strokec21 l\cf11 \strokec11 .\cf21 \strokec21 strip\cf11 \strokec11 () \cf8 \strokec8 and\cf11 \strokec11  \cf8 \strokec8 not\cf11 \strokec11  \cf21 \strokec21 l\cf11 \strokec11 .\cf21 \strokec21 startswith\cf11 \strokec11 (\cf9 \strokec9 "Attribute "\cf11 \strokec11 ))\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11         \cf21 \strokec21 print\cf11 \strokec11 (\cf9 \strokec9 f"\{m['name']:14s\} type=\{m.get('type'):16s\} lines=\{len(body.splitlines())\}"\cf11 \strokec11 )\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11     \cf20 \strokec20 import\cf11 \strokec11  \cf21 \strokec21 pathlib\cf11 \cb1 \strokec11 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11     \cf21 \strokec21 out\cf11 \strokec11  \cf8 \strokec8 =\cf11 \strokec11  \cf21 \strokec21 pathlib\cf11 \strokec11 .\cf21 \strokec21 Path\cf11 \strokec11 (\cf9 \strokec9 "/tmp/vba/src"\cf11 \strokec11 ); \cf21 \strokec21 out\cf11 \strokec11 .\cf21 \strokec21 mkdir\cf11 \strokec11 (\cf21 \strokec21 exist_ok\cf8 \strokec8 =\cf11 \strokec11 True)\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11     \cf20 \strokec20 for\cf11 \strokec11  \cf21 \strokec21 m\cf11 \strokec11  \cf8 \strokec8 in\cf11 \strokec11  \cf21 \strokec21 mods\cf11 \strokec11 : (\cf21 \strokec21 out\cf11 \strokec11  \cf8 \strokec8 /\cf11 \strokec11  \cf9 \strokec9 f"\{m['name']\}.bas"\cf11 \strokec11 ).\cf21 \strokec21 write_text\cf11 \strokec11 (\cf21 \strokec21 m\cf11 \strokec11 [\cf9 \strokec9 "src"\cf11 \strokec11 ])\cb1 \
+
+\f3 \cf27 \strokec27 \
+
+\f4 \cf11 \cb31 \strokec11 \'a0\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f7\fs28 \cf11 \
+\
+\
+
+\f3\fs32 \
+\pard\pardeftab720\partightenfactor0
+
+\f7 \cf11 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\b\fs36 \cf26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+}

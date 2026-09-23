@@ -1,0 +1,6713 @@
+{
+ "version": 1,
+ "anomalies": [
+  {
+   "sheet": "V17",
+   "cell": "AH3",
+   "expectedFormula": "=SUM(AI4:AI21)",
+   "found": "24:00"
+  },
+  {
+   "sheet": "V17",
+   "cell": "U31",
+   "expectedFormula": "=IF(AND(ISNUMBER(T30),ISNUMBER(T31)),T31-T30,\"\")",
+   "found": null
+  }
+ ],
+ "weeks": {
+  "V01": {
+   "bankHours": 15.4,
+   "expectedHours": 15.4,
+   "bankDiff": 0.0,
+   "normalHours": 15.4,
+   "normalDiff": 0.0,
+   "normalBalance": 34.5,
+   "rptHours": 15.4,
+   "rptRegisteredMin": 924.0,
+   "registeredMin": 924.0,
+   "summedMin": 924.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 15.4,
+   "reportedAsTimeMin": 924.0,
+   "regVsReportedMin": 0.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": 924.0,
+     "reportedHours": 15.4
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": null,
+     "reportedHours": null
+    }
+   },
+   "days": [
+    {
+     "summedMin": 0.0,
+     "rptRegisteredMin": 0.0,
+     "rptReportedHours": 0.0
+    },
+    {
+     "summedMin": 0.0,
+     "rptRegisteredMin": 0.0,
+     "rptReportedHours": 0.0
+    },
+    {
+     "summedMin": 0.0,
+     "rptRegisteredMin": 0.0,
+     "rptReportedHours": 0.0
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    }
+   ],
+   "warnings": []
+  },
+  "V02": {
+   "bankHours": 32.0,
+   "expectedHours": 30.8,
+   "bankDiff": 1.1999999999999993,
+   "normalHours": 32.0,
+   "normalDiff": 1.1999999999999993,
+   "normalBalance": 35.7,
+   "rptHours": 32.0,
+   "rptRegisteredMin": 1935.0,
+   "registeredMin": 2070.0,
+   "summedMin": 2070.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 34.25,
+   "reportedAsTimeMin": 2058.0,
+   "regVsReportedMin": 12.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": 390.0,
+     "reportedHours": 6.5
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": 420.0,
+     "reportedHours": 7.0
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": 60.0,
+     "reportedHours": 1.0
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 1035.0,
+     "reportedHours": 17.0
+    },
+    "Produktvård": {
+     "registeredMin": 30.0,
+     "reportedHours": 0.5
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": 135.0,
+     "reportedHours": 2.25
+    }
+   },
+   "days": [
+    {
+     "summedMin": 0.0,
+     "rptRegisteredMin": 0.0,
+     "rptReportedHours": 0.0
+    },
+    {
+     "summedMin": 525.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 525.0,
+     "rptRegisteredMin": 495.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    }
+   ],
+   "warnings": [
+    "normalDiff"
+   ]
+  },
+  "V03": {
+   "bankHours": 38.5,
+   "expectedHours": 38.5,
+   "bankDiff": 0.0,
+   "normalHours": 38.5,
+   "normalDiff": 0.0,
+   "normalBalance": 35.7,
+   "rptHours": 38.5,
+   "rptRegisteredMin": 2325.0,
+   "registeredMin": 2505.0,
+   "summedMin": 2505.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 41.5,
+   "reportedAsTimeMin": 2490.0,
+   "regVsReportedMin": 15.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": 390.0,
+     "reportedHours": 6.5
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": 855.0,
+     "reportedHours": 14.0
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": 60.0,
+     "reportedHours": 1.0
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 1020.0,
+     "reportedHours": 17.0
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": 180.0,
+     "reportedHours": 3.0
+    }
+   },
+   "days": [
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 525.0,
+     "rptRegisteredMin": 495.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 480.0,
+     "rptRegisteredMin": 450.0,
+     "rptReportedHours": 7.5
+    },
+    {
+     "summedMin": 480.0,
+     "rptRegisteredMin": 420.0,
+     "rptReportedHours": 7.0
+    }
+   ],
+   "warnings": []
+  },
+  "V04": {
+   "bankHours": 39.0,
+   "expectedHours": 38.5,
+   "bankDiff": 0.5,
+   "normalHours": 39.0,
+   "normalDiff": 0.5,
+   "normalBalance": 36.2,
+   "rptHours": 39.0,
+   "rptRegisteredMin": 2340.0,
+   "registeredMin": 2520.0,
+   "summedMin": 2520.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 42.0,
+   "reportedAsTimeMin": 2520.0,
+   "regVsReportedMin": 0.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": 420.0,
+     "reportedHours": 7.0
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": 1455.0,
+     "reportedHours": 24.0
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": 60.0,
+     "reportedHours": 1.0
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 375.0,
+     "reportedHours": 6.5
+    },
+    "Produktvård": {
+     "registeredMin": 30.0,
+     "reportedHours": 0.5
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": 180.0,
+     "reportedHours": 3.0
+    }
+   },
+   "days": [
+    {
+     "summedMin": 525.0,
+     "rptRegisteredMin": 495.0,
+     "rptReportedHours": 8.5
+    },
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 450.0,
+     "rptReportedHours": 7.5
+    },
+    {
+     "summedMin": 525.0,
+     "rptRegisteredMin": 495.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 450.0,
+     "rptRegisteredMin": 420.0,
+     "rptReportedHours": 7.0
+    }
+   ],
+   "warnings": [
+    "normalDiff"
+   ]
+  },
+  "V05": {
+   "bankHours": 39.0,
+   "expectedHours": 38.5,
+   "bankDiff": 0.5,
+   "normalHours": 39.0,
+   "normalDiff": 0.5,
+   "normalBalance": 36.7,
+   "rptHours": 39.0,
+   "rptRegisteredMin": 2350.0,
+   "registeredMin": 2530.0,
+   "summedMin": 2530.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 42.0,
+   "reportedAsTimeMin": 2520.0,
+   "regVsReportedMin": 10.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": 2170.0,
+     "reportedHours": 36.0
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": 60.0,
+     "reportedHours": 1.0
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 120.0,
+     "reportedHours": 2.0
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": 180.0,
+     "reportedHours": 3.0
+    }
+   },
+   "days": [
+    {
+     "summedMin": 495.0,
+     "rptRegisteredMin": 465.0,
+     "rptReportedHours": 7.5
+    },
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 535.0,
+     "rptRegisteredMin": 505.0,
+     "rptReportedHours": 8.5
+    },
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 480.0,
+     "rptRegisteredMin": 420.0,
+     "rptReportedHours": 7.0
+    }
+   ],
+   "warnings": [
+    "normalDiff"
+   ]
+  },
+  "V06": {
+   "bankHours": 38.5,
+   "expectedHours": 38.5,
+   "bankDiff": 0.0,
+   "normalHours": 38.5,
+   "normalDiff": 0.0,
+   "normalBalance": 36.7,
+   "rptHours": 38.5,
+   "rptRegisteredMin": 2325.0,
+   "registeredMin": 2535.0,
+   "summedMin": 2535.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 42.0,
+   "reportedAsTimeMin": 2520.0,
+   "regVsReportedMin": 15.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": 1410.0,
+     "reportedHours": 23.5
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": 60.0,
+     "reportedHours": 1.0
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 855.0,
+     "reportedHours": 14.0
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": 210.0,
+     "reportedHours": 3.5
+    }
+   },
+   "days": [
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 450.0,
+     "rptReportedHours": 7.5
+    },
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 465.0,
+     "rptReportedHours": 7.5
+    },
+    {
+     "summedMin": 525.0,
+     "rptRegisteredMin": 495.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 480.0,
+     "rptRegisteredMin": 435.0,
+     "rptReportedHours": 7.5
+    }
+   ],
+   "warnings": []
+  },
+  "V07": {
+   "bankHours": 38.8,
+   "expectedHours": 38.5,
+   "bankDiff": 0.29999999999999716,
+   "normalHours": 38.8,
+   "normalDiff": 0.29999999999999716,
+   "normalBalance": 37.0,
+   "rptHours": 38.8,
+   "rptRegisteredMin": 2313.0,
+   "registeredMin": 2358.0,
+   "summedMin": 2358.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 39.550000000000004,
+   "reportedAsTimeMin": 2376.0,
+   "regVsReportedMin": 18.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": 345.0,
+     "reportedHours": 6.0
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 120.0,
+     "reportedHours": 2.0
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": 1848.0,
+     "reportedHours": 30.8
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": 45.0,
+     "reportedHours": 0.75
+    }
+   },
+   "days": [
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 465.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    }
+   ],
+   "warnings": [
+    "normalDiff"
+   ]
+  },
+  "V08": {
+   "bankHours": 40.0,
+   "expectedHours": 38.5,
+   "bankDiff": 1.5,
+   "normalHours": 40.0,
+   "normalDiff": 1.5,
+   "normalBalance": 38.5,
+   "rptHours": 40.0,
+   "rptRegisteredMin": 2395.0,
+   "registeredMin": 2545.0,
+   "summedMin": 2545.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 42.5,
+   "reportedAsTimeMin": 2550.0,
+   "regVsReportedMin": 5.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": 1190.0,
+     "reportedHours": 20.0
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": 60.0,
+     "reportedHours": 1.0
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": 60.0,
+     "reportedHours": 1.0
+    },
+    "Department time": {
+     "registeredMin": 125.0,
+     "reportedHours": 2.0
+    },
+    "Produktvård": {
+     "registeredMin": 960.0,
+     "reportedHours": 16.0
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": 150.0,
+     "reportedHours": 2.5
+    }
+   },
+   "days": [
+    {
+     "summedMin": 520.0,
+     "rptRegisteredMin": 490.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 480.0,
+     "rptRegisteredMin": 450.0,
+     "rptReportedHours": 7.5
+    },
+    {
+     "summedMin": 525.0,
+     "rptRegisteredMin": 495.0,
+     "rptReportedHours": 8.5
+    },
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    }
+   ],
+   "warnings": [
+    "normalDiff"
+   ]
+  },
+  "V09": {
+   "bankHours": 39.4,
+   "expectedHours": 38.5,
+   "bankDiff": 0.8999999999999986,
+   "normalHours": 39.4,
+   "normalDiff": 0.8999999999999986,
+   "normalBalance": 39.4,
+   "rptHours": 39.4,
+   "rptRegisteredMin": 2364.0,
+   "registeredMin": 2499.0,
+   "summedMin": 2499.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 41.65,
+   "reportedAsTimeMin": 2496.0,
+   "regVsReportedMin": 3.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": 165.0,
+     "reportedHours": 2.5
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": 60.0,
+     "reportedHours": 1.0
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 30.0,
+     "reportedHours": 0.5
+    },
+    "Produktvård": {
+     "registeredMin": 1185.0,
+     "reportedHours": 20.0
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": 924.0,
+     "reportedHours": 15.4
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": 135.0,
+     "reportedHours": 2.25
+    }
+   },
+   "days": [
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 525.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 555.0,
+     "rptRegisteredMin": 495.0,
+     "rptReportedHours": 8.5
+    },
+    {
+     "summedMin": 495.0,
+     "rptRegisteredMin": 465.0,
+     "rptReportedHours": 7.5
+    }
+   ],
+   "warnings": [
+    "normalDiff"
+   ]
+  },
+  "V10": {
+   "bankHours": 39.5,
+   "expectedHours": 38.5,
+   "bankDiff": 1.0,
+   "normalHours": 39.5,
+   "normalDiff": 1.0,
+   "normalBalance": 40.4,
+   "rptHours": 39.5,
+   "rptRegisteredMin": 2385.0,
+   "registeredMin": 2550.0,
+   "summedMin": 2550.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 42.25,
+   "reportedAsTimeMin": 2538.0,
+   "regVsReportedMin": 12.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": 600.0,
+     "reportedHours": 9.5
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": 60.0,
+     "reportedHours": 1.0
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 90.0,
+     "reportedHours": 1.5
+    },
+    "Produktvård": {
+     "registeredMin": 1635.0,
+     "reportedHours": 27.5
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": 165.0,
+     "reportedHours": 2.75
+    }
+   },
+   "days": [
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 525.0,
+     "rptRegisteredMin": 495.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 525.0,
+     "rptRegisteredMin": 495.0,
+     "rptReportedHours": 8.5
+    },
+    {
+     "summedMin": 480.0,
+     "rptRegisteredMin": 435.0,
+     "rptReportedHours": 7.0
+    }
+   ],
+   "warnings": [
+    "activityWeek:MT Amodo",
+    "normalDiff"
+   ]
+  },
+  "V11": {
+   "bankHours": 39.5,
+   "expectedHours": 38.5,
+   "bankDiff": 1.0,
+   "normalHours": 39.5,
+   "normalDiff": 1.0,
+   "normalBalance": 41.4,
+   "rptHours": 39.5,
+   "rptRegisteredMin": 2370.0,
+   "registeredMin": 2520.0,
+   "summedMin": 2520.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 42.0,
+   "reportedAsTimeMin": 2520.0,
+   "regVsReportedMin": 0.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": 2095.0,
+     "reportedHours": 35.0
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": 60.0,
+     "reportedHours": 1.0
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": 80.0,
+     "reportedHours": 1.5
+    },
+    "Department time": {
+     "registeredMin": 75.0,
+     "reportedHours": 1.0
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": 60.0,
+     "reportedHours": 1.0
+    },
+    "Lunch": {
+     "registeredMin": 150.0,
+     "reportedHours": 2.5
+    }
+   },
+   "days": [
+    {
+     "summedMin": 480.0,
+     "rptRegisteredMin": 450.0,
+     "rptReportedHours": 7.0
+    },
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 525.0,
+     "rptRegisteredMin": 495.0,
+     "rptReportedHours": 8.5
+    },
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 495.0,
+     "rptRegisteredMin": 465.0,
+     "rptReportedHours": 8.0
+    }
+   ],
+   "warnings": [
+    "normalDiff"
+   ]
+  },
+  "V12": {
+   "bankHours": 40.0,
+   "expectedHours": 38.5,
+   "bankDiff": 1.5,
+   "normalHours": 40.0,
+   "normalDiff": 1.5,
+   "normalBalance": 42.9,
+   "rptHours": 40.0,
+   "rptRegisteredMin": 2400.0,
+   "registeredMin": 2550.0,
+   "summedMin": 2550.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 42.5,
+   "reportedAsTimeMin": 2550.0,
+   "regVsReportedMin": 0.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": 2130.0,
+     "reportedHours": 35.5
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": 60.0,
+     "reportedHours": 1.0
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 150.0,
+     "reportedHours": 2.5
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": 60.0,
+     "reportedHours": 1.0
+    },
+    "Lunch": {
+     "registeredMin": 150.0,
+     "reportedHours": 2.5
+    }
+   },
+   "days": [
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 555.0,
+     "rptRegisteredMin": 525.0,
+     "rptReportedHours": 9.0
+    },
+    {
+     "summedMin": 525.0,
+     "rptRegisteredMin": 495.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 480.0,
+     "rptRegisteredMin": 450.0,
+     "rptReportedHours": 7.5
+    },
+    {
+     "summedMin": 480.0,
+     "rptRegisteredMin": 450.0,
+     "rptReportedHours": 7.5
+    }
+   ],
+   "warnings": [
+    "normalDiff"
+   ]
+  },
+  "V13": {
+   "bankHours": 39.0,
+   "expectedHours": 38.5,
+   "bankDiff": 0.5,
+   "normalHours": 39.0,
+   "normalDiff": 0.5,
+   "normalBalance": 43.4,
+   "rptHours": 39.0,
+   "rptRegisteredMin": 2340.0,
+   "registeredMin": 2490.0,
+   "summedMin": 2490.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 41.5,
+   "reportedAsTimeMin": 2490.0,
+   "regVsReportedMin": 0.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": 270.0,
+     "reportedHours": 4.5
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": 1890.0,
+     "reportedHours": 31.5
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": 60.0,
+     "reportedHours": 1.0
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 90.0,
+     "reportedHours": 1.5
+    },
+    "Produktvård": {
+     "registeredMin": 30.0,
+     "reportedHours": 0.5
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": 150.0,
+     "reportedHours": 2.5
+    }
+   },
+   "days": [
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 525.0,
+     "rptRegisteredMin": 495.0,
+     "rptReportedHours": 8.5
+    },
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 435.0,
+     "rptRegisteredMin": 405.0,
+     "rptReportedHours": 6.5
+    }
+   ],
+   "warnings": [
+    "normalDiff"
+   ]
+  },
+  "V14": {
+   "bankHours": 31.5,
+   "expectedHours": 30.8,
+   "bankDiff": 0.6999999999999993,
+   "normalHours": 31.5,
+   "normalDiff": 0.6999999999999993,
+   "normalBalance": 44.099999999999994,
+   "rptHours": 31.5,
+   "rptRegisteredMin": 1890.0,
+   "registeredMin": 2472.0,
+   "summedMin": 2472.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 41.2,
+   "reportedAsTimeMin": 2472.0,
+   "regVsReportedMin": 0.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": 1710.0,
+     "reportedHours": 28.5
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": 60.0,
+     "reportedHours": 1.0
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 120.0,
+     "reportedHours": 2.0
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": 120.0,
+     "reportedHours": 2.0
+    }
+   },
+   "days": [
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 525.0,
+     "rptRegisteredMin": 495.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 465.0,
+     "rptRegisteredMin": 435.0,
+     "rptReportedHours": 7.5
+    }
+   ],
+   "warnings": [
+    "normalDiff"
+   ]
+  },
+  "V15": {
+   "bankHours": 39.7,
+   "expectedHours": 38.5,
+   "bankDiff": 1.2000000000000028,
+   "normalHours": 39.7,
+   "normalDiff": 1.2000000000000028,
+   "normalBalance": 45.3,
+   "rptHours": 39.7,
+   "rptRegisteredMin": 2382.0,
+   "registeredMin": 2507.0,
+   "summedMin": 2507.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 41.78333333333333,
+   "reportedAsTimeMin": 2508.0,
+   "regVsReportedMin": 1.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": 462.0,
+     "reportedHours": 7.7
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": 1740.0,
+     "reportedHours": 29.0
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": 60.0,
+     "reportedHours": 1.0
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 120.0,
+     "reportedHours": 2.0
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": 125.0,
+     "reportedHours": 2.083333333333333
+    }
+   },
+   "days": [
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 545.0,
+     "rptRegisteredMin": 525.0,
+     "rptReportedHours": 8.5
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 480.0,
+     "rptRegisteredMin": 435.0,
+     "rptReportedHours": 7.5
+    }
+   ],
+   "warnings": [
+    "normalDiff"
+   ]
+  },
+  "V16": {
+   "bankHours": 28.9,
+   "expectedHours": 30.8,
+   "bankDiff": -1.9000000000000021,
+   "normalHours": 28.9,
+   "normalDiff": -1.9000000000000021,
+   "normalBalance": 43.39999999999999,
+   "rptHours": 28.9,
+   "rptRegisteredMin": 1719.0,
+   "registeredMin": 1794.0,
+   "summedMin": 1794.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 30.15,
+   "reportedAsTimeMin": 1806.0,
+   "regVsReportedMin": 12.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": 924.0,
+     "reportedHours": 15.4
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": 765.0,
+     "reportedHours": 13.0
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 30.0,
+     "reportedHours": 0.5
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": 75.0,
+     "reportedHours": 1.25
+    }
+   },
+   "days": [
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 360.0,
+     "rptRegisteredMin": 315.0,
+     "rptReportedHours": 5.5
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 0.0,
+     "rptRegisteredMin": 0.0,
+     "rptReportedHours": 0.0
+    }
+   ],
+   "warnings": [
+    "normalDiff"
+   ]
+  },
+  "V17": {
+   "bankHours": 31.2,
+   "expectedHours": 30.8,
+   "bankDiff": 0.3999999999999986,
+   "normalHours": 31.2,
+   "normalDiff": 0.3999999999999986,
+   "normalBalance": 43.79999999999999,
+   "rptHours": 31.2,
+   "rptRegisteredMin": 1887.0,
+   "registeredMin": 2037.0,
+   "summedMin": 3477.0,
+   "unmappedMin": -1440.0,
+   "reportedHours": 33.7,
+   "reportedAsTimeMin": 2022.0,
+   "regVsReportedMin": 15.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": 462.0,
+     "reportedHours": 7.7
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": 1365.0,
+     "reportedHours": 22.5
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": 60.0,
+     "reportedHours": 1.0
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": 150.0,
+     "reportedHours": 2.5
+    }
+   },
+   "days": [
+    {
+     "summedMin": 0.0,
+     "rptRegisteredMin": 0.0,
+     "rptReportedHours": 0.0
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 525.0,
+     "rptRegisteredMin": 465.0,
+     "rptReportedHours": 7.5
+    },
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 540.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    }
+   ],
+   "warnings": [
+    "normalDiff",
+    "unmapped"
+   ]
+  },
+  "V18": {
+   "bankHours": 23.5,
+   "expectedHours": 23.1,
+   "bankDiff": 0.3999999999999986,
+   "normalHours": 23.5,
+   "normalDiff": 0.3999999999999986,
+   "normalBalance": 44.19999999999999,
+   "rptHours": 23.5,
+   "rptRegisteredMin": 1410.0,
+   "registeredMin": 1515.0,
+   "summedMin": 1515.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 25.25,
+   "reportedAsTimeMin": 1518.0,
+   "regVsReportedMin": 3.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": 1245.0,
+     "reportedHours": 20.5
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": 60.0,
+     "reportedHours": 1.0
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 105.0,
+     "reportedHours": 2.0
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": 105.0,
+     "reportedHours": 1.75
+    }
+   },
+   "days": [
+    {
+     "summedMin": 495.0,
+     "rptRegisteredMin": 465.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 465.0,
+     "rptReportedHours": 7.5
+    },
+    {
+     "summedMin": 0.0,
+     "rptRegisteredMin": 0.0,
+     "rptReportedHours": 0.0
+    },
+    {
+     "summedMin": 0.0,
+     "rptRegisteredMin": 0.0,
+     "rptReportedHours": 0.0
+    }
+   ],
+   "warnings": [
+    "normalDiff"
+   ]
+  },
+  "V19": {
+   "bankHours": 38.0,
+   "expectedHours": 38.5,
+   "bankDiff": -0.5,
+   "normalHours": 38.0,
+   "normalDiff": -0.5,
+   "normalBalance": 43.69999999999999,
+   "rptHours": 38.0,
+   "rptRegisteredMin": 2280.0,
+   "registeredMin": 2430.0,
+   "summedMin": 2430.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 40.5,
+   "reportedAsTimeMin": 2430.0,
+   "regVsReportedMin": 0.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": 1965.0,
+     "reportedHours": 33.0
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": 60.0,
+     "reportedHours": 1.0
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 255.0,
+     "reportedHours": 4.0
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": 150.0,
+     "reportedHours": 2.5
+    }
+   },
+   "days": [
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 525.0,
+     "rptRegisteredMin": 495.0,
+     "rptReportedHours": 8.5
+    },
+    {
+     "summedMin": 390.0,
+     "rptRegisteredMin": 360.0,
+     "rptReportedHours": 6.0
+    },
+    {
+     "summedMin": 495.0,
+     "rptRegisteredMin": 465.0,
+     "rptReportedHours": 7.5
+    }
+   ],
+   "warnings": [
+    "normalDiff"
+   ]
+  },
+  "V20": {
+   "bankHours": 39.5,
+   "expectedHours": 38.5,
+   "bankDiff": 1.0,
+   "normalHours": 39.5,
+   "normalDiff": 1.0,
+   "normalBalance": 44.69999999999999,
+   "rptHours": 39.5,
+   "rptRegisteredMin": 2370.0,
+   "registeredMin": 2555.0,
+   "summedMin": 2555.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 42.58333333333333,
+   "reportedAsTimeMin": 2556.0,
+   "regVsReportedMin": 1.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": 1915.0,
+     "reportedHours": 32.0
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": 60.0,
+     "reportedHours": 1.0
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 395.0,
+     "reportedHours": 6.5
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": 185.0,
+     "reportedHours": 3.083333333333333
+    }
+   },
+   "days": [
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 500.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 525.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 450.0,
+     "rptReportedHours": 7.5
+    }
+   ],
+   "warnings": [
+    "normalDiff"
+   ]
+  },
+  "V21": {
+   "bankHours": 40.5,
+   "expectedHours": 38.5,
+   "bankDiff": 2.0,
+   "normalHours": 40.5,
+   "normalDiff": 2.0,
+   "normalBalance": 46.69999999999999,
+   "rptHours": 40.5,
+   "rptRegisteredMin": 2425.0,
+   "registeredMin": 2545.0,
+   "summedMin": 2545.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 42.5,
+   "reportedAsTimeMin": 2550.0,
+   "regVsReportedMin": 5.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": 2205.0,
+     "reportedHours": 37.0
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": 60.0,
+     "reportedHours": 1.0
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 130.0,
+     "reportedHours": 2.0
+    },
+    "Produktvård": {
+     "registeredMin": 30.0,
+     "reportedHours": 0.5
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": 120.0,
+     "reportedHours": 2.0
+    }
+   },
+   "days": [
+    {
+     "summedMin": 520.0,
+     "rptRegisteredMin": 490.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 525.0,
+     "rptRegisteredMin": 495.0,
+     "rptReportedHours": 8.5
+    },
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 480.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    }
+   ],
+   "warnings": [
+    "normalDiff"
+   ]
+  },
+  "V22": {
+   "bankHours": 23.7,
+   "expectedHours": 23.1,
+   "bankDiff": 0.5999999999999979,
+   "normalHours": 23.7,
+   "normalDiff": 0.5999999999999979,
+   "normalBalance": 47.29999999999998,
+   "rptHours": 23.7,
+   "rptRegisteredMin": 1422.0,
+   "registeredMin": 1482.0,
+   "summedMin": 1482.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 24.7,
+   "reportedAsTimeMin": 1482.0,
+   "regVsReportedMin": 0.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": 870.0,
+     "reportedHours": 14.5
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 552.0,
+     "reportedHours": 9.2
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": 60.0,
+     "reportedHours": 1.0
+    }
+   },
+   "days": [
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 510.0,
+     "rptRegisteredMin": 480.0,
+     "rptReportedHours": 8.0
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 0.0,
+     "rptRegisteredMin": 0.0,
+     "rptReportedHours": 0.0
+    },
+    {
+     "summedMin": 0.0,
+     "rptRegisteredMin": 0.0,
+     "rptReportedHours": 0.0
+    }
+   ],
+   "warnings": [
+    "normalDiff"
+   ]
+  },
+  "V23": {
+   "bankHours": 30.8,
+   "expectedHours": 30.8,
+   "bankDiff": 0.0,
+   "normalHours": 30.8,
+   "normalDiff": 0.0,
+   "normalBalance": 47.29999999999998,
+   "rptHours": 30.8,
+   "rptRegisteredMin": 1848.0,
+   "registeredMin": 1848.0,
+   "summedMin": 1848.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 30.8,
+   "reportedAsTimeMin": 1848.0,
+   "regVsReportedMin": 0.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 1848.0,
+     "reportedHours": 30.8
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": null,
+     "reportedHours": null
+    }
+   },
+   "days": [
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 0.0,
+     "rptRegisteredMin": 0.0,
+     "rptReportedHours": 0.0
+    }
+   ],
+   "warnings": []
+  },
+  "V24": {
+   "bankHours": 38.5,
+   "expectedHours": 38.5,
+   "bankDiff": 0.0,
+   "normalHours": 38.5,
+   "normalDiff": 0.0,
+   "normalBalance": 47.29999999999998,
+   "rptHours": 38.5,
+   "rptRegisteredMin": 2310.0,
+   "registeredMin": 2310.0,
+   "summedMin": 2310.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 38.5,
+   "reportedAsTimeMin": 2310.0,
+   "regVsReportedMin": 0.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 2310.0,
+     "reportedHours": 38.5
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": null,
+     "reportedHours": null
+    }
+   },
+   "days": [
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    }
+   ],
+   "warnings": []
+  },
+  "V25": {
+   "bankHours": 30.8,
+   "expectedHours": 30.8,
+   "bankDiff": 0.0,
+   "normalHours": 30.8,
+   "normalDiff": 0.0,
+   "normalBalance": 47.29999999999998,
+   "rptHours": 30.8,
+   "rptRegisteredMin": 1848.0,
+   "registeredMin": 1848.0,
+   "summedMin": 1848.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 38.5,
+   "reportedAsTimeMin": 2310.0,
+   "regVsReportedMin": 462.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 1848.0,
+     "reportedHours": 30.8
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": null,
+     "reportedHours": null
+    }
+   },
+   "days": [
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 0.0,
+     "rptRegisteredMin": 0.0,
+     "rptReportedHours": 7.7
+    }
+   ],
+   "warnings": [
+    "dayActivity:4:Department time",
+    "dayTotal:4",
+    "regVsReported"
+   ]
+  },
+  "V26": {
+   "bankHours": 38.5,
+   "expectedHours": 38.5,
+   "bankDiff": 0.0,
+   "normalHours": 38.5,
+   "normalDiff": 0.0,
+   "normalBalance": 47.29999999999998,
+   "rptHours": 38.5,
+   "rptRegisteredMin": 2310.0,
+   "registeredMin": 2310.0,
+   "summedMin": 2310.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 38.5,
+   "reportedAsTimeMin": 2310.0,
+   "regVsReportedMin": 0.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 2310.0,
+     "reportedHours": 38.5
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": null,
+     "reportedHours": null
+    }
+   },
+   "days": [
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    }
+   ],
+   "warnings": []
+  },
+  "V27": {
+   "bankHours": 38.5,
+   "expectedHours": 38.5,
+   "bankDiff": 0.0,
+   "normalHours": 38.5,
+   "normalDiff": 0.0,
+   "normalBalance": 47.29999999999998,
+   "rptHours": 38.5,
+   "rptRegisteredMin": 2310.0,
+   "registeredMin": 2310.0,
+   "summedMin": 2310.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 38.5,
+   "reportedAsTimeMin": 2310.0,
+   "regVsReportedMin": 0.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 2310.0,
+     "reportedHours": 38.5
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": null,
+     "reportedHours": null
+    }
+   },
+   "days": [
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    }
+   ],
+   "warnings": []
+  },
+  "V28": {
+   "bankHours": 38.5,
+   "expectedHours": 38.5,
+   "bankDiff": 0.0,
+   "normalHours": 38.5,
+   "normalDiff": 0.0,
+   "normalBalance": 47.29999999999998,
+   "rptHours": 38.5,
+   "rptRegisteredMin": 2310.0,
+   "registeredMin": 2310.0,
+   "summedMin": 2310.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 38.5,
+   "reportedAsTimeMin": 2310.0,
+   "regVsReportedMin": 0.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 2310.0,
+     "reportedHours": 38.5
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": null,
+     "reportedHours": null
+    }
+   },
+   "days": [
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    }
+   ],
+   "warnings": []
+  },
+  "V29": {
+   "bankHours": 38.5,
+   "expectedHours": 38.5,
+   "bankDiff": 0.0,
+   "normalHours": 38.5,
+   "normalDiff": 0.0,
+   "normalBalance": 47.29999999999998,
+   "rptHours": 38.5,
+   "rptRegisteredMin": 2310.0,
+   "registeredMin": 2310.0,
+   "summedMin": 2310.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 38.5,
+   "reportedAsTimeMin": 2310.0,
+   "regVsReportedMin": 0.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 2310.0,
+     "reportedHours": 38.5
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": null,
+     "reportedHours": null
+    }
+   },
+   "days": [
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    }
+   ],
+   "warnings": []
+  },
+  "V30": {
+   "bankHours": 38.5,
+   "expectedHours": 38.5,
+   "bankDiff": 0.0,
+   "normalHours": 38.5,
+   "normalDiff": 0.0,
+   "normalBalance": 47.29999999999998,
+   "rptHours": 38.5,
+   "rptRegisteredMin": 2310.0,
+   "registeredMin": 2310.0,
+   "summedMin": 2310.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 38.5,
+   "reportedAsTimeMin": 2310.0,
+   "regVsReportedMin": 0.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 2310.0,
+     "reportedHours": 38.5
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": null,
+     "reportedHours": null
+    }
+   },
+   "days": [
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    }
+   ],
+   "warnings": []
+  },
+  "V31": {
+   "bankHours": 38.5,
+   "expectedHours": 38.5,
+   "bankDiff": 0.0,
+   "normalHours": 38.5,
+   "normalDiff": 0.0,
+   "normalBalance": 47.29999999999998,
+   "rptHours": 38.5,
+   "rptRegisteredMin": 2310.0,
+   "registeredMin": 2310.0,
+   "summedMin": 2310.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 38.5,
+   "reportedAsTimeMin": 2310.0,
+   "regVsReportedMin": 0.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 2310.0,
+     "reportedHours": 38.5
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": null,
+     "reportedHours": null
+    }
+   },
+   "days": [
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    }
+   ],
+   "warnings": []
+  },
+  "V32": {
+   "bankHours": 38.5,
+   "expectedHours": 38.5,
+   "bankDiff": 0.0,
+   "normalHours": 38.5,
+   "normalDiff": 0.0,
+   "normalBalance": 47.29999999999998,
+   "rptHours": 38.5,
+   "rptRegisteredMin": 2310.0,
+   "registeredMin": 2310.0,
+   "summedMin": 2310.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 38.5,
+   "reportedAsTimeMin": 2310.0,
+   "regVsReportedMin": 0.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 2310.0,
+     "reportedHours": 38.5
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": null,
+     "reportedHours": null
+    }
+   },
+   "days": [
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    }
+   ],
+   "warnings": []
+  },
+  "V33": {
+   "bankHours": 38.5,
+   "expectedHours": 38.5,
+   "bankDiff": 0.0,
+   "normalHours": 38.5,
+   "normalDiff": 0.0,
+   "normalBalance": 47.29999999999998,
+   "rptHours": 38.5,
+   "rptRegisteredMin": 2310.0,
+   "registeredMin": 2310.0,
+   "summedMin": 2310.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 38.5,
+   "reportedAsTimeMin": 2310.0,
+   "regVsReportedMin": 0.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 2310.0,
+     "reportedHours": 38.5
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": null,
+     "reportedHours": null
+    }
+   },
+   "days": [
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    }
+   ],
+   "warnings": []
+  },
+  "V34": {
+   "bankHours": 38.5,
+   "expectedHours": 38.5,
+   "bankDiff": 0.0,
+   "normalHours": 38.5,
+   "normalDiff": 0.0,
+   "normalBalance": 47.29999999999998,
+   "rptHours": 38.5,
+   "rptRegisteredMin": 2310.0,
+   "registeredMin": 2310.0,
+   "summedMin": 2310.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 38.5,
+   "reportedAsTimeMin": 2310.0,
+   "regVsReportedMin": 0.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 2310.0,
+     "reportedHours": 38.5
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": null,
+     "reportedHours": null
+    }
+   },
+   "days": [
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    }
+   ],
+   "warnings": []
+  },
+  "V35": {
+   "bankHours": 38.5,
+   "expectedHours": 38.5,
+   "bankDiff": 0.0,
+   "normalHours": 38.5,
+   "normalDiff": 0.0,
+   "normalBalance": 47.29999999999998,
+   "rptHours": 38.5,
+   "rptRegisteredMin": 2310.0,
+   "registeredMin": 2310.0,
+   "summedMin": 2310.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 38.5,
+   "reportedAsTimeMin": 2310.0,
+   "regVsReportedMin": 0.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 2310.0,
+     "reportedHours": 38.5
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": null,
+     "reportedHours": null
+    }
+   },
+   "days": [
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    }
+   ],
+   "warnings": []
+  },
+  "V36": {
+   "bankHours": 38.5,
+   "expectedHours": 38.5,
+   "bankDiff": 0.0,
+   "normalHours": 38.5,
+   "normalDiff": 0.0,
+   "normalBalance": 47.29999999999998,
+   "rptHours": 38.5,
+   "rptRegisteredMin": 2310.0,
+   "registeredMin": 2310.0,
+   "summedMin": 2310.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 38.5,
+   "reportedAsTimeMin": 2310.0,
+   "regVsReportedMin": 0.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 2310.0,
+     "reportedHours": 38.5
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": null,
+     "reportedHours": null
+    }
+   },
+   "days": [
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    }
+   ],
+   "warnings": []
+  },
+  "V37": {
+   "bankHours": 38.5,
+   "expectedHours": 38.5,
+   "bankDiff": 0.0,
+   "normalHours": 38.5,
+   "normalDiff": 0.0,
+   "normalBalance": 47.29999999999998,
+   "rptHours": 38.5,
+   "rptRegisteredMin": 2310.0,
+   "registeredMin": 2310.0,
+   "summedMin": 2310.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 38.5,
+   "reportedAsTimeMin": 2310.0,
+   "regVsReportedMin": 0.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 2310.0,
+     "reportedHours": 38.5
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": null,
+     "reportedHours": null
+    }
+   },
+   "days": [
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    }
+   ],
+   "warnings": []
+  },
+  "V38": {
+   "bankHours": 38.5,
+   "expectedHours": 38.5,
+   "bankDiff": 0.0,
+   "normalHours": 38.5,
+   "normalDiff": 0.0,
+   "normalBalance": 47.29999999999998,
+   "rptHours": 38.5,
+   "rptRegisteredMin": 2310.0,
+   "registeredMin": 2310.0,
+   "summedMin": 2310.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 38.5,
+   "reportedAsTimeMin": 2310.0,
+   "regVsReportedMin": 0.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 2310.0,
+     "reportedHours": 38.5
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": null,
+     "reportedHours": null
+    }
+   },
+   "days": [
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    }
+   ],
+   "warnings": []
+  },
+  "V39": {
+   "bankHours": 38.5,
+   "expectedHours": 38.5,
+   "bankDiff": 0.0,
+   "normalHours": 38.5,
+   "normalDiff": 0.0,
+   "normalBalance": 47.29999999999998,
+   "rptHours": 38.5,
+   "rptRegisteredMin": 2310.0,
+   "registeredMin": 2310.0,
+   "summedMin": 2310.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 38.5,
+   "reportedAsTimeMin": 2310.0,
+   "regVsReportedMin": 0.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 2310.0,
+     "reportedHours": 38.5
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": null,
+     "reportedHours": null
+    }
+   },
+   "days": [
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    }
+   ],
+   "warnings": []
+  },
+  "V40": {
+   "bankHours": 38.5,
+   "expectedHours": 38.5,
+   "bankDiff": 0.0,
+   "normalHours": 38.5,
+   "normalDiff": 0.0,
+   "normalBalance": 47.29999999999998,
+   "rptHours": 38.5,
+   "rptRegisteredMin": 2310.0,
+   "registeredMin": 2310.0,
+   "summedMin": 2310.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 38.5,
+   "reportedAsTimeMin": 2310.0,
+   "regVsReportedMin": 0.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 2310.0,
+     "reportedHours": 38.5
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": null,
+     "reportedHours": null
+    }
+   },
+   "days": [
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    }
+   ],
+   "warnings": []
+  },
+  "V41": {
+   "bankHours": 38.5,
+   "expectedHours": 38.5,
+   "bankDiff": 0.0,
+   "normalHours": 38.5,
+   "normalDiff": 0.0,
+   "normalBalance": 47.29999999999998,
+   "rptHours": 38.5,
+   "rptRegisteredMin": 2310.0,
+   "registeredMin": 2310.0,
+   "summedMin": 2310.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 38.5,
+   "reportedAsTimeMin": 2310.0,
+   "regVsReportedMin": 0.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 2310.0,
+     "reportedHours": 38.5
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": null,
+     "reportedHours": null
+    }
+   },
+   "days": [
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    }
+   ],
+   "warnings": []
+  },
+  "V42": {
+   "bankHours": 38.5,
+   "expectedHours": 38.5,
+   "bankDiff": 0.0,
+   "normalHours": 38.5,
+   "normalDiff": 0.0,
+   "normalBalance": 47.29999999999998,
+   "rptHours": 38.5,
+   "rptRegisteredMin": 2310.0,
+   "registeredMin": 2310.0,
+   "summedMin": 2310.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 38.5,
+   "reportedAsTimeMin": 2310.0,
+   "regVsReportedMin": 0.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 2310.0,
+     "reportedHours": 38.5
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": null,
+     "reportedHours": null
+    }
+   },
+   "days": [
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    }
+   ],
+   "warnings": []
+  },
+  "V43": {
+   "bankHours": 38.5,
+   "expectedHours": 38.5,
+   "bankDiff": 0.0,
+   "normalHours": 38.5,
+   "normalDiff": 0.0,
+   "normalBalance": 47.29999999999998,
+   "rptHours": 38.5,
+   "rptRegisteredMin": 2310.0,
+   "registeredMin": 2310.0,
+   "summedMin": 2310.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 38.5,
+   "reportedAsTimeMin": 2310.0,
+   "regVsReportedMin": 0.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 2310.0,
+     "reportedHours": 38.5
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": null,
+     "reportedHours": null
+    }
+   },
+   "days": [
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    }
+   ],
+   "warnings": []
+  },
+  "V44": {
+   "bankHours": 38.5,
+   "expectedHours": 38.5,
+   "bankDiff": 0.0,
+   "normalHours": 38.5,
+   "normalDiff": 0.0,
+   "normalBalance": 47.29999999999998,
+   "rptHours": 38.5,
+   "rptRegisteredMin": 2310.0,
+   "registeredMin": 2310.0,
+   "summedMin": 2310.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 38.5,
+   "reportedAsTimeMin": 2310.0,
+   "regVsReportedMin": 0.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 2310.0,
+     "reportedHours": 38.5
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": null,
+     "reportedHours": null
+    }
+   },
+   "days": [
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    }
+   ],
+   "warnings": []
+  },
+  "V45": {
+   "bankHours": 38.5,
+   "expectedHours": 38.5,
+   "bankDiff": 0.0,
+   "normalHours": 38.5,
+   "normalDiff": 0.0,
+   "normalBalance": 47.29999999999998,
+   "rptHours": 38.5,
+   "rptRegisteredMin": 2310.0,
+   "registeredMin": 2310.0,
+   "summedMin": 2310.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 38.5,
+   "reportedAsTimeMin": 2310.0,
+   "regVsReportedMin": 0.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 2310.0,
+     "reportedHours": 38.5
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": null,
+     "reportedHours": null
+    }
+   },
+   "days": [
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    }
+   ],
+   "warnings": []
+  },
+  "V46": {
+   "bankHours": 38.5,
+   "expectedHours": 38.5,
+   "bankDiff": 0.0,
+   "normalHours": 38.5,
+   "normalDiff": 0.0,
+   "normalBalance": 47.29999999999998,
+   "rptHours": 38.5,
+   "rptRegisteredMin": 2310.0,
+   "registeredMin": 2310.0,
+   "summedMin": 2310.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 38.5,
+   "reportedAsTimeMin": 2310.0,
+   "regVsReportedMin": 0.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 2310.0,
+     "reportedHours": 38.5
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": null,
+     "reportedHours": null
+    }
+   },
+   "days": [
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    }
+   ],
+   "warnings": []
+  },
+  "V47": {
+   "bankHours": 38.5,
+   "expectedHours": 38.5,
+   "bankDiff": 0.0,
+   "normalHours": 38.5,
+   "normalDiff": 0.0,
+   "normalBalance": 47.29999999999998,
+   "rptHours": 38.5,
+   "rptRegisteredMin": 2310.0,
+   "registeredMin": 2310.0,
+   "summedMin": 2310.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 38.5,
+   "reportedAsTimeMin": 2310.0,
+   "regVsReportedMin": 0.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 2310.0,
+     "reportedHours": 38.5
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": null,
+     "reportedHours": null
+    }
+   },
+   "days": [
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    }
+   ],
+   "warnings": []
+  },
+  "V48": {
+   "bankHours": 38.5,
+   "expectedHours": 38.5,
+   "bankDiff": 0.0,
+   "normalHours": 38.5,
+   "normalDiff": 0.0,
+   "normalBalance": 47.29999999999998,
+   "rptHours": 38.5,
+   "rptRegisteredMin": 2310.0,
+   "registeredMin": 2310.0,
+   "summedMin": 2310.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 38.5,
+   "reportedAsTimeMin": 2310.0,
+   "regVsReportedMin": 0.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 2310.0,
+     "reportedHours": 38.5
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": null,
+     "reportedHours": null
+    }
+   },
+   "days": [
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    }
+   ],
+   "warnings": []
+  },
+  "V49": {
+   "bankHours": 38.5,
+   "expectedHours": 38.5,
+   "bankDiff": 0.0,
+   "normalHours": 38.5,
+   "normalDiff": 0.0,
+   "normalBalance": 47.29999999999998,
+   "rptHours": 38.5,
+   "rptRegisteredMin": 2310.0,
+   "registeredMin": 2310.0,
+   "summedMin": 2310.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 38.5,
+   "reportedAsTimeMin": 2310.0,
+   "regVsReportedMin": 0.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 2310.0,
+     "reportedHours": 38.5
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": null,
+     "reportedHours": null
+    }
+   },
+   "days": [
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    }
+   ],
+   "warnings": []
+  },
+  "V50": {
+   "bankHours": 38.5,
+   "expectedHours": 38.5,
+   "bankDiff": 0.0,
+   "normalHours": 38.5,
+   "normalDiff": 0.0,
+   "normalBalance": 47.29999999999998,
+   "rptHours": 38.5,
+   "rptRegisteredMin": 2310.0,
+   "registeredMin": 2310.0,
+   "summedMin": 2310.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 38.5,
+   "reportedAsTimeMin": 2310.0,
+   "regVsReportedMin": 0.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 2310.0,
+     "reportedHours": 38.5
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": null,
+     "reportedHours": null
+    }
+   },
+   "days": [
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    }
+   ],
+   "warnings": []
+  },
+  "V51": {
+   "bankHours": 38.5,
+   "expectedHours": 38.5,
+   "bankDiff": 0.0,
+   "normalHours": 38.5,
+   "normalDiff": 0.0,
+   "normalBalance": 47.29999999999998,
+   "rptHours": 38.5,
+   "rptRegisteredMin": 2310.0,
+   "registeredMin": 2310.0,
+   "summedMin": 2310.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 38.5,
+   "reportedAsTimeMin": 2310.0,
+   "regVsReportedMin": 0.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 2310.0,
+     "reportedHours": 38.5
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": null,
+     "reportedHours": null
+    }
+   },
+   "days": [
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    }
+   ],
+   "warnings": []
+  },
+  "V52": {
+   "bankHours": 15.4,
+   "expectedHours": 15.4,
+   "bankDiff": 0.0,
+   "normalHours": 15.4,
+   "normalDiff": 0.0,
+   "normalBalance": 47.29999999999998,
+   "rptHours": 15.4,
+   "rptRegisteredMin": 924.0,
+   "registeredMin": 924.0,
+   "summedMin": 924.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 15.4,
+   "reportedAsTimeMin": 924.0,
+   "regVsReportedMin": 0.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 924.0,
+     "reportedHours": 15.4
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": null,
+     "reportedHours": null
+    }
+   },
+   "days": [
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 0.0,
+     "rptRegisteredMin": 0.0,
+     "rptReportedHours": 0.0
+    },
+    {
+     "summedMin": 0.0,
+     "rptRegisteredMin": 0.0,
+     "rptReportedHours": 0.0
+    },
+    {
+     "summedMin": 0.0,
+     "rptRegisteredMin": 0.0,
+     "rptReportedHours": 0.0
+    }
+   ],
+   "warnings": []
+  },
+  "V1-26": {
+   "bankHours": 15.4,
+   "expectedHours": 15.4,
+   "bankDiff": 0.0,
+   "normalHours": 15.4,
+   "normalDiff": 0.0,
+   "normalBalance": 47.29999999999998,
+   "rptHours": 15.4,
+   "rptRegisteredMin": 924.0,
+   "registeredMin": 924.0,
+   "summedMin": 924.0,
+   "unmappedMin": 0.0,
+   "reportedHours": 15.4,
+   "reportedAsTimeMin": 924.0,
+   "regVsReportedMin": 0.0,
+   "activities": {
+    "PT800 Solid": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Permission med lön": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Xware": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Semester": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Sjuk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Voldemort": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "New ctrl system": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Amodo": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "PT 160 µA": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Friskvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix Solid Target": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Department time": {
+     "registeredMin": 924.0,
+     "reportedHours": 15.4
+    },
+    "Produktvård": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "MT Fenix 70-80": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Förtroendeflex": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "ArbTidFörk": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Läkarbesök": {
+     "registeredMin": null,
+     "reportedHours": null
+    },
+    "Lunch": {
+     "registeredMin": null,
+     "reportedHours": null
+    }
+   },
+   "days": [
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 462.0,
+     "rptRegisteredMin": 462.0,
+     "rptReportedHours": 7.7
+    },
+    {
+     "summedMin": 0.0,
+     "rptRegisteredMin": 0.0,
+     "rptReportedHours": 0.0
+    },
+    {
+     "summedMin": 0.0,
+     "rptRegisteredMin": 0.0,
+     "rptReportedHours": 0.0
+    },
+    {
+     "summedMin": 0.0,
+     "rptRegisteredMin": 0.0,
+     "rptReportedHours": 0.0
+    }
+   ],
+   "warnings": []
+  }
+ },
+ "overview": {
+  "rows": [
+   {
+    "sheet": "V01",
+    "expectedHours": 15.4,
+    "bankHours": 15.4,
+    "bankDiff": 0.0,
+    "bankBalance": 34.5
+   },
+   {
+    "sheet": "V02",
+    "expectedHours": 30.8,
+    "bankHours": 32.0,
+    "bankDiff": 1.1999999999999993,
+    "bankBalance": 35.7
+   },
+   {
+    "sheet": "V03",
+    "expectedHours": 38.5,
+    "bankHours": 38.5,
+    "bankDiff": 0.0,
+    "bankBalance": 35.7
+   },
+   {
+    "sheet": "V04",
+    "expectedHours": 38.5,
+    "bankHours": 39.0,
+    "bankDiff": 0.5,
+    "bankBalance": 36.2
+   },
+   {
+    "sheet": "V05",
+    "expectedHours": 38.5,
+    "bankHours": 39.0,
+    "bankDiff": 0.5,
+    "bankBalance": 36.7
+   },
+   {
+    "sheet": "V06",
+    "expectedHours": 38.5,
+    "bankHours": 38.5,
+    "bankDiff": 0.0,
+    "bankBalance": 36.7
+   },
+   {
+    "sheet": "V07",
+    "expectedHours": 38.5,
+    "bankHours": 38.8,
+    "bankDiff": 0.29999999999999716,
+    "bankBalance": 37.0
+   },
+   {
+    "sheet": "V08",
+    "expectedHours": 38.5,
+    "bankHours": 40.0,
+    "bankDiff": 1.5,
+    "bankBalance": 38.5
+   },
+   {
+    "sheet": "V09",
+    "expectedHours": 38.5,
+    "bankHours": 39.4,
+    "bankDiff": 0.8999999999999986,
+    "bankBalance": 39.4
+   },
+   {
+    "sheet": "V10",
+    "expectedHours": 38.5,
+    "bankHours": 39.5,
+    "bankDiff": 1.0,
+    "bankBalance": 40.4
+   },
+   {
+    "sheet": "V11",
+    "expectedHours": 38.5,
+    "bankHours": 39.5,
+    "bankDiff": 1.0,
+    "bankBalance": 41.4
+   },
+   {
+    "sheet": "V12",
+    "expectedHours": 38.5,
+    "bankHours": 40.0,
+    "bankDiff": 1.5,
+    "bankBalance": 42.9
+   },
+   {
+    "sheet": "V13",
+    "expectedHours": 38.5,
+    "bankHours": 39.0,
+    "bankDiff": 0.5,
+    "bankBalance": 43.4
+   },
+   {
+    "sheet": "V14",
+    "expectedHours": 30.8,
+    "bankHours": 31.5,
+    "bankDiff": 0.6999999999999993,
+    "bankBalance": 44.099999999999994
+   },
+   {
+    "sheet": "V15",
+    "expectedHours": 38.5,
+    "bankHours": 39.7,
+    "bankDiff": 1.2000000000000028,
+    "bankBalance": 45.3
+   },
+   {
+    "sheet": "V16",
+    "expectedHours": 30.8,
+    "bankHours": 28.9,
+    "bankDiff": -1.9000000000000021,
+    "bankBalance": 43.39999999999999
+   },
+   {
+    "sheet": "V17",
+    "expectedHours": 30.8,
+    "bankHours": 31.2,
+    "bankDiff": 0.3999999999999986,
+    "bankBalance": 43.79999999999999
+   },
+   {
+    "sheet": "V18",
+    "expectedHours": 23.1,
+    "bankHours": 23.5,
+    "bankDiff": 0.3999999999999986,
+    "bankBalance": 44.19999999999999
+   },
+   {
+    "sheet": "V19",
+    "expectedHours": 38.5,
+    "bankHours": 38.0,
+    "bankDiff": -0.5,
+    "bankBalance": 43.69999999999999
+   },
+   {
+    "sheet": "V20",
+    "expectedHours": 38.5,
+    "bankHours": 39.5,
+    "bankDiff": 1.0,
+    "bankBalance": 44.69999999999999
+   },
+   {
+    "sheet": "V21",
+    "expectedHours": 38.5,
+    "bankHours": 40.5,
+    "bankDiff": 2.0,
+    "bankBalance": 46.69999999999999
+   },
+   {
+    "sheet": "V22",
+    "expectedHours": 23.1,
+    "bankHours": 23.7,
+    "bankDiff": 0.5999999999999979,
+    "bankBalance": 47.29999999999998
+   },
+   {
+    "sheet": "V23",
+    "expectedHours": 30.8,
+    "bankHours": 30.8,
+    "bankDiff": 0.0,
+    "bankBalance": 47.29999999999998
+   },
+   {
+    "sheet": "V24",
+    "expectedHours": 38.5,
+    "bankHours": 38.5,
+    "bankDiff": 0.0,
+    "bankBalance": 47.29999999999998
+   },
+   {
+    "sheet": "V25",
+    "expectedHours": 30.8,
+    "bankHours": 30.8,
+    "bankDiff": 0.0,
+    "bankBalance": 47.29999999999998
+   },
+   {
+    "sheet": "V26",
+    "expectedHours": 38.5,
+    "bankHours": 38.5,
+    "bankDiff": 0.0,
+    "bankBalance": 47.29999999999998
+   },
+   {
+    "sheet": "V27",
+    "expectedHours": 38.5,
+    "bankHours": 38.5,
+    "bankDiff": 0.0,
+    "bankBalance": 47.29999999999998
+   },
+   {
+    "sheet": "V28",
+    "expectedHours": 38.5,
+    "bankHours": 38.5,
+    "bankDiff": 0.0,
+    "bankBalance": 47.29999999999998
+   },
+   {
+    "sheet": "V29",
+    "expectedHours": 38.5,
+    "bankHours": 38.5,
+    "bankDiff": 0.0,
+    "bankBalance": 47.29999999999998
+   },
+   {
+    "sheet": "V30",
+    "expectedHours": 38.5,
+    "bankHours": 38.5,
+    "bankDiff": 0.0,
+    "bankBalance": 47.29999999999998
+   },
+   {
+    "sheet": "V31",
+    "expectedHours": 38.5,
+    "bankHours": 38.5,
+    "bankDiff": 0.0,
+    "bankBalance": 47.29999999999998
+   },
+   {
+    "sheet": "V32",
+    "expectedHours": 38.5,
+    "bankHours": 38.5,
+    "bankDiff": 0.0,
+    "bankBalance": 47.29999999999998
+   },
+   {
+    "sheet": "V33",
+    "expectedHours": 38.5,
+    "bankHours": 38.5,
+    "bankDiff": 0.0,
+    "bankBalance": 47.29999999999998
+   },
+   {
+    "sheet": "V34",
+    "expectedHours": 38.5,
+    "bankHours": 38.5,
+    "bankDiff": 0.0,
+    "bankBalance": 47.29999999999998
+   },
+   {
+    "sheet": "V35",
+    "expectedHours": 38.5,
+    "bankHours": 38.5,
+    "bankDiff": 0.0,
+    "bankBalance": 47.29999999999998
+   },
+   {
+    "sheet": "V36",
+    "expectedHours": 38.5,
+    "bankHours": 38.5,
+    "bankDiff": 0.0,
+    "bankBalance": 47.29999999999998
+   },
+   {
+    "sheet": "V37",
+    "expectedHours": 38.5,
+    "bankHours": 38.5,
+    "bankDiff": 0.0,
+    "bankBalance": 47.29999999999998
+   },
+   {
+    "sheet": "V38",
+    "expectedHours": 38.5,
+    "bankHours": 38.5,
+    "bankDiff": 0.0,
+    "bankBalance": 47.29999999999998
+   },
+   {
+    "sheet": "V39",
+    "expectedHours": 38.5,
+    "bankHours": 38.5,
+    "bankDiff": 0.0,
+    "bankBalance": 47.29999999999998
+   },
+   {
+    "sheet": "V40",
+    "expectedHours": 38.5,
+    "bankHours": 38.5,
+    "bankDiff": 0.0,
+    "bankBalance": 47.29999999999998
+   },
+   {
+    "sheet": "V41",
+    "expectedHours": 38.5,
+    "bankHours": 38.5,
+    "bankDiff": 0.0,
+    "bankBalance": 47.29999999999998
+   },
+   {
+    "sheet": "V42",
+    "expectedHours": 38.5,
+    "bankHours": 38.5,
+    "bankDiff": 0.0,
+    "bankBalance": 47.29999999999998
+   },
+   {
+    "sheet": "V43",
+    "expectedHours": 38.5,
+    "bankHours": 38.5,
+    "bankDiff": 0.0,
+    "bankBalance": 47.29999999999998
+   },
+   {
+    "sheet": "V44",
+    "expectedHours": 38.5,
+    "bankHours": 38.5,
+    "bankDiff": 0.0,
+    "bankBalance": 47.29999999999998
+   },
+   {
+    "sheet": "V45",
+    "expectedHours": 38.5,
+    "bankHours": 38.5,
+    "bankDiff": 0.0,
+    "bankBalance": 47.29999999999998
+   },
+   {
+    "sheet": "V46",
+    "expectedHours": 38.5,
+    "bankHours": 38.5,
+    "bankDiff": 0.0,
+    "bankBalance": 47.29999999999998
+   },
+   {
+    "sheet": "V47",
+    "expectedHours": 38.5,
+    "bankHours": 38.5,
+    "bankDiff": 0.0,
+    "bankBalance": 47.29999999999998
+   },
+   {
+    "sheet": "V48",
+    "expectedHours": 38.5,
+    "bankHours": 38.5,
+    "bankDiff": 0.0,
+    "bankBalance": 47.29999999999998
+   },
+   {
+    "sheet": "V49",
+    "expectedHours": 38.5,
+    "bankHours": 38.5,
+    "bankDiff": 0.0,
+    "bankBalance": 47.29999999999998
+   },
+   {
+    "sheet": "V50",
+    "expectedHours": 38.5,
+    "bankHours": 38.5,
+    "bankDiff": 0.0,
+    "bankBalance": 47.29999999999998
+   },
+   {
+    "sheet": "V51",
+    "expectedHours": 38.5,
+    "bankHours": 38.5,
+    "bankDiff": 0.0,
+    "bankBalance": 47.29999999999998
+   },
+   {
+    "sheet": "V52",
+    "expectedHours": 15.4,
+    "bankHours": 15.4,
+    "bankDiff": 0.0,
+    "bankBalance": 47.29999999999998
+   },
+   {
+    "sheet": "V1-26",
+    "expectedHours": 15.4,
+    "bankHours": 15.4,
+    "bankDiff": 0.0,
+    "bankBalance": 47.29999999999998
+   }
+  ],
+  "activityTotals": {
+   "PT800 Solid": 0.0,
+   "Permission med lön": 12.2,
+   "Xware": 20.0,
+   "Semester": 38.5,
+   "Sjuk": 0.0,
+   "Voldemort": 0.0,
+   "New ctrl system": 0.0,
+   "MT Amodo": 474.5,
+   "PT 160 µA": 0.0,
+   "Friskvård": 18.0,
+   "MT Fenix Solid Target": 2.5,
+   "Department time": 1227.6000000000001,
+   "Produktvård": 65.5,
+   "MT Fenix 70-80": 0.0,
+   "Förtroendeflex": 0.0,
+   "ArbTidFörk": 46.2,
+   "Läkarbesök": 2.0,
+   "Lunch": 48.66666666666667
+  },
+  "grandTotalHours": 1955.666666666667
+ }
+}

@@ -1,0 +1,10693 @@
+{
+ "version": 1,
+ "source": {
+  "file": "TimeCalc-25.xlsm",
+  "importedAt": "2026-09-21T09:16:15"
+ },
+ "config": {
+  "year": 2025,
+  "weeklyHours": 38.5,
+  "workdaysPerWeek": 5,
+  "openingBank": 34.5
+ },
+ "activities": [
+  {
+   "name": "PT800 Solid",
+   "code": "I29954",
+   "defaults": {
+    "report": true,
+    "bank": true,
+    "normal": true
+   },
+   "derivedReport": false
+  },
+  {
+   "name": "Permission med lön",
+   "code": "I30024",
+   "defaults": {
+    "report": true,
+    "bank": true,
+    "normal": true
+   },
+   "derivedReport": false
+  },
+  {
+   "name": "Xware",
+   "code": "I29983",
+   "defaults": {
+    "report": true,
+    "bank": true,
+    "normal": true
+   },
+   "derivedReport": false
+  },
+  {
+   "name": "Semester",
+   "code": "I30024",
+   "defaults": {
+    "report": true,
+    "bank": true,
+    "normal": true
+   },
+   "derivedReport": false
+  },
+  {
+   "name": "Sjuk",
+   "code": "I30024",
+   "defaults": {
+    "report": true,
+    "bank": false,
+    "normal": false
+   },
+   "derivedReport": false
+  },
+  {
+   "name": "Voldemort",
+   "code": "I30020",
+   "defaults": {
+    "report": true,
+    "bank": true,
+    "normal": true
+   },
+   "derivedReport": false
+  },
+  {
+   "name": "New ctrl system",
+   "code": "I29974",
+   "defaults": {
+    "report": true,
+    "bank": true,
+    "normal": true
+   },
+   "derivedReport": false
+  },
+  {
+   "name": "MT Amodo",
+   "code": "I29952",
+   "defaults": {
+    "report": true,
+    "bank": true,
+    "normal": true
+   },
+   "derivedReport": false
+  },
+  {
+   "name": "PT 160 µA",
+   "code": "I29934",
+   "defaults": {
+    "report": true,
+    "bank": true,
+    "normal": true
+   },
+   "derivedReport": false
+  },
+  {
+   "name": "Friskvård",
+   "code": null,
+   "defaults": {
+    "report": true,
+    "bank": true,
+    "normal": true
+   },
+   "derivedReport": false
+  },
+  {
+   "name": "MT Fenix Solid Target",
+   "code": "I29980",
+   "defaults": {
+    "report": true,
+    "bank": true,
+    "normal": true
+   },
+   "derivedReport": false
+  },
+  {
+   "name": "Department time",
+   "code": "I29926",
+   "defaults": {
+    "report": true,
+    "bank": true,
+    "normal": true
+   },
+   "derivedReport": false
+  },
+  {
+   "name": "Produktvård",
+   "code": "I29645",
+   "defaults": {
+    "report": true,
+    "bank": true,
+    "normal": true
+   },
+   "derivedReport": false
+  },
+  {
+   "name": "MT Fenix 70-80",
+   "code": "I29720",
+   "defaults": {
+    "report": true,
+    "bank": true,
+    "normal": true
+   },
+   "derivedReport": false
+  },
+  {
+   "name": "Förtroendeflex",
+   "code": null,
+   "defaults": {
+    "report": false,
+    "bank": true,
+    "normal": false
+   },
+   "derivedReport": false
+  },
+  {
+   "name": "ArbTidFörk",
+   "code": "I30024",
+   "defaults": {
+    "report": true,
+    "bank": true,
+    "normal": true
+   },
+   "derivedReport": false
+  },
+  {
+   "name": "Läkarbesök",
+   "code": "I30024",
+   "defaults": {
+    "report": true,
+    "bank": true,
+    "normal": true
+   },
+   "derivedReport": false
+  },
+  {
+   "name": "Lunch",
+   "code": null,
+   "defaults": {
+    "report": false,
+    "bank": false,
+    "normal": false
+   },
+   "derivedReport": true
+  }
+ ],
+ "weeks": [
+  {
+   "id": "V01",
+   "label": "V01",
+   "days": [
+    {
+     "date": "2024-12-30",
+     "workday": false,
+     "forceRegistered": false,
+     "start": null,
+     "rows": [],
+     "reported": {}
+    },
+    {
+     "date": "2024-12-31",
+     "workday": false,
+     "forceRegistered": false,
+     "start": null,
+     "rows": [],
+     "reported": {}
+    },
+    {
+     "date": "2025-01-01",
+     "workday": false,
+     "forceRegistered": false,
+     "start": null,
+     "rows": [],
+     "reported": {}
+    },
+    {
+     "date": "2025-01-02",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Semester",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Semester": 7.7
+     }
+    },
+    {
+     "date": "2025-01-03",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Semester",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Semester": 7.7
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V02",
+   "label": "V02",
+   "days": [
+    {
+     "date": "2025-01-06",
+     "workday": false,
+     "forceRegistered": false,
+     "start": null,
+     "rows": [],
+     "reported": {}
+    },
+    {
+     "date": "2025-01-07",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 510.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 675.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 690.0
+      },
+      {
+       "activity": "Department time",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 765.0
+      },
+      {
+       "activity": "Department time",
+       "end": 1035.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 0.5,
+      "Department time": 7.5
+     }
+    },
+    {
+     "date": "2025-01-08",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 630.0
+      },
+      {
+       "activity": "Department time",
+       "end": 660.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 840.0
+      },
+      {
+       "activity": "Department time",
+       "end": 930.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1005.0
+      },
+      {
+       "activity": "",
+       "end": null
+      },
+      {
+       "activity": "",
+       "end": 1065.0
+      },
+      {
+       "activity": "Friskvård",
+       "end": 1125.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 5.0,
+      "Friskvård": 1.0,
+      "Department time": 2.0
+     }
+    },
+    {
+     "date": "2025-01-09",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 630.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "Department time",
+       "end": 1050.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 1.5,
+      "Department time": 6.5
+     }
+    },
+    {
+     "date": "2025-01-10",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Xware",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "Department time",
+       "end": 810.0
+      },
+      {
+       "activity": "Produktvård",
+       "end": 840.0
+      },
+      {
+       "activity": "Xware",
+       "end": 1050.0
+      }
+     ],
+     "reported": {
+      "Xware": 6.5,
+      "Department time": 1.0,
+      "Produktvård": 0.5
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V03",
+   "label": "V03",
+   "days": [
+    {
+     "date": "2025-01-13",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 630.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "Department time",
+       "end": 1050.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 1.5,
+      "Department time": 6.5
+     }
+    },
+    {
+     "date": "2025-01-14",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 675.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1050.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 5.5,
+      "Department time": 2.5
+     }
+    },
+    {
+     "date": "2025-01-15",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 660.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 690.0
+      },
+      {
+       "activity": "Department time",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "Department time",
+       "end": 1005.0
+      },
+      {
+       "activity": "",
+       "end": null
+      },
+      {
+       "activity": "",
+       "end": 1065.0
+      },
+      {
+       "activity": "Friskvård",
+       "end": 1125.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 0.5,
+      "Friskvård": 1.0,
+      "Department time": 6.5
+     }
+    },
+    {
+     "date": "2025-01-16",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 600.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1020.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 6.5,
+      "Department time": 1.0
+     }
+    },
+    {
+     "date": "2025-01-17",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 570.0
+      },
+      {
+       "activity": "Xware",
+       "end": 690.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "Xware",
+       "end": 1020.0
+      }
+     ],
+     "reported": {
+      "Xware": 6.5,
+      "Department time": 0.5
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V04",
+   "label": "V04",
+   "days": [
+    {
+     "date": "2025-01-20",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 525.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 870.0
+      },
+      {
+       "activity": "Department time",
+       "end": 990.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1050.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 3.0,
+      "Department time": 5.5
+     }
+    },
+    {
+     "date": "2025-01-21",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 780.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1050.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 7.5
+     }
+    },
+    {
+     "date": "2025-01-22",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1005.0
+      },
+      {
+       "activity": "",
+       "end": null
+      },
+      {
+       "activity": "",
+       "end": 1065.0
+      },
+      {
+       "activity": "Friskvård",
+       "end": 1125.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 7.0,
+      "Friskvård": 1.0
+     }
+    },
+    {
+     "date": "2025-01-23",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 870.0
+      },
+      {
+       "activity": "Department time",
+       "end": 930.0
+      },
+      {
+       "activity": "Produktvård",
+       "end": 960.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1050.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 6.5,
+      "Department time": 1.0,
+      "Produktvård": 0.5
+     }
+    },
+    {
+     "date": "2025-01-24",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Xware",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "Xware",
+       "end": 990.0
+      }
+     ],
+     "reported": {
+      "Xware": 7.0
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V05",
+   "label": "V05",
+   "days": [
+    {
+     "date": "2025-01-27",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 660.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1035.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 5.5,
+      "Department time": 2.0
+     }
+    },
+    {
+     "date": "2025-01-28",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1050.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 8.0
+     }
+    },
+    {
+     "date": "2025-01-29",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1015.0
+      },
+      {
+       "activity": "",
+       "end": null
+      },
+      {
+       "activity": "",
+       "end": 1080.0
+      },
+      {
+       "activity": "Friskvård",
+       "end": 1140.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 7.5,
+      "Friskvård": 1.0
+     }
+    },
+    {
+     "date": "2025-01-30",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 535.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1045.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 8.0
+     }
+    },
+    {
+     "date": "2025-01-31",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 780.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1020.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 7.0
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V06",
+   "label": "V06",
+   "days": [
+    {
+     "date": "2025-02-03",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 780.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 840.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1050.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 3.5,
+      "Department time": 4.0
+     }
+    },
+    {
+     "date": "2025-02-04",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 765.0
+      },
+      {
+       "activity": "Department time",
+       "end": 900.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1050.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 2.5,
+      "Department time": 5.0
+     }
+    },
+    {
+     "date": "2025-02-05",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1005.0
+      },
+      {
+       "activity": "",
+       "end": null
+      },
+      {
+       "activity": "",
+       "end": 1065.0
+      },
+      {
+       "activity": "Friskvård",
+       "end": 1125.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 7.0,
+      "Friskvård": 1.0
+     }
+    },
+    {
+     "date": "2025-02-06",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 570.0
+      },
+      {
+       "activity": "Department time",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 780.0
+      },
+      {
+       "activity": "Department time",
+       "end": 930.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1050.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 3.0,
+      "Department time": 5.0
+     }
+    },
+    {
+     "date": "2025-02-07",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 705.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1020.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 7.5
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V07",
+   "label": "V07",
+   "days": [
+    {
+     "date": "2025-02-10",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "ArbTidFörk",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "ArbTidFörk": 7.7
+     }
+    },
+    {
+     "date": "2025-02-11",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "ArbTidFörk",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "ArbTidFörk": 7.7
+     }
+    },
+    {
+     "date": "2025-02-12",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "ArbTidFörk",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "ArbTidFörk": 7.7
+     }
+    },
+    {
+     "date": "2025-02-13",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 660.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 765.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1050.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 6.0,
+      "Department time": 2.0
+     }
+    },
+    {
+     "date": "2025-02-14",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "ArbTidFörk",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "ArbTidFörk": 7.7
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V08",
+   "label": "V08",
+   "days": [
+    {
+     "date": "2025-02-17",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 530.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 570.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 600.0
+      },
+      {
+       "activity": "Department time",
+       "end": 645.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 680.0
+      },
+      {
+       "activity": "Department time",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 780.0
+      },
+      {
+       "activity": "MT Fenix Solid Target",
+       "end": 840.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1050.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 5.0,
+      "MT Fenix Solid Target": 1.0,
+      "Department time": 2.0
+     }
+    },
+    {
+     "date": "2025-02-18",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1020.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 7.5
+     }
+    },
+    {
+     "date": "2025-02-19",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1005.0
+      },
+      {
+       "activity": "",
+       "end": null
+      },
+      {
+       "activity": "",
+       "end": 1065.0
+      },
+      {
+       "activity": "Friskvård",
+       "end": 1125.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 7.5,
+      "Friskvård": 1.0
+     }
+    },
+    {
+     "date": "2025-02-20",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Produktvård",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "Produktvård",
+       "end": 1050.0
+      }
+     ],
+     "reported": {
+      "Produktvård": 8.0
+     }
+    },
+    {
+     "date": "2025-02-21",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Produktvård",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "Produktvård",
+       "end": 1050.0
+      }
+     ],
+     "reported": {
+      "Produktvård": 8.0
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V09",
+   "label": "V09",
+   "days": [
+    {
+     "date": "2025-02-24",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "ArbTidFörk",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "ArbTidFörk": 7.7
+     }
+    },
+    {
+     "date": "2025-02-25",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "ArbTidFörk",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "ArbTidFörk": 7.7
+     }
+    },
+    {
+     "date": "2025-02-26",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Produktvård",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 765.0
+      },
+      {
+       "activity": "Produktvård",
+       "end": 1005.0
+      },
+      {
+       "activity": "",
+       "end": null
+      },
+      {
+       "activity": "",
+       "end": 1065.0
+      },
+      {
+       "activity": "Friskvård",
+       "end": 1125.0
+      }
+     ],
+     "reported": {
+      "Friskvård": 1.0,
+      "Produktvård": 7.0
+     }
+    },
+    {
+     "date": "2025-02-27",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Produktvård",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 780.0
+      },
+      {
+       "activity": "Department time",
+       "end": 810.0
+      },
+      {
+       "activity": "Produktvård",
+       "end": 1095.0
+      }
+     ],
+     "reported": {
+      "Department time": 0.5,
+      "Produktvård": 8.0
+     }
+    },
+    {
+     "date": "2025-02-28",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Produktvård",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "Produktvård",
+       "end": 870.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1035.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 2.5,
+      "Produktvård": 5.0
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V10",
+   "label": "V10",
+   "days": [
+    {
+     "date": "2025-03-03",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 630.0
+      },
+      {
+       "activity": "Produktvård",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "Produktvård",
+       "end": 840.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 900.0
+      },
+      {
+       "activity": "Produktvård",
+       "end": 1050.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 1.0,
+      "Department time": 1.5,
+      "Produktvård": 5.5
+     }
+    },
+    {
+     "date": "2025-03-04",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Produktvård",
+       "end": 660.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "Produktvård",
+       "end": 840.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 900.0
+      },
+      {
+       "activity": "Produktvård",
+       "end": 1050.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 2.0,
+      "Produktvård": 6.0
+     }
+    },
+    {
+     "date": "2025-03-05",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Produktvård",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "Produktvård",
+       "end": 780.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 840.0
+      },
+      {
+       "activity": "Produktvård",
+       "end": 960.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1005.0
+      },
+      {
+       "activity": "",
+       "end": null
+      },
+      {
+       "activity": "",
+       "end": 1065.0
+      },
+      {
+       "activity": "Friskvård",
+       "end": 1125.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 1.5,
+      "Friskvård": 1.0,
+      "Produktvård": 5.5
+     }
+    },
+    {
+     "date": "2025-03-06",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Produktvård",
+       "end": 660.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "Produktvård",
+       "end": 1065.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 1.0,
+      "Produktvård": 7.5
+     }
+    },
+    {
+     "date": "2025-03-07",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Produktvård",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 765.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1020.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 4.0,
+      "Produktvård": 3.0
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V11",
+   "label": "V11",
+   "days": [
+    {
+     "date": "2025-03-10",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 600.0
+      },
+      {
+       "activity": "Department time",
+       "end": 630.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "Department time",
+       "end": 795.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1020.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 6.0,
+      "Department time": 1.0
+     }
+    },
+    {
+     "date": "2025-03-11",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1050.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 8.0
+     }
+    },
+    {
+     "date": "2025-03-12",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 600.0
+      },
+      {
+       "activity": "MT Fenix Solid Target",
+       "end": 680.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1005.0
+      },
+      {
+       "activity": "",
+       "end": null
+      },
+      {
+       "activity": "",
+       "end": 1065.0
+      },
+      {
+       "activity": "Friskvård",
+       "end": 1125.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 6.0,
+      "Friskvård": 1.0,
+      "MT Fenix Solid Target": 1.5
+     }
+    },
+    {
+     "date": "2025-03-13",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1050.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 8.0
+     }
+    },
+    {
+     "date": "2025-03-14",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 510.0,
+     "rows": [
+      {
+       "activity": "Läkarbesök",
+       "end": 570.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1005.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 7.0,
+      "Läkarbesök": 1.0
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V12",
+   "label": "V12",
+   "days": [
+    {
+     "date": "2025-03-17",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 630.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1050.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 6.5,
+      "Department time": 1.5
+     }
+    },
+    {
+     "date": "2025-03-18",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 480.0,
+     "rows": [
+      {
+       "activity": "Läkarbesök",
+       "end": 540.0
+      },
+      {
+       "activity": "",
+       "end": null
+      },
+      {
+       "activity": "",
+       "end": 555.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 840.0
+      },
+      {
+       "activity": "Department time",
+       "end": 900.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1050.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 7.0,
+      "Department time": 1.0,
+      "Läkarbesök": 1.0
+     }
+    },
+    {
+     "date": "2025-03-19",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1005.0
+      },
+      {
+       "activity": "",
+       "end": null
+      },
+      {
+       "activity": "",
+       "end": 1065.0
+      },
+      {
+       "activity": "Friskvård",
+       "end": 1125.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 7.0,
+      "Friskvård": 1.0
+     }
+    },
+    {
+     "date": "2025-03-20",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1020.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 7.5
+     }
+    },
+    {
+     "date": "2025-03-21",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1020.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 7.5
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V13",
+   "label": "V13",
+   "days": [
+    {
+     "date": "2025-03-24",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 600.0
+      },
+      {
+       "activity": "Department time",
+       "end": 645.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 660.0
+      },
+      {
+       "activity": "Permission med lön",
+       "end": 720.0,
+       "note": "Svärfar dog"
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 840.0
+      },
+      {
+       "activity": "Permission med lön",
+       "end": 1050.0
+      }
+     ],
+     "reported": {
+      "Permission med lön": 4.5,
+      "MT Amodo": 3.0,
+      "Department time": 0.5
+     }
+    },
+    {
+     "date": "2025-03-25",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1050.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 8.0
+     }
+    },
+    {
+     "date": "2025-03-26",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 960.0
+      },
+      {
+       "activity": "Department time",
+       "end": 1005.0
+      },
+      {
+       "activity": "",
+       "end": null
+      },
+      {
+       "activity": "",
+       "end": 1065.0
+      },
+      {
+       "activity": "Friskvård",
+       "end": 1125.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 6.5,
+      "Friskvård": 1.0,
+      "Department time": 1.0
+     }
+    },
+    {
+     "date": "2025-03-27",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1050.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 8.0
+     }
+    },
+    {
+     "date": "2025-03-28",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Produktvård",
+       "end": 570.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 975.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 6.0,
+      "Produktvård": 0.5
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V14",
+   "label": "V14",
+   "days": [
+    {
+     "date": "2025-03-31",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 660.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1050.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 6.0,
+      "Department time": 2.0
+     }
+    },
+    {
+     "date": "2025-04-01",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1050.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 8.0
+     }
+    },
+    {
+     "date": "2025-04-02",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1005.0
+      },
+      {
+       "activity": "",
+       "end": null
+      },
+      {
+       "activity": "",
+       "end": 1065.0
+      },
+      {
+       "activity": "Friskvård",
+       "end": 1125.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 7.0,
+      "Friskvård": 1.0
+     }
+    },
+    {
+     "date": "2025-04-03",
+     "workday": false,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Sjuk",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Sjuk": 7.7
+     }
+    },
+    {
+     "date": "2025-04-04",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1005.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 7.5
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V15",
+   "label": "V15",
+   "days": [
+    {
+     "date": "2025-04-07",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 600.0
+      },
+      {
+       "activity": "Department time",
+       "end": 690.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "Department time",
+       "end": 780.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1050.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 6.0,
+      "Department time": 2.0
+     }
+    },
+    {
+     "date": "2025-04-08",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1050.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 8.0
+     }
+    },
+    {
+     "date": "2025-04-09",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 520.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 740.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1005.0
+      },
+      {
+       "activity": "",
+       "end": null
+      },
+      {
+       "activity": "",
+       "end": 1065.0
+      },
+      {
+       "activity": "Friskvård",
+       "end": 1125.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 7.5,
+      "Friskvård": 1.0
+     }
+    },
+    {
+     "date": "2025-04-10",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Permission med lön",
+       "end": 1002.0,
+       "note": "Begravning Åke"
+      }
+     ],
+     "reported": {
+      "Permission med lön": 7.7
+     }
+    },
+    {
+     "date": "2025-04-11",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 765.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1020.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 7.5
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V16",
+   "label": "V16",
+   "days": [
+    {
+     "date": "2025-04-14",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 600.0
+      },
+      {
+       "activity": "Department time",
+       "end": 630.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1050.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 7.5,
+      "Department time": 0.5
+     }
+    },
+    {
+     "date": "2025-04-15",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 735.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 780.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 900.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 5.5
+     }
+    },
+    {
+     "date": "2025-04-16",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Semester",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Semester": 7.7
+     }
+    },
+    {
+     "date": "2025-04-17",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Semester",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Semester": 7.7
+     }
+    },
+    {
+     "date": "2025-04-18",
+     "workday": false,
+     "forceRegistered": false,
+     "start": null,
+     "rows": [],
+     "reported": {}
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V17",
+   "label": "V17",
+   "days": [
+    {
+     "date": "2025-04-21",
+     "workday": false,
+     "forceRegistered": false,
+     "start": null,
+     "rows": [],
+     "reported": {}
+    },
+    {
+     "date": "2025-04-22",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Semester",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Semester": 7.7
+     }
+    },
+    {
+     "date": "2025-04-23",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 780.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1005.0
+      },
+      {
+       "activity": "",
+       "end": null
+      },
+      {
+       "activity": "",
+       "end": 1065.0
+      },
+      {
+       "activity": "Friskvård",
+       "end": 1125.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 6.5,
+      "Friskvård": 1.0
+     }
+    },
+    {
+     "date": "2025-04-24",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1050.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 8.0
+     }
+    },
+    {
+     "date": "2025-04-25",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 735.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 795.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1080.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 8.0
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V18",
+   "label": "V18",
+   "days": [
+    {
+     "date": "2025-04-28",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 585.0
+      },
+      {
+       "activity": "Department time",
+       "end": 690.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1035.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 6.0,
+      "Department time": 2.0
+     }
+    },
+    {
+     "date": "2025-04-29",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1050.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 8.0
+     }
+    },
+    {
+     "date": "2025-04-30",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 765.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 990.0
+      },
+      {
+       "activity": "",
+       "end": null
+      },
+      {
+       "activity": "",
+       "end": 1065.0
+      },
+      {
+       "activity": "Friskvård",
+       "end": 1125.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 6.5,
+      "Friskvård": 1.0
+     }
+    },
+    {
+     "date": "2025-05-01",
+     "workday": false,
+     "forceRegistered": false,
+     "start": null,
+     "rows": [],
+     "reported": {}
+    },
+    {
+     "date": "2025-05-02",
+     "workday": false,
+     "forceRegistered": false,
+     "start": null,
+     "rows": [],
+     "reported": {}
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V19",
+   "label": "V19",
+   "days": [
+    {
+     "date": "2025-05-05",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 570.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 600.0
+      },
+      {
+       "activity": "Department time",
+       "end": 630.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1050.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 7.0,
+      "Department time": 1.0
+     }
+    },
+    {
+     "date": "2025-05-06",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 600.0
+      },
+      {
+       "activity": "Department time",
+       "end": 660.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1050.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 7.0,
+      "Department time": 1.0
+     }
+    },
+    {
+     "date": "2025-05-07",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1005.0
+      },
+      {
+       "activity": "",
+       "end": null
+      },
+      {
+       "activity": "",
+       "end": 1065.0
+      },
+      {
+       "activity": "Friskvård",
+       "end": 1125.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 7.5,
+      "Friskvård": 1.0
+     }
+    },
+    {
+     "date": "2025-05-08",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 930.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 6.0
+     }
+    },
+    {
+     "date": "2025-05-09",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 900.0
+      },
+      {
+       "activity": "Department time",
+       "end": 1035.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 5.5,
+      "Department time": 2.0
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V20",
+   "label": "V20",
+   "days": [
+    {
+     "date": "2025-05-12",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 570.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 600.0
+      },
+      {
+       "activity": "Department time",
+       "end": 630.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1050.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 7.0,
+      "Department time": 1.0
+     }
+    },
+    {
+     "date": "2025-05-13",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 570.0
+      },
+      {
+       "activity": "Department time",
+       "end": 600.0,
+       "note": "One on one"
+      },
+      {
+       "activity": "Department time",
+       "end": 630.0,
+       "note": "Trainings"
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 740.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 760.0
+      },
+      {
+       "activity": "Department time",
+       "end": 930.0,
+       "note": "Trainings"
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1040.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 4.0,
+      "Department time": 4.0
+     }
+    },
+    {
+     "date": "2025-05-14",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 705.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "Department time",
+       "end": 810.0,
+       "note": "Gone through inbox\n>500 mails\nTrainings, ..."
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 870.0,
+       "note": "Gone through mailbox\nFeniX mails"
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1005.0
+      },
+      {
+       "activity": "",
+       "end": null
+      },
+      {
+       "activity": "",
+       "end": 1065.0
+      },
+      {
+       "activity": "Friskvård",
+       "end": 1125.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 6.0,
+      "Friskvård": 1.0,
+      "Department time": 1.0
+     }
+    },
+    {
+     "date": "2025-05-15",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 585.0,
+       "note": "Trainings"
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1050.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 7.5,
+      "Department time": 0.5
+     }
+    },
+    {
+     "date": "2025-05-16",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 750.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 810.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1050.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 7.5
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V21",
+   "label": "V21",
+   "days": [
+    {
+     "date": "2025-05-19",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 530.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 540.0
+      },
+      {
+       "activity": "Department time",
+       "end": 600.0,
+       "note": "Jakob new eng mgr."
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 720.0,
+       "note": "DB update. Power On removal."
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 900.0,
+       "note": "Delivery ongoing design meeting\nThreat model start updating (handle DB vulnerability)"
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 930.0,
+       "note": "Planning with Lennart"
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1050.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 7.0,
+      "Department time": 1.0
+     }
+    },
+    {
+     "date": "2025-05-20",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 720.0,
+       "note": "Standup\nFixed DB version\nFixed Unit tests\nFixed flakey unit tests"
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1050.0,
+       "note": "Usability test cases\nStruggle with product name exchange…\nStruggle with environment. Could not read registry. Restart"
+      }
+     ],
+     "reported": {
+      "MT Amodo": 8.0
+     }
+    },
+    {
+     "date": "2025-05-21",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 570.0,
+       "note": "Standup.\nUsability test cases."
+      },
+      {
+       "activity": "Department time",
+       "end": 600.0,
+       "note": "Info about Thomas"
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 660.0,
+       "note": "Usability use cases"
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 705.0,
+       "note": "Bug mgm"
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 720.0,
+       "note": "Usability test cases"
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1005.0,
+       "note": "Usability test cases\nProblem with default sound without sound files."
+      },
+      {
+       "activity": "",
+       "end": null
+      },
+      {
+       "activity": "",
+       "end": 1065.0
+      },
+      {
+       "activity": "Friskvård",
+       "end": 1125.0
+      }
+     ],
+     "reported": {
+      "MT Amodo": 7.0,
+      "Friskvård": 1.0,
+      "Department time": 0.5
+     }
+    },
+    {
+     "date": "2025-05-22",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 600.0,
+       "note": "Usability - Audio"
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 660.0,
+       "note": "Fenix-Amodo Planning"
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 720.0,
+       "note": "Usability - Audio"
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 840.0,
+       "note": "Usability - Audio"
+      },
+      {
+       "activity": "Produktvård",
+       "end": 870.0,
+       "note": "New laptop 5450 replacer"
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 900.0,
+       "note": "Book PSL about PenQuiz"
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1050.0,
+       "note": "Investigate howto test error messages"
+      }
+     ],
+     "reported": {
+      "MT Amodo": 7.5,
+      "Produktvård": 0.5
+     }
+    },
+    {
+     "date": "2025-05-23",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 550.0,
+       "note": "Standup"
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 615.0,
+       "note": "Error event test case strategy"
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 635.0,
+       "note": "Trying to meet with Benny (PSL)"
+      },
+      {
+       "activity": "Department time",
+       "end": 675.0,
+       "note": "Win 11 upgrade"
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 900.0,
+       "note": "Error event test case strategy"
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1020.0,
+       "note": "Documentation"
+      }
+     ],
+     "reported": {
+      "MT Amodo": 7.5,
+      "Department time": 0.5
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V22",
+   "label": "V22",
+   "days": [
+    {
+     "date": "2025-05-26",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 585.0,
+       "note": "Eng meeting\nIT updates"
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 720.0
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 780.0,
+       "note": "Error test cases"
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 840.0,
+       "note": "Sprint planning"
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1050.0,
+       "note": "Error test cases"
+      }
+     ],
+     "reported": {
+      "MT Amodo": 7.5,
+      "Department time": 0.5
+     }
+    },
+    {
+     "date": "2025-05-27",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "MT Amodo",
+       "end": 555.0,
+       "note": "Standup"
+      },
+      {
+       "activity": "Department time",
+       "end": 600.0,
+       "note": "Thomas handover"
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 720.0,
+       "note": "Error handling test cases"
+      },
+      {
+       "activity": "Lunch",
+       "end": 750.0
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 900.0,
+       "note": "Error test cases"
+      },
+      {
+       "activity": "MT Amodo",
+       "end": 1050.0,
+       "note": "Status & actions test cases."
+      }
+     ],
+     "reported": {
+      "MT Amodo": 7.0,
+      "Department time": 1.0
+     }
+    },
+    {
+     "date": "2025-05-28",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-05-29",
+     "workday": false,
+     "forceRegistered": false,
+     "start": null,
+     "rows": [],
+     "reported": {}
+    },
+    {
+     "date": "2025-05-30",
+     "workday": false,
+     "forceRegistered": false,
+     "start": null,
+     "rows": [],
+     "reported": {}
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V23",
+   "label": "V23",
+   "days": [
+    {
+     "date": "2025-06-02",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-06-03",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-06-04",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-06-05",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-06-06",
+     "workday": false,
+     "forceRegistered": false,
+     "start": null,
+     "rows": [],
+     "reported": {}
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V24",
+   "label": "V24",
+   "days": [
+    {
+     "date": "2025-06-09",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-06-10",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-06-11",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-06-12",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-06-13",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": true
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V25",
+   "label": "V25",
+   "days": [
+    {
+     "date": "2025-06-16",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-06-17",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-06-18",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-06-19",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-06-20",
+     "workday": false,
+     "forceRegistered": false,
+     "start": null,
+     "rows": [],
+     "reported": {
+      "Department time": 7.7
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V26",
+   "label": "V26",
+   "days": [
+    {
+     "date": "2025-06-23",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-06-24",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-06-25",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-06-26",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-06-27",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V27",
+   "label": "V27",
+   "days": [
+    {
+     "date": "2025-06-30",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-07-01",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-07-02",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-07-03",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-07-04",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V28",
+   "label": "V28",
+   "days": [
+    {
+     "date": "2025-07-07",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-07-08",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-07-09",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-07-10",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-07-11",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V29",
+   "label": "V29",
+   "days": [
+    {
+     "date": "2025-07-14",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-07-15",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-07-16",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-07-17",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-07-18",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V30",
+   "label": "V30",
+   "days": [
+    {
+     "date": "2025-07-21",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-07-22",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-07-23",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-07-24",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-07-25",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V31",
+   "label": "V31",
+   "days": [
+    {
+     "date": "2025-07-28",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-07-29",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-07-30",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-07-31",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-08-01",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V32",
+   "label": "V32",
+   "days": [
+    {
+     "date": "2025-08-04",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-08-05",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-08-06",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-08-07",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-08-08",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V33",
+   "label": "V33",
+   "days": [
+    {
+     "date": "2025-08-11",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-08-12",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-08-13",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-08-14",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-08-15",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V34",
+   "label": "V34",
+   "days": [
+    {
+     "date": "2025-08-18",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-08-19",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-08-20",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-08-21",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-08-22",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V35",
+   "label": "V35",
+   "days": [
+    {
+     "date": "2025-08-25",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-08-26",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-08-27",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-08-28",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-08-29",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V36",
+   "label": "V36",
+   "days": [
+    {
+     "date": "2025-09-01",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-09-02",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-09-03",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-09-04",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-09-05",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V37",
+   "label": "V37",
+   "days": [
+    {
+     "date": "2025-09-08",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-09-09",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-09-10",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-09-11",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-09-12",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V38",
+   "label": "V38",
+   "days": [
+    {
+     "date": "2025-09-15",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-09-16",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-09-17",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-09-18",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-09-19",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V39",
+   "label": "V39",
+   "days": [
+    {
+     "date": "2025-09-22",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-09-23",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-09-24",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-09-25",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-09-26",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V40",
+   "label": "V40",
+   "days": [
+    {
+     "date": "2025-09-29",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-09-30",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-10-01",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-10-02",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-10-03",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V41",
+   "label": "V41",
+   "days": [
+    {
+     "date": "2025-10-06",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-10-07",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-10-08",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-10-09",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-10-10",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V42",
+   "label": "V42",
+   "days": [
+    {
+     "date": "2025-10-13",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-10-14",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-10-15",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-10-16",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-10-17",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V43",
+   "label": "V43",
+   "days": [
+    {
+     "date": "2025-10-20",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-10-21",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-10-22",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-10-23",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-10-24",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V44",
+   "label": "V44",
+   "days": [
+    {
+     "date": "2025-10-27",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-10-28",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-10-29",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-10-30",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-10-31",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V45",
+   "label": "V45",
+   "days": [
+    {
+     "date": "2025-11-03",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-11-04",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-11-05",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-11-06",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-11-07",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V46",
+   "label": "V46",
+   "days": [
+    {
+     "date": "2025-11-10",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-11-11",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-11-12",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-11-13",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-11-14",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V47",
+   "label": "V47",
+   "days": [
+    {
+     "date": "2025-11-17",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-11-18",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-11-19",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-11-20",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-11-21",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V48",
+   "label": "V48",
+   "days": [
+    {
+     "date": "2025-11-24",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-11-25",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-11-26",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-11-27",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-11-28",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V49",
+   "label": "V49",
+   "days": [
+    {
+     "date": "2025-12-01",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-12-02",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-12-03",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-12-04",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-12-05",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V50",
+   "label": "V50",
+   "days": [
+    {
+     "date": "2025-12-08",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-12-09",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-12-10",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-12-11",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-12-12",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V51",
+   "label": "V51",
+   "days": [
+    {
+     "date": "2025-12-15",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-12-16",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-12-17",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-12-18",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-12-19",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V52",
+   "label": "V52",
+   "days": [
+    {
+     "date": "2025-12-22",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-12-23",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-12-24",
+     "workday": false,
+     "forceRegistered": false,
+     "start": null,
+     "rows": [],
+     "reported": {}
+    },
+    {
+     "date": "2025-12-25",
+     "workday": false,
+     "forceRegistered": false,
+     "start": null,
+     "rows": [],
+     "reported": {}
+    },
+    {
+     "date": "2025-12-26",
+     "workday": false,
+     "forceRegistered": false,
+     "start": null,
+     "rows": [],
+     "reported": {}
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  },
+  {
+   "id": "V1-26",
+   "label": "V53",
+   "days": [
+    {
+     "date": "2025-12-29",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-12-30",
+     "workday": true,
+     "forceRegistered": false,
+     "start": 540.0,
+     "rows": [
+      {
+       "activity": "Department time",
+       "end": 1002.0
+      }
+     ],
+     "reported": {
+      "Department time": 7.7
+     }
+    },
+    {
+     "date": "2025-12-31",
+     "workday": false,
+     "forceRegistered": false,
+     "start": null,
+     "rows": [],
+     "reported": {}
+    },
+    {
+     "date": "2026-01-01",
+     "workday": false,
+     "forceRegistered": false,
+     "start": null,
+     "rows": [],
+     "reported": {}
+    },
+    {
+     "date": "2026-01-02",
+     "workday": false,
+     "forceRegistered": false,
+     "start": null,
+     "rows": [],
+     "reported": {}
+    }
+   ],
+   "flags": {
+    "PT800 Solid": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Permission med lön": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Xware": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Semester": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Sjuk": {
+     "report": true,
+     "bank": false,
+     "normal": false
+    },
+    "Voldemort": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "New ctrl system": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Amodo": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "PT 160 µA": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Friskvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix Solid Target": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Department time": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Produktvård": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "MT Fenix 70-80": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Förtroendeflex": {
+     "report": false,
+     "bank": true,
+     "normal": false
+    },
+    "ArbTidFörk": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Läkarbesök": {
+     "report": true,
+     "bank": true,
+     "normal": true
+    },
+    "Lunch": {
+     "report": false,
+     "bank": false,
+     "normal": false
+    }
+   }
+  }
+ ]
+}
