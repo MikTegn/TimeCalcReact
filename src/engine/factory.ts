@@ -5,11 +5,11 @@ import { sameName } from './time.ts'
 export const DEFAULT_DAY_TEMPLATE: DayTemplate = {
   start: 9 * 60,
   rows: [
-    { activity: 'MT Amodo', end: 12 * 60 },
+    { activity: 'Dev project 4', end: 12 * 60 },
     { activity: 'Lunch', end: 13 * 60 },
-    { activity: 'MT Amodo', end: 17 * 60 + 42 },
+    { activity: 'Dev project 4', end: 17 * 60 + 42 },
   ],
-  reportedActivity: 'MT Amodo',
+  reportedActivity: 'Dev project 4',
   reportedHours: 38.5 / 5,
 }
 

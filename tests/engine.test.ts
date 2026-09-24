@@ -145,12 +145,12 @@ describe('vecka: summor och tidbank', () => {
   })
 
   it('en full vecka enligt makrots standardlogg ger noll differens och inga varningar', () => {
-    const w = applyDefaultWorkLog(week(Array.from({ length: 5 }, () => day())), [...activities, { name: 'MT Amodo', defaults: FLAGS_ALL, derivedReport: false }]).week
-    const c = calcWeek(w, [...activities, { name: 'MT Amodo', defaults: FLAGS_ALL, derivedReport: false }], config)
+    const w = applyDefaultWorkLog(week(Array.from({ length: 5 }, () => day())), [...activities, { name: 'Dev project 4', defaults: FLAGS_ALL, derivedReport: false }]).week
+    const c = calcWeek(w, [...activities, { name: 'Dev project 4', defaults: FLAGS_ALL, derivedReport: false }], config)
     assert.equal(c.bankHours, 38.5)
     assert.equal(c.bankDiff, 0)
     assert.deepEqual(c.warnings, [])
-    assert.equal(c.days[0].registered['MT Amodo'], T(7, 42)) // 3 h + 4 h 42 min = 7,7 h
+    assert.equal(c.days[0].registered['Dev project 4'], T(7, 42)) // 3 h + 4 h 42 min = 7,7 h
     assert.equal(c.days[0].registered['Lunch'], 60)
     assert.equal(c.days[0].reported['Lunch'], 1) // Lunch härleds ur loggen
   })
@@ -260,14 +260,14 @@ describe('fabrik och makron', () => {
   })
   it('SetupDefaultWorkLog: fyller arbetsdagar, rör inte lediga dagar, hoppar över okända aktiviteter', () => {
     const w = week([day(), day({ workday: false }), day()])
-    const known: Activity[] = [...activities, { name: 'MT Amodo', defaults: FLAGS_ALL, derivedReport: false }]
+    const known: Activity[] = [...activities, { name: 'Dev project 4', defaults: FLAGS_ALL, derivedReport: false }]
     const r = applyDefaultWorkLog(w, known)
     assert.equal(r.week.days[0].start, T(9))
     assert.deepEqual(r.week.days[0].rows.map((x) => x.end), [T(12), T(13), T(17, 42)])
-    assert.equal(r.week.days[0].reported['MT Amodo'], DEFAULT_DAY_TEMPLATE.reportedHours)
+    assert.equal(r.week.days[0].reported['Dev project 4'], DEFAULT_DAY_TEMPLATE.reportedHours)
     assert.equal(r.week.days[1].start, null)
     assert.deepEqual(r.skipped, [])
-    assert.deepEqual(applyDefaultWorkLog(w, activities).skipped, ['MT Amodo'])
+    assert.deepEqual(applyDefaultWorkLog(w, activities).skipped, ['Dev project 4'])
   })
   it('ClearDefaultReportTimes: tömmer rapporterade timmar men behåller loggen', () => {
     const w = week([day({ start: T(9), rows: [{ activity: 'Arbete', end: T(10) }], reported: { Arbete: 1 } })])

@@ -116,7 +116,7 @@ blad avviker (konstant eller raderad formel), och skriver ut dem som varningar v
 3. **`V01!B23`** använder ett bredare `COUNTIF`-intervall (`G3:AJ3`) än övriga 52 veckoblad
    (`G3:U3`). Kosmetiskt utan effekt eftersom de extra kolumnerna alltid är tomma, men värt att
    känna till om fler dagblock någonsin tas i bruk.
-4. **`V12!U12`** innehåller texten `"re"` i en cell för rapporterade timmar (aktivitet "PT 160 µA").
+4. **`V12!U12`** innehåller texten `"re"` i en cell för rapporterade timmar (aktivitet "Dev project 1").
    Excel tolkar det som `#VALUE!`-liknande och ger ingen markering; importskriptet ignorerar värdet
    och skriver ut en varning.
 5. **Flagginkonsekvens**: "Förtroendeflex" har växlande bank-flagga över året och "Sjuk" har
